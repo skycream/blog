@@ -63,7 +63,7 @@ const nuxtSidebar = [
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/logo.png" }]],
-  ga: "",
+  ga: "UA-90535731-3",
   serviceWorker: true,
   serviceWorker: {
     updatePopup:
@@ -126,6 +126,7 @@ module.exports = {
       }
     },
     repo: "yasminzy/blog",
+    docsDir: "docs",
     editLinks: true
   },
   markdown: {
