@@ -7,9 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-::: tip Pertama kali kesini?
-Lihat struktur proyek tutorial saya [disini](./).
-:::
+> [Kunjungan pertama? :grin:](./)
 
 [DEMO](https://nuxtdemo.netlify.com/aos)
 

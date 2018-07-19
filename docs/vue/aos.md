@@ -7,9 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-::: tip First visit?
-Learn the project structure of my tutorials [here](./).
-:::
+> [First visit? :grin:](./)
 
 [DEMO](https://vuedemo.netlify.com/aos)
 

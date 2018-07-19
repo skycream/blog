@@ -9,9 +9,7 @@ meta:
 
 You can find tutorials and walkthroughs related to [Nuxt](https://nuxtjs.org/) here.
 
-The starting project structure for these tutorials is as follow:
-
-`vue init nuxt-community/starter-template nuxt-demo`
+I start the project with `vue init nuxt-community/starter-template nuxt-demo`.
 
 Now, let's install the dependencies.
 
@@ -26,7 +24,7 @@ I also install [Picnic CSS](https://github.com/franciscop/picnic). Most of the t
 
 Here is the current `package.json`.
 
-<<< @/nuxt-demo/package.json
+<<< @/nuxt-demo/package.json{17,21,22,23,24,25}
 
 Finally, let's launch the project with `npm run dev`.
 

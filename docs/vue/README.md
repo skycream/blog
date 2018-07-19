@@ -9,9 +9,7 @@ meta:
 
 You can find tutorials and walkthroughs related to [Vue](https://vuejs.org/) here.
 
-The starting project structure for these tutorials is as follow:
-
-`vue create vue-demo`
+I start the project with `vue create vue-demo`.
 
 - **Vue CLI v3.0.0-rc.5**
 - Please pick a preset: **Manually select features**
@@ -28,7 +26,7 @@ I also install [Picnic CSS](https://github.com/franciscop/picnic). Most of the t
 
 Here is the current `package.json`.
 
-<<< @/vue-demo/package.json
+<<< @/vue-demo/package.json{13,14,15,18,19,20,21,22,23,24,25}
 
 Finally, let's launch the project with `npm run serve`.
 

@@ -9,9 +9,7 @@ meta:
 
 Kamu bisa menemukan tutorial dan walkthrough terkait [Vue](https://vuejs.org/) disini.
 
-Struktur awal proyek untuk tutorial-tutorial ini adalah:
-
-`vue create vue-demo`
+Saya memulai proyek dengan `vue create vue-demo`.
 
 - **Vue CLI v3.0.0-rc.5**
 - Please pick a preset: **Manually select features**
@@ -28,7 +26,7 @@ Saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic). Sebagia
 
 Ini adalah `package.json` sekarang.
 
-<<< @/vue-demo/package.json
+<<< @/vue-demo/package.json{13,14,15,18,19,20,21,22,23,24,25}
 
 Nah, sekarang ayo kita jalankan proyek ini dengan `npm run serve`.
 

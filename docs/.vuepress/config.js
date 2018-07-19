@@ -20,14 +20,14 @@ const vueSidebar = [
       // ["vuepress", "Vuepress"],
       // ["vuex", "Vuex"]
     ]
-  },
-  {
-    title: "Walkthrough",
-    children: [
-      // ["amalia-studio", "Amalia Studio"],
-      // ["tiara-restaurant", "Tiara Restaurant"]
-    ]
   }
+  // {
+  //   title: "Walkthrough",
+  //   children: [
+  //     ["amalia-studio", "Amalia Studio"],
+  //     ["tiara-restaurant", "Tiara Restaurant"]
+  //   ]
+  // }
 ];
 
 const nuxtSidebar = [
@@ -51,14 +51,14 @@ const nuxtSidebar = [
       // ["vue-moment", "Vue Moment"],
       // ["vuex", "Vuex"]
     ]
-  },
-  {
-    title: "Walkthrough",
-    children: [
-      // ["azka-bakery", "Azka Bakery"],
-      // ["enlightenment-news", "Enlightenment News"]
-    ]
   }
+  // {
+  //   title: "Walkthrough",
+  //   children: [
+  //     ["azka-bakery", "Azka Bakery"],
+  //     ["enlightenment-news", "Enlightenment News"]
+  //   ]
+  // }
 ];
 
 module.exports = {
@@ -114,8 +114,8 @@ module.exports = {
           {
             text: "Blog",
             items: [
-              { text: "Vue", link: "/vue/" },
-              { text: "Nuxt", link: "/nuxt/" }
+              { text: "Vue", link: "/id/vue/" },
+              { text: "Nuxt", link: "/id/nuxt/" }
             ]
           }
         ],
