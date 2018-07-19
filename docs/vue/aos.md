@@ -11,7 +11,7 @@ meta:
 Learn the project structure of my tutorials [here](./).
 :::
 
-[DEMO](https://vue-demo.netlify.com/aos)
+[DEMO](https://vuedemo.netlify.com/aos)
 
 First, let's install [AOS](https://github.com/michalsnik/aos) and serve the project.
 

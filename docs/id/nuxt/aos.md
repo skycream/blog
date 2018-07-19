@@ -11,7 +11,7 @@ meta:
 Lihat struktur proyek tutorial saya [disini](./).
 :::
 
-[DEMO](https://nuxt-demo.netlify.com/aos)
+[DEMO](https://nuxtdemo.netlify.com/aos)
 
 Pertama-tama, ayo instal [AOS](https://github.com/michalsnik/aos) dan jalankan proyek ini.
 

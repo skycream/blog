@@ -11,7 +11,7 @@ meta:
 Learn the project structure of my tutorials [here](./).
 :::
 
-[DEMO](https://nuxt-demo.netlify.com/aos)
+[DEMO](https://nuxtdemo.netlify.com/aos)
 
 First, let's install [AOS](https://github.com/michalsnik/aos) and launch the project.
 
