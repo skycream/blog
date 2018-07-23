@@ -6,7 +6,7 @@
     <a target="_blank"
       v-bind:href="item.url">{{ item.title }}
       <img
-        v-bind:src="'/img/' + item.img"
+        v-bind:src="require('../../img/' + item.img)"
         v-bind:alt="item.title"/>
     </a>
 

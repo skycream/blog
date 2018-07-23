@@ -15,17 +15,17 @@ Pertama, dapatkan API key dari [Google Maps Platform](https://cloud.google.com/m
 
 1.  Pilih produk ![Pilih produk](../../img/gmaps-1-pick-product.png)
 
-2.  Pilih proyek ![Pilih proyek](../img/gmaps-2-select-project.png)
+2.  Pilih proyek ![Pilih proyek](../../img/gmaps-2-select-project.png)
 
-3.  Buat akun billing ![Buat akun billing](../img/gmaps-3-create-billing-account.png)
+3.  Buat akun billing ![Buat akun billing](../../img/gmaps-3-create-billing-account.png)
 
-4.  Setujui persyaratan ![Setujui persyaratan](../img/gmaps-4-accept-terms.png)
+4.  Setujui persyaratan ![Setujui persyaratan](../../img/gmaps-4-accept-terms.png)
 
-5.  Buat profil pembayaran ![Buat profil pembayaran](../img/gmaps-5-create-payment-profile.png)
+5.  Buat profil pembayaran ![Buat profil pembayaran](../../img/gmaps-5-create-payment-profile.png)
 
-6.  Enable API ![Enable API](../img/gmaps-6-enable-api.png)
+6.  Enable API ![Enable API](../../img/gmaps-6-enable-api.png)
 
-7.  Dapatkan API key ![Dapatkan API key](../img/gmaps-7-get-api-key.png)
+7.  Dapatkan API key ![Dapatkan API key](../../img/gmaps-7-get-api-key.png)
 
 ## Instalasi
 

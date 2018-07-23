@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/hero.jpg
+heroImage: /hero.jpg
 actionText: Contact Me
 actionLink: mailto:yasmin@yasminzy.com
 features:
