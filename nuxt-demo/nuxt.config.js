@@ -24,8 +24,9 @@ module.exports = {
         });
       }
     },
-    vendor: ["aos"]
+    vendor: ["aos", "vue2-google-maps"]
   },
-  plugins: [{ src: "~/plugins/aos", ssr: false }],
+  modules: ["@nuxtjs/dotenv"],
+  plugins: [{ src: "~/plugins/aos", ssr: false }, "~/plugins/vue2-google-maps"],
   css: ["aos/dist/aos.css"]
 };

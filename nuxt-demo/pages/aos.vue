@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1 data-aos="zoom-in">AOS - Nuxt Demo</h1>
+  <h1 data-aos="zoom-in">AOS Demo</h1>
 
   <div class="tabs four"
     data-aos="zoom-out"

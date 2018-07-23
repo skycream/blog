@@ -7,7 +7,8 @@ import Default from "./layouts/default";
 // import Blank from "./layouts/blank";
 
 // Views
-import Aos from "./views/aos.vue";
+import Aos from "./views/aos";
+import GoogleMaps from "./views/google-maps";
 
 export default new Router({
   mode: "history",
@@ -19,6 +20,10 @@ export default new Router({
         {
           path: "/aos",
           component: Aos
+        },
+        {
+          path: "/google-maps",
+          component: GoogleMaps
         }
       ]
     }

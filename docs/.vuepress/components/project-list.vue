@@ -1,12 +1,22 @@
 <template>
 <ul>
-  <li v-for="(item, index) in projects" v-bind:key="index">
-    <a v-bind:href="item.url" target="_blank">{{ item.title }}
-      <img v-bind:src="'/img/' + item.img" v-bind:alt="item.title"/>
+  <li
+    v-for="(item, index) in projects"
+    v-bind:key="index">
+    <a target="_blank"
+      v-bind:href="item.url">{{ item.title }}
+      <img
+        v-bind:src="'/img/' + item.img"
+        v-bind:alt="item.title"/>
     </a>
 
     <div>
-      <h2><a v-bind:href="item.url" target="_blank">{{ item.title }}</a></h2>
+      <h2>
+        <a target="_blank"
+          v-bind:href="item.url">
+          {{ item.title }}
+        </a>
+      </h2>
       
       <p v-if="lang == 'id'">{{ item.description.id }}</p>
       <p v-else>{{ item.description.en }}</p>

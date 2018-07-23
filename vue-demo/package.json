@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.4",
+    "dotenv": "^6.0.0",
     "picnic": "^6.5.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
+    "vue2-google-maps": "^0.10.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

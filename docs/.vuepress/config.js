@@ -1,74 +1,33 @@
-const vueSidebar = [
+const tutorialSidebar = [
   "",
-  {
-    title: "Tutorial",
-    collapsable: false,
-    children: [
-      ["aos", "AOS"]
-      // ["axios", "Axios"],
-      // ["bootstrap", "Bootstrap"],
-      // ["google-maps", "Google Maps"],
-      // ["ionicons", "Ionicons"],
-      // ["netlify", "Netlify"],
-      // ["postcss", "PostCSS"],
-      // ["prettier", "Prettier"],
-      // ["prism", "Prism"],
-      // ["prismic", "Prismic"],
-      // ["vue-charts", "Vue Charts"],
-      // ["vue-lazyload", "Vue Lazyload"],
-      // ["vue-moment", "Vue Moment"],
-      // ["vuepress", "Vuepress"],
-      // ["vuex", "Vuex"]
-    ]
-  }
-  // {
-  //   title: "Walkthrough",
-  //   children: [
-  //     ["amalia-studio", "Amalia Studio"],
-  //     ["tiara-restaurant", "Tiara Restaurant"]
-  //   ]
-  // }
+  ["aos", "AOS"],
+  // ["axios", "Axios"],
+  // ["bootstrap", "Bootstrap"],
+  ["google-maps", "Google Maps"]
+  // ["ionicons", "Ionicons"],
+  // ["netlify", "Netlify"],
+  // ["postcss", "PostCSS"],
+  // ["prettier", "Prettier"],
+  // ["prism", "Prism"],
+  // ["prismic", "Prismic"],
+  // ["vue-charts", "Vue Charts"],
+  // ["vue-lazyload", "Vue Lazyload"],
+  // ["vue-moment", "Vue Moment"],
+  // ["vuepress", "Vuepress"],
+  // ["vuex", "Vuex"]
 ];
 
-const nuxtSidebar = [
-  "",
-  {
-    title: "Tutorial",
-    collapsable: false,
-    children: [
-      ["aos", "AOS"]
-      // ["axios", "Axios"],
-      // ["bootstrap", "Bootstrap"],
-      // ["google-maps", "Google Maps"],
-      // ["ionicons", "Ionicons"],
-      // ["netlify", "Netlify"],
-      // ["postcss", "PostCSS"],
-      // ["prettier", "Prettier"],
-      // ["prism", "Prism"],
-      // ["prismic", "Prismic"],
-      // ["vue-charts", "Vue Charts"],
-      // ["vue-lazyload", "Vue Lazyload"],
-      // ["vue-moment", "Vue Moment"],
-      // ["vuex", "Vuex"]
-    ]
-  }
-  // {
-  //   title: "Walkthrough",
-  //   children: [
-  //     ["azka-bakery", "Azka Bakery"],
-  //     ["enlightenment-news", "Enlightenment News"]
-  //   ]
-  // }
+const projectSidebar = [
+  ""
+  // ["amalia-studio", "Amalia Studio"],
+  // ["azka-bakery", "Azka Bakery"],
+  // ["enlightenment-news", "Enlightenment News"],
+  // ["tiara-restaurant", "Tiara Restaurant"]
 ];
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   ga: "UA-90535731-3",
-  serviceWorker: true,
-  serviceWorker: {
-    updatePopup:
-      true | { message: "New content is available.", buttonText: "Refresh" }
-  },
   locales: {
     "/": {
       lang: "en",
@@ -93,14 +52,14 @@ module.exports = {
           {
             text: "Blog",
             items: [
-              { text: "Vue", link: "/vue/" },
-              { text: "Nuxt", link: "/nuxt/" }
+              { text: "Tutorial", link: "/tutorial/" },
+              { text: "Project", link: "/project/" }
             ]
           }
         ],
         sidebar: {
-          "/vue/": vueSidebar,
-          "/nuxt/": nuxtSidebar
+          "/tutorial/": tutorialSidebar,
+          "/project/": projectSidebar
         }
       },
       "/id/": {
@@ -114,14 +73,14 @@ module.exports = {
           {
             text: "Blog",
             items: [
-              { text: "Vue", link: "/id/vue/" },
-              { text: "Nuxt", link: "/id/nuxt/" }
+              { text: "Tutorial", link: "/id/tutorial/" },
+              { text: "Proyek", link: "/id/project/" }
             ]
           }
         ],
         sidebar: {
-          "/id/vue/": vueSidebar,
-          "/id/nuxt/": nuxtSidebar
+          "/id/tutorial/": tutorialSidebar,
+          "/id/project/": projectSidebar
         }
       }
     },
