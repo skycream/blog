@@ -77,7 +77,7 @@ Now we can start embedding Google Maps.
 
 In `src/views/google-maps.vue` and `pages/google-maps.vue`:
 
-<<< @/vue-demo/src/views/google-maps.vue{3-14,20-25}
+<<< @/vue-demo/src/views/google-maps.vue{5-14,22-27}
 
 We can specify the center of the map with `center`. To make the map zoomed in more, increase the value of `zoom`.
 

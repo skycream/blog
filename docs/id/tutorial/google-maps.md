@@ -77,7 +77,7 @@ Sekarang kita bisa mulai menambahkan Google Maps.
 
 Dalam `src/views/google-maps.vue` dan `pages/google-maps.vue`:
 
-<<< @/vue-demo/src/views/google-maps.vue{3-14,20-25}
+<<< @/vue-demo/src/views/google-maps.vue{5-14,22-27}
 
 Kita bisa mengatur posisi tengah peta dengan `center`. Untuk membuat peta menunjukkan gambar yang lebih diperbesar, masukkan angka yang lebih tinggi di `zoom`.
 

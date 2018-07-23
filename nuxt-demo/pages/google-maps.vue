@@ -1,5 +1,7 @@
 <template>
 <div>
+  <h1>Google Maps Demo</h1>
+  
   <gmap-map
     v-bind:center="center"
     v-bind:zoom="5"
