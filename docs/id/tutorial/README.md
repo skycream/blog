@@ -7,15 +7,15 @@ meta:
 
 # {{ $page.title }}
 
-I write [Vue](https://vuejs.org/) and [Nuxt](https://nuxtjs.org/) tutorials. I do not start each tutorial from scratch, so here is how I set them up.
+Saya menulis tutorial tentang [Vue](https://vuejs.org/) dan [Nuxt](https://nuxtjs.org/). Saya tidak memulai tiap tutorial from scratch, jadi berikut adalah awal proyeknya.
 
-::: warning
-You will find `src/main.js` and `nuxt.config.js` contain more code than you need. I highlight the relevant parts though. I place everything inside `vue-demo` and `nuxt-demo` because I do not want to take care lots of repositories.
+::: warning PERINGATAN
+Kamu akan melihat `src/main.js` dan `nuxt.config.js` berisi lebih banyak kode dari yang dibutuhkan. Meski begitu, saya menghighlight bagian-bagian yang relevan. Saya memasukkan semuanya dalam `vue-demo` dan `nuxt-demo` karena saya tidak mau mengurus banyak repositories.
 :::
 
 ## Vue
 
-The demo projects using Vue are available in [vue-demo](https://github.com/yasminzy/blog/tree/master/vue-demo). I start it with `vue create vue-demo`.
+Proyek demo yang menggunakan Vue ada dalam [vue-demo](https://github.com/yasminzy/blog/tree/master/vue-demo). Saya mulai dengan `vue create vue-demo`.
 
 - **Vue CLI v3.0.0-rc.5**
 - Please pick a preset: **Manually select features**
@@ -26,19 +26,19 @@ The demo projects using Vue are available in [vue-demo](https://github.com/yasmi
 - Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? **In dedicated config files**
 - Save this as a preset for future projects? **No**
 
-Not everything from the CLI is the latest, for example `node-sass` and `sass-loader` so I update them myself.
+Tidak semua dari CLI adalah package terbaru, contohnya `node-sass` dan `sass-loader` jadi saya perbarui mereka sendiri.
 
-I also install [Picnic CSS](https://github.com/franciscop/picnic). Most of the tutorials here will use this. The only exceptions are the ones about using other CSS library.
+Saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic). Kebanyakan tutorial disini akan menggunakan ini. Pengecualian hanya ada untuk tutorial tentang cara menggunakan CSS library lainnya.
 
-Here is the current `package.json`.
+Ini adalah `package.json` sekarang.
 
 <<< @/vue-demo/package.json{13-15,17,20-27}
 
-Finally, let's launch the project with `npm run serve`.
+Nah, sekarang ayo kita jalankan proyek dengan `npm run serve`.
 
 ## Nuxt
 
-The demo projects using Nuxt are available in [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). I start it with:
+Proyek demo yang menggunakan Nuxt ada dalam [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). Saya mulai dengan:
 
 ```bash{2}
 vue init nuxt-community/starter-template nuxt-demo
@@ -46,14 +46,14 @@ cd nuxt-demo
 npm i
 ```
 
-The CLI does not use the latest packages, so I updated them myself.
+CLI ini belum menggunakan packages terbaru, jadi saya perbarui mereka sendiri.
 
-Like the Vue tutorials, I also install [Picnic CSS](https://github.com/franciscop/picnic) here. To customize it, I install `node-sass` and `sass-loader` as well.
+Seperti tutorial untuk Vue, saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic) disini. Untuk membuatnya custom, saya juga menginstal `node-sass` dan `sass-loader`.
 
-Here is the current `package.json`.
+Ini adalah `package.json` sekarang.
 
 <<< @/nuxt-demo/package.json{17,18,21-27}
 
-Finally, let's launch the project with `npm run dev`.
+Nah, sekarang ayo kita jalankan proyek dengan `npm run dev`.
 
-If you would like to request a tutorial or have a suggestion to make this blog better, feel free to [tell me](mailto:yasmin@yasminzy.com) about it.
+Kalau kamu mau meminta tutorial tertentu atau punya saran untuk membuat blog ini lebih baik, jangan ragu untuk [memberitahu saya](mailto:yasmin@yasminzy.com) tentang itu.
