@@ -52,7 +52,7 @@ Seperti tutorial untuk Vue, saya juga menginstal [Picnic CSS](https://github.com
 
 Ini adalah `package.json` sekarang.
 
-<<< @/nuxt-demo/package.json{17,18,21-27}
+<<< @/nuxt-demo/package.json{18,19,23-29}
 
 Nah, sekarang ayo kita jalankan proyek dengan `npm run dev`.
 
