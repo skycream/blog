@@ -32,7 +32,7 @@ Saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic). Kebanya
 
 Ini adalah `package.json` sekarang.
 
-<<< @/vue-demo/package.json{13-15,17,20-27}
+<<< @/vue-demo/package.json
 
 Nah, sekarang ayo kita jalankan proyek dengan `npm run serve`.
 
@@ -52,7 +52,7 @@ Seperti tutorial untuk Vue, saya juga menginstal [Picnic CSS](https://github.com
 
 Ini adalah `package.json` sekarang.
 
-<<< @/nuxt-demo/package.json{18,19,23-29}
+<<< @/nuxt-demo/package.json
 
 Nah, sekarang ayo kita jalankan proyek dengan `npm run dev`.
 

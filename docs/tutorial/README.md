@@ -32,7 +32,7 @@ I also install [Picnic CSS](https://github.com/franciscop/picnic). Most of the t
 
 Here is the current `package.json`.
 
-<<< @/vue-demo/package.json{13-15,17,20-27}
+<<< @/vue-demo/package.json
 
 Finally, let's launch the project with `npm run serve`.
 
@@ -52,7 +52,7 @@ Like the Vue tutorials, I also install [Picnic CSS](https://github.com/francisco
 
 Here is the current `package.json`.
 
-<<< @/nuxt-demo/package.json{18,19,23-29}
+<<< @/nuxt-demo/package.json
 
 Finally, let's launch the project with `npm run dev`.
 

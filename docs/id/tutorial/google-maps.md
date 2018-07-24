@@ -2,7 +2,7 @@
 title: Bagaimana Cara Memasukkan Google Maps dalam Proyek Vue/Nuxt
 meta:
   - name: description
-    content: 
+    content: Langkah memasukkan Google Maps dalam proyek Vue/Nuxt.
 ---
 
 # {{ $page.title }}
@@ -40,7 +40,7 @@ npm i vue2-google-maps dotenv
 
 Dalam `src/main.js`:
 
-<<< @/vue-demo/src/main.js{1,11-14}
+<<< @/vue-demo/src/main.js{1,15-18}
 
 Setelah itu, buat file bernama `.env` di root proyek dan paste API key-mu. Contohnya:
 
@@ -59,7 +59,7 @@ npm i vue2-google-maps @nuxtjs/dotenv
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{27,29,30}
+<<< @/nuxt-demo/nuxt.config.js{27,29,32}
 
 Dalam `plugins/vue2-google-maps.js`:
 

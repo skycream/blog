@@ -73,7 +73,7 @@ $picnic-transition: all 0.3s;
 // Forms
 // @import "../node_modules/picnic/src/plugins/input/plugin";
 // @import "../node_modules/picnic/src/plugins/select/plugin";
-// @import "../node_modules/picnic/src/plugins/radio/plugin";
+@import "../node_modules/picnic/src/plugins/radio/plugin";
 // @import "../node_modules/picnic/src/plugins/checkbox/plugin";
 
 // Components

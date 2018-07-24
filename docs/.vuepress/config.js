@@ -3,14 +3,14 @@ const tutorialSidebar = [
   ["aos", "AOS"],
   // ["axios", "Axios"],
   // ["bootstrap", "Bootstrap"],
-  ["google-maps", "Google Maps"]
+  ["google-maps", "Google Maps"],
   // ["ionicons", "Ionicons"],
   // ["netlify", "Netlify"],
   // ["postcss", "PostCSS"],
   // ["prettier", "Prettier"],
   // ["prism", "Prism"],
   // ["prismic", "Prismic"],
-  // ["vue-charts", "Vue Charts"],
+  ["vue-charts", "Vue Charts"]
   // ["vue-lazyload", "Vue Lazyload"],
   // ["vue-moment", "Vue Moment"],
   // ["vuepress", "Vuepress"],
@@ -32,12 +32,12 @@ module.exports = {
     "/": {
       lang: "en",
       title: "Yasmin ZY",
-      description: "Building website for your business"
+      description: "Building website for your business."
     },
     "/id/": {
       lang: "id",
       title: "Yasmin ZY",
-      description: "Membuat website untuk usaha Anda"
+      description: "Membuat website untuk usaha Anda."
     }
   },
   themeConfig: {

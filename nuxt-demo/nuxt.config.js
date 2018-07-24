@@ -27,6 +27,11 @@ module.exports = {
     vendor: ["aos", "vue2-google-maps"]
   },
   modules: ["@nuxtjs/dotenv"],
-  plugins: [{ src: "~/plugins/aos", ssr: false }, "~/plugins/vue2-google-maps"],
+  plugins: [
+    { src: "~/plugins/aos", ssr: false },
+    "~/plugins/vue2-google-maps",
+    { src: "~/plugins/chart", ssr: false },
+    { src: "~/plugins/hchs-vue-charts", ssr: false }
+  ],
   css: ["aos/dist/aos.css"]
 };

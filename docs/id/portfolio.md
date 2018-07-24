@@ -2,7 +2,7 @@
 title: Portofolio
 meta:
   - name: description
-    content: 
+    content: Galeri proyek saya. Saya punya contoh situs agensi digital, toko roti, berita, dan restoran.
 pageClass: portfolio
 ---
 

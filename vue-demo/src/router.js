@@ -9,6 +9,7 @@ import Default from "./layouts/default";
 // Views
 import Aos from "./views/aos";
 import GoogleMaps from "./views/google-maps";
+import VueCharts from "./views/vue-charts";
 
 export default new Router({
   mode: "history",
@@ -17,14 +18,9 @@ export default new Router({
       path: "/",
       component: Default,
       children: [
-        {
-          path: "/aos",
-          component: Aos
-        },
-        {
-          path: "/google-maps",
-          component: GoogleMaps
-        }
+        { path: "/aos", component: Aos },
+        { path: "/google-maps", component: GoogleMaps },
+        { path: "/vue-charts", component: VueCharts }
       ]
     }
   ]

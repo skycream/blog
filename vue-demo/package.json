@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.4",
+    "chart.js": "^2.7.2",
     "dotenv": "^6.0.0",
+    "hchs-vue-charts": "^1.2.8",
     "picnic": "^6.5.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
