@@ -2,7 +2,7 @@
 title: Tutorial
 meta:
   - name: description
-    content: 
+    content: Bagaimana saya memulai tutorial-tutorial Vue dan Nuxt.
 ---
 
 # {{ $page.title }}
@@ -40,7 +40,7 @@ Nah, sekarang ayo kita jalankan proyek dengan `npm run serve`.
 
 Proyek demo yang menggunakan Nuxt ada dalam [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). Saya mulai dengan:
 
-```bash{2}
+```bash
 vue init nuxt-community/starter-template nuxt-demo
 cd nuxt-demo
 npm i
