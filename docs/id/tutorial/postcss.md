@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="postcss" lang="id"/>
+<start-tutorial demo="postcss" lang="id"/>
 
 ## Instalasi
 

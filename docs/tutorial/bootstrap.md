@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="bootstrap"/>
+<start-tutorial demo="bootstrap"/>
 
 ## Installation
 

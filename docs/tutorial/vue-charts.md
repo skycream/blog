@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="vue-charts"/>
+<start-tutorial demo="vue-charts"/>
 
 ## Installation
 
@@ -17,7 +17,7 @@ First, install [Vue Charts](https://github.com/hchstera/vue-charts).
 
 ```bash{2}
 cd vue-demo
-npm i chart.js hchs-vue-charts
+npm i -S chart.js hchs-vue-charts
 ```
 
 In `src/main.js`:
@@ -30,7 +30,7 @@ First, install [Vue Charts](https://github.com/hchstera/vue-charts).
 
 ```bash{2}
 cd nuxt-demo
-npm i chart.js hchs-vue-charts
+npm i -S chart.js hchs-vue-charts
 ```
 
 In `nuxt.config.js`:
@@ -73,7 +73,7 @@ In `src/components/vue-charts-bar.vue`:
 
 <<< @/vue-demo/src/components/vue-charts-bar.vue{6-17,26-39}
 
-To have multiple charts, bar charts in this case, add a `canvas`.
+To add many charts, bar charts in this case, add a `canvas`.
 
 ### Doughnut
 

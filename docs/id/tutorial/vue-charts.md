@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="vue-charts" lang="id"/>
+<start-tutorial demo="vue-charts" lang="id"/>
 
 ## Instalasi
 
@@ -17,7 +17,7 @@ Pertama, instal [Vue Charts](https://github.com/hchstera/vue-charts).
 
 ```bash{2}
 cd vue-demo
-npm i chart.js hchs-vue-charts
+npm i -S chart.js hchs-vue-charts
 ```
 
 Dalam `src/main.js`:
@@ -30,7 +30,7 @@ First, install [Vue Charts](https://github.com/hchstera/vue-charts).
 
 ```bash{2}
 cd nuxt-demo
-npm i chart.js hchs-vue-charts
+npm i -S chart.js hchs-vue-charts
 ```
 
 Dalam `nuxt.config.js`:

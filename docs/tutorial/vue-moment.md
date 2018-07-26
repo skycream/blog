@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="vue-moment"/>
+<start-tutorial demo="vue-moment"/>
 
 ## Installation
 

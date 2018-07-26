@@ -5,11 +5,11 @@
     <p v-else><a class="router-link-active" href="./">First visit? 😁</a></p>
   </blockquote>
 
-  <ul>
+  <ul v-show="demo">
     <li v-for="(item, index) in links"
       v-bind:key="index">
       <a target="_blank" rel="noopener noreferrer"
-        v-bind:href="item.url + topic">
+        v-bind:href="item.url + demo">
         {{ item.label }}
         <external-link-svg/>
       </a>
@@ -30,9 +30,9 @@ export default {
       type: String,
       default: "en"
     },
-    topic: {
+    demo: {
       type: String,
-      required: true
+      default: ""
     }
   },
   data() {

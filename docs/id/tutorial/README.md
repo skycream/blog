@@ -10,7 +10,7 @@ meta:
 Saya menulis tutorial tentang [Vue](https://vuejs.org/) dan [Nuxt](https://nuxtjs.org/). Saya tidak memulai tiap tutorial from scratch, jadi berikut adalah awal proyeknya.
 
 ::: warning PERINGATAN
-Kamu akan melihat `src/main.js` dan `nuxt.config.js` berisi lebih banyak kode dari yang dibutuhkan. Meski begitu, saya menghighlight bagian-bagian yang relevan. Saya memasukkan semuanya dalam `vue-demo` dan `nuxt-demo` karena saya tidak mau mengurus banyak repositories.
+Kamu akan melihat `src/main.js` dan `nuxt.config.js` berisi lebih banyak kode dari yang dibutuhkan. Meski begitu, saya menghighlight bagian-bagian yang relevan. Saya memasukkan semuanya dalam `vue-demo` dan `nuxt-demo` jadi saya tidak perlu mengurus banyak repositories.
 :::
 
 ## Vue
@@ -26,7 +26,7 @@ Proyek demo yang menggunakan Vue ada dalam [vue-demo](https://github.com/yasminz
 - Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? **In dedicated config files**
 - Save this as a preset for future projects? **No**
 
-Tidak semua dari CLI adalah package terbaru, contohnya `node-sass` dan `sass-loader` jadi saya perbarui mereka sendiri.
+Tidak semua dari CLI adalah package terbaru, contohnya `node-sass` dan `sass-loader`. Karena itu saya perlu memperbarui mereka sendiri.
 
 Saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic). Kebanyakan tutorial disini akan menggunakan ini. Pengecualian hanya ada untuk tutorial tentang cara menggunakan CSS library lainnya.
 

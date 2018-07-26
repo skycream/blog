@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="prism" lang="id"/>
+<start-tutorial demo="prism" lang="id"/>
 
 ## Instalasi
 

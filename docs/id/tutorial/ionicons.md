@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="ionicons" lang="id"/>
+<start-tutorial demo="ionicons" lang="id"/>
 
 ## Instalasi
 

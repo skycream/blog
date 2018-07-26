@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="vuepress"/>
+<start-tutorial demo="vuepress"/>
 
 ## Installation
 

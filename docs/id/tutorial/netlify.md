@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="netlify" lang="id"/>
+<start-tutorial demo="netlify" lang="id"/>
 
 ## Instalasi
 

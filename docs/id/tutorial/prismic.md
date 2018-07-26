@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="prismic" lang="id"/>
+<start-tutorial demo="prismic" lang="id"/>
 
 ## Instalasi
 

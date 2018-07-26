@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="vue-lazyload"/>
+<start-tutorial demo="vue-lazyload"/>
 
 ## Installation
 

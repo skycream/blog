@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="vuex" lang="id"/>
+<start-tutorial demo="vuex" lang="id"/>
 
 ## Instalasi
 

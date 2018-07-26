@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="axios"/>
+<start-tutorial demo="axios"/>
 
 ## Installation
 

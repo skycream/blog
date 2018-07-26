@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="aos"/>
+<start-tutorial demo="aos"/>
 
 ## Installation
 
@@ -17,7 +17,7 @@ First, install [AOS](https://github.com/michalsnik/aos).
 
 ```bash{2}
 cd vue-demo
-npm i aos@next --save
+npm i -S aos@next
 ```
 
 In `src/main.js`:
@@ -32,7 +32,7 @@ First, install [AOS](https://github.com/michalsnik/aos).
 
 ```bash{2}
 cd nuxt-demo
-npm i aos@next --save
+npm i -S aos@next
 ```
 
 In `nuxt.config.js`:

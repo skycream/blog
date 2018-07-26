@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial topic="google-maps"/>
+<start-tutorial demo="google-maps"/>
 
 ## Get API Key
 
@@ -35,7 +35,7 @@ Now, install [vue-google-maps](https://github.com/xkjyeah/vue-google-maps) and [
 
 ```bash{2}
 cd vue-demo
-npm i vue2-google-maps dotenv
+npm i -S vue2-google-maps dotenv
 ```
 
 In `src/main.js`:
@@ -54,7 +54,7 @@ Now, install [vue-google-maps](https://github.com/xkjyeah/vue-google-maps) and [
 
 ```bash{2}
 cd nuxt-demo
-npm i vue2-google-maps @nuxtjs/dotenv
+npm i -S vue2-google-maps @nuxtjs/dotenv
 ```
 
 In `nuxt.config.js`:

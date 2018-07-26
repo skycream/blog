@@ -7,7 +7,7 @@ const tutorialSidebar = [
   // ["ionicons", "Ionicons"],
   // ["netlify", "Netlify"],
   // ["postcss", "PostCSS"],
-  // ["prettier", "Prettier"],
+  ["prettier", "Prettier"],
   // ["prism", "Prism"],
   // ["prismic", "Prismic"],
   ["vue-charts", "Vue Charts"]
@@ -32,7 +32,7 @@ module.exports = {
     "/": {
       lang: "en",
       title: "Yasmin ZY",
-      description: "Building website for your business."
+      description: "Building a website for your business."
     },
     "/id/": {
       lang: "id",

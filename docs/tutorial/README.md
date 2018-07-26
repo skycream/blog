@@ -10,7 +10,7 @@ meta:
 I write [Vue](https://vuejs.org/) and [Nuxt](https://nuxtjs.org/) tutorials. I do not start each tutorial from scratch, so I will show you how I set them up here.
 
 ::: warning
-You will find `src/main.js` and `nuxt.config.js` contain more code than you need. I highlight the relevant parts though. I place everything inside `vue-demo` and `nuxt-demo` because I do not want to take care lots of repositories.
+You will find `src/main.js` and `nuxt.config.js` contain more code than you need. I highlight the relevant parts though. I place everything inside `vue-demo` and `nuxt-demo` so I do not have to take care a lot of repositories.
 :::
 
 ## Vue
@@ -26,7 +26,7 @@ The demo projects using Vue are available in [vue-demo](https://github.com/yasmi
 - Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? **In dedicated config files**
 - Save this as a preset for future projects? **No**
 
-Not everything from the CLI is the latest, for example `node-sass` and `sass-loader` so I update them myself.
+Not everything from the CLI is the latest, for example `node-sass` and `sass-loader`. That is why I have to update them myself.
 
 I also install [Picnic CSS](https://github.com/franciscop/picnic). Most of the tutorials here will use this. The only exceptions are the ones about using other CSS library.
 
