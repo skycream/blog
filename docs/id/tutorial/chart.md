@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="vue-charts" lang="id"/>
+<start-tutorial demo="chart" lang="id"/>
 
 ## Instalasi
 
