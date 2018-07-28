@@ -22,7 +22,7 @@ npm i -S aos@next
 
 Dalam `src/main.js`:
 
-<<< @/vue-demo/src/main.js{8,9,23-25}
+<<< @/vue-demo/src/main.js{8,9,32-34}
 
 Pada contoh ini, saya juga memasukkan [setting](https://github.com/michalsnik/aos#1-initialize-aos) opsional untuk menonaktifkan AOS di ponsel.
 
@@ -37,7 +37,7 @@ npm i -S aos@next
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{28,32,37}
+<<< @/nuxt-demo/nuxt.config.js{33}
 
 Dalam `plugins/aos.js`:
 

@@ -35,7 +35,7 @@ npm i -S chart.js hchs-vue-charts
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{34,35}
+<<< @/nuxt-demo/nuxt.config.js{34}
 
 Dalam `plugins/chart.js`:
 
@@ -49,15 +49,15 @@ Dalam `plugins/hchs-vue-charts.js`:
 
 Saya ingin menggunakan tiga macam grafik. Saya bagi mereka menjadi komponen-komponen agar kodenya lebih mudah dibaca.
 
-Dalam `src/views/vue-charts.vue` dan `pages/vue-charts.vue`:
+Dalam `src/views/chart.vue` dan `pages/chart.vue`:
 
-<<< @/vue-demo/src/views/vue-charts.vue
+<<< @/vue-demo/src/views/chart.vue
 
 ### Garis
 
-Dalam `src/components/vue-charts-line.vue`:
+Dalam `src/components/chart-line.vue`:
 
-<<< @/vue-demo/src/components/vue-charts-line.vue{7-13,38-50}
+<<< @/vue-demo/src/components/chart-line.vue{7-13,38-50}
 
 - `beginzero` membuat grafik mulai dari nol jika di-set `true`.
 - `labels` mengatur label di sumbu-x.
@@ -69,17 +69,17 @@ Dalam `src/components/vue-charts-line.vue`:
 
 ### Bar
 
-Dalam `src/components/vue-charts-bar.vue`:
+Dalam `src/components/chart-bar.vue`:
 
-<<< @/vue-demo/src/components/vue-charts-bar.vue{6-17,26-39}
+<<< @/vue-demo/src/components/chart-bar.vue{6-17,26-39}
 
 Untuk memasukkan lebih dari satu grafik, dalam contoh ini bar charts, tambahkan `canvas`.
 
 ### Donat
 
-Dalam `src/components/vue-charts-doughnut.vue`:
+Dalam `src/components/chart-doughnut.vue`:
 
-<<< @/vue-demo/src/components/vue-charts-doughnut.vue{6-9,18-26}
+<<< @/vue-demo/src/components/chart-doughnut.vue{6-9,18-26}
 
 - `datasets` berguna untuk mengganti beberapa hal sekaligus.
 - `hoverBackgroundColor` adalah untuk mengatur latar warna ketika kita hover over grafik.

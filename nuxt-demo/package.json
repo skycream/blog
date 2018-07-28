@@ -19,6 +19,8 @@
     "hchs-vue-charts": "^1.2.8",
     "nuxt": "^1.4.1",
     "picnic": "^6.5.0",
+    "prismjs": "^1.15.0",
+    "vue-prism-component": "^1.0.1",
     "vue2-google-maps": "^0.10.1"
   },
   "devDependencies": {

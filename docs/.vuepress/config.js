@@ -3,14 +3,14 @@ const tutorialSidebar = [
   ["aos", "AOS"],
   // ["axios", "Axios"],
   // ["bootstrap", "Bootstrap"],
+  ["chart", "Chart"],
   ["google-maps", "Google Maps"],
   ["ionicons", "Ionicons"],
   // ["netlify", "Netlify"],
   // ["postcss", "PostCSS"],
   ["prettier", "Prettier"],
-  // ["prism", "Prism"],
+  ["prism", "Prism"]
   // ["prismic", "Prismic"],
-  ["vue-charts", "Vue Charts"]
   // ["vue-lazyload", "Vue Lazyload"],
   // ["vue-moment", "Vue Moment"],
   // ["vuepress", "Vuepress"],

@@ -8,9 +8,10 @@ import Default from "./layouts/default";
 
 // Views
 import Aos from "./views/aos";
-import Ionicons from "./views/ionicons";
+import Chart from "./views/chart";
 import GoogleMaps from "./views/google-maps";
-import VueCharts from "./views/vue-charts";
+import Ionicons from "./views/ionicons";
+import Prism from "./views/prism";
 
 export default new Router({
   mode: "history",
@@ -20,9 +21,10 @@ export default new Router({
       component: Default,
       children: [
         { path: "/aos", component: Aos },
+        { path: "/chart", component: Chart },
         { path: "/google-maps", component: GoogleMaps },
         { path: "/ionicons", component: Ionicons },
-        { path: "/vue-charts", component: VueCharts }
+        { path: "/prism", component: Prism }
       ]
     }
   ]

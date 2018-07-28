@@ -35,29 +35,25 @@ npm i -S chart.js hchs-vue-charts
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{34,35}
+<<< @/nuxt-demo/nuxt.config.js{34}
 
 In `plugins/chart.js`:
 
 <<< @/nuxt-demo/plugins/chart.js
 
-In `plugins/hchs-vue-charts.js`:
-
-<<< @/nuxt-demo/plugins/hchs-vue-charts.js
-
 ## Usage
 
 I want to use three kinds of charts. I split them into components to make the code easier to read.
 
-In `src/views/vue-charts.vue` and `pages/vue-charts.vue`:
+In `src/views/chart.vue` and `pages/chart.vue`:
 
-<<< @/vue-demo/src/views/vue-charts.vue
+<<< @/vue-demo/src/views/chart.vue
 
 ### Line
 
-In `src/components/vue-charts-line.vue`:
+In `src/components/chart-line.vue`:
 
-<<< @/vue-demo/src/components/vue-charts-line.vue{7-13,38-50}
+<<< @/vue-demo/src/components/chart-line.vue{7-13,38-50}
 
 - `beginzero` makes the chart starts from zero if set to `true`.
 - `labels` sets the x-axis labels.
@@ -69,17 +65,17 @@ In `src/components/vue-charts-line.vue`:
 
 ### Bar
 
-In `src/components/vue-charts-bar.vue`:
+In `src/components/chart-bar.vue`:
 
-<<< @/vue-demo/src/components/vue-charts-bar.vue{6-17,26-39}
+<<< @/vue-demo/src/components/chart-bar.vue{6-17,26-39}
 
 To add many charts, bar charts in this case, add a `canvas`.
 
 ### Doughnut
 
-In `src/components/vue-charts-doughnut.vue`:
+In `src/components/chart-doughnut.vue`:
 
-<<< @/vue-demo/src/components/vue-charts-doughnut.vue{6-9,18-26}
+<<< @/vue-demo/src/components/chart-doughnut.vue{6-9,18-26}
 
 - `datasets` is useful for changing many things at once.
 - `hoverBackgroundColor` is for setting the background color when we hover over the chart.

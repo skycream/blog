@@ -22,7 +22,7 @@ npm i -S aos@next
 
 In `src/main.js`:
 
-<<< @/vue-demo/src/main.js{8,9,23-25}
+<<< @/vue-demo/src/main.js{8,9,32-34}
 
 In this example, I also passed an optional [setting](https://github.com/michalsnik/aos#1-initialize-aos) to disable AOS on the phone.
 
@@ -37,7 +37,7 @@ npm i -S aos@next
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{28,32,37}
+<<< @/nuxt-demo/nuxt.config.js{33}
 
 In `plugins/aos.js`:
 

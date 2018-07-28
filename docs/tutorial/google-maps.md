@@ -59,11 +59,11 @@ npm i -S vue2-google-maps @nuxtjs/dotenv
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{28,30,33}
+<<< @/nuxt-demo/nuxt.config.js{29,31}
 
 In `plugins/vue2-google-maps.js`:
 
-<<< @/nuxt-demo/plugins/vue2-google-maps.js
+<<< @/nuxt-demo/plugins/google-maps.js
 
 After that, create a file named `.env` in the project root and paste your API key. For example:
 
