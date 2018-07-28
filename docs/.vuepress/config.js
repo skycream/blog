@@ -4,7 +4,7 @@ const tutorialSidebar = [
   // ["axios", "Axios"],
   // ["bootstrap", "Bootstrap"],
   ["google-maps", "Google Maps"],
-  // ["ionicons", "Ionicons"],
+  ["ionicons", "Ionicons"],
   // ["netlify", "Netlify"],
   // ["postcss", "PostCSS"],
   ["prettier", "Prettier"],

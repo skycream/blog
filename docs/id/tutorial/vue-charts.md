@@ -35,7 +35,7 @@ npm i -S chart.js hchs-vue-charts
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{33,34}
+<<< @/nuxt-demo/nuxt.config.js{34,35}
 
 Dalam `plugins/chart.js`:
 

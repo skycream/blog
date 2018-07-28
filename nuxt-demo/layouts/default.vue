@@ -77,7 +77,7 @@ $picnic-transition: all 0.3s;
 // @import "../node_modules/picnic/src/plugins/checkbox/plugin";
 
 // Components
-// @import "../node_modules/picnic/src/plugins/table/plugin";
+@import "../node_modules/picnic/src/plugins/table/plugin";
 @import "../node_modules/picnic/src/plugins/grid/plugin";
 
 // Extra

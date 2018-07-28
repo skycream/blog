@@ -8,6 +8,7 @@ import Default from "./layouts/default";
 
 // Views
 import Aos from "./views/aos";
+import Ionicons from "./views/ionicons";
 import GoogleMaps from "./views/google-maps";
 import VueCharts from "./views/vue-charts";
 
@@ -20,6 +21,7 @@ export default new Router({
       children: [
         { path: "/aos", component: Aos },
         { path: "/google-maps", component: GoogleMaps },
+        { path: "/ionicons", component: Ionicons },
         { path: "/vue-charts", component: VueCharts }
       ]
     }

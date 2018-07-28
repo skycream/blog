@@ -10,7 +10,8 @@ module.exports = {
         content: "Nuxt.js project demo"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [{ src: "https://unpkg.com/ionicons/dist/ionicons.js", body: true }]
   },
   loading: { color: "#2196F3" },
   build: {

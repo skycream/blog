@@ -37,7 +37,7 @@ npm i -S aos@next
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{27,31,36}
+<<< @/nuxt-demo/nuxt.config.js{28,32,37}
 
 Dalam `plugins/aos.js`:
 

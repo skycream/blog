@@ -1,8 +1,8 @@
 ---
-title: How to Use Ionicons in a Vue/Nuxt Project
+title: Bagaimana Cara Menggunakan Ionicons dalam Proyek Vue/Nuxt
 meta:
   - name: description
-    content: 
+    content: Langkah penggunaan Ionicons library dalam proyek Vue/Nuxt.
 ---
 
 # {{ $page.title }}
@@ -13,6 +13,42 @@ meta:
 
 ### Vue
 
+Masukkan [Ionicons](https://github.com/ionic-team/ionicons) ke `public/index.html`.
+
+<<< @/vue-demo/public/index.html{18}
+
 ### Nuxt
 
+Masukkan [Ionicons](https://github.com/ionic-team/ionicons) ke `nuxt.config.js`.
+
+<<< @/nuxt-demo/nuxt.config.js{14}
+
 ## Penggunaan
+
+Untuk menggunakan ikon, masukkan komponen web `ion-icon` ke template-mu. Masukkan nama ikon di atribut `name`. Contohnya, untuk memasukkan ikon hati tulis `<ion-icon name="heart"/>`.
+
+Dalam `src/views/ionicons.vue` dan `pages/ionicons.vue`:
+
+<<< @/vue-demo/src/views/ionicons.vue{19}
+
+`src/assets/ionicons.js` dan `assets/ionicons.js` berisi nama-nama ikon.
+
+```js
+const appIcons = [
+  "add-circle-outline",
+  "add-circle",
+  "add"
+  // and so on
+];
+
+const logos = [
+  "logo-android",
+  "logo-angular",
+  "logo-apple"
+  // and so on
+];
+
+export { appIcons, logos };
+```
+
+Saya membuat file-file diatas karena saya ingin memasukkan semua ikon untuk demo, dan jumlahnya banyak. Tentu saja, kamu tidak perlu melakukannya karena kemungkinan besar kamu hanya perlu menggunakan beberapa ikon.

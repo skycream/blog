@@ -19,7 +19,7 @@
     "hchs-vue-charts": "^1.2.8",
     "nuxt": "^1.4.1",
     "picnic": "^6.5.0",
-    "vue2-google-maps": "^0.10.0"
+    "vue2-google-maps": "^0.10.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",

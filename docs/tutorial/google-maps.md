@@ -59,7 +59,7 @@ npm i -S vue2-google-maps @nuxtjs/dotenv
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{27,29,32}
+<<< @/nuxt-demo/nuxt.config.js{28,30,33}
 
 In `plugins/vue2-google-maps.js`:
 
