@@ -22,7 +22,7 @@ npm i -S prismjs vue-prism-component
 
 Dalam `src/main.js`:
 
-<<< @/vue-demo/src/main.js{20-27}
+<<< @/vue-demo/src/main.js{20-26}
 
 Pada contoh ini, saya menggunakan tema funky. Berikut adalah tema yang tersedia:
 

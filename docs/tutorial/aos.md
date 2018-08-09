@@ -2,7 +2,8 @@
 title: How to Use AOS Library in a Vue/Nuxt Project
 meta:
   - name: description
-    content: Steps to use Animation on Scroll (AOS) library in a Vue/Nuxt project.
+    content:
+      Steps to use Animation on Scroll (AOS) library in a Vue/Nuxt project.
 ---
 
 # {{ $page.title }}
@@ -22,7 +23,7 @@ npm i -S aos@next
 
 In `src/main.js`:
 
-<<< @/vue-demo/src/main.js{8,9,32-34}
+<<< @/vue-demo/src/main.js{8,9,31-33}
 
 In this example, I also passed an optional [setting](https://github.com/michalsnik/aos#1-initialize-aos) to disable AOS on the phone.
 
