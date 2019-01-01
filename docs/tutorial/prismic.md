@@ -2,12 +2,12 @@
 title: How to Use Prismic CMS in a Vue/Nuxt Project
 meta:
   - name: description
-    content: 
+    ? content
 ---
 
 # {{ $page.title }}
 
-<start-tutorial demo="prismic"/>
+<start-tutorial demo="prismic" />
 
 ## Installation
 
