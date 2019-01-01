@@ -1,18 +1,20 @@
 <template>
-<div>
-  <h1>Google Maps Demo</h1>
-  
-  <gmap-map
-    v-bind:center="center"
-    v-bind:zoom="5"
-    v-bind:map-type-id="mapTypeId">
-    <gmap-marker
-      v-for="(item, index) in markers"
-      v-bind:key="index"
-      v-bind:position="item.position"
-      v-on:click="center=item.position"/>
-  </gmap-map>
-</div>
+  <div>
+    <h1>Google Maps Demo</h1>
+
+    <gmap-map
+      v-bind:center="center"
+      v-bind:map-type-id="mapTypeId"
+      v-bind:zoom="5"
+    >
+      <gmap-marker
+        v-for="(item, index) in markers"
+        v-bind:key="index"
+        v-bind:position="item.position"
+        @click="center = item.position"
+      />
+    </gmap-map>
+  </div>
 </template>
 
 <script>
@@ -23,7 +25,7 @@ export default {
       mapTypeId: "terrain",
       markers: [
         { position: { lat: -0.48585, lng: 117.1466 } },
-        { position: { lat: -6.21462, lng: 106.84513 } }
+        { position: { lat: -6.9127778, lng: 107.6205556 } }
       ]
     };
   }
