@@ -1,10 +1,6 @@
 <template>
-<nuxt class="container"/>
+  <nuxt class="container" />
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss">
 // Cool

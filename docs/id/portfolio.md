@@ -8,4 +8,4 @@ pageClass: portfolio
 
 # {{ $page.title }}
 
-<project-list lang="id"/>
+<project-list lang="id" />

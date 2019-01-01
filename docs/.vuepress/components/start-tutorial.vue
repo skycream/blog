@@ -1,21 +1,30 @@
 <template>
-<div>
-  <blockquote>
-    <p v-if="lang == 'id'"><a class="router-link-active" href="./">Pertama kali kesini? 😁</a></p>
-    <p v-else><a class="router-link-active" href="./">First visit? 😁</a></p>
-  </blockquote>
+  <div>
+    <blockquote>
+      <p v-if="lang == 'id'">
+        <a
+          class="router-link-active"
+          href="./">Pertama kali kesini? 😁</a></p>
+      <p v-else>
+        <a
+          class="router-link-active"
+          href="./">First visit? 😁</a></p>
+    </blockquote>
 
-  <ul v-show="demo">
-    <li v-for="(item, index) in links"
-      v-bind:key="index">
-      <a target="_blank" rel="noopener noreferrer"
-        v-bind:href="item.url + demo">
-        {{ item.label }}
-        <external-link-svg/>
-      </a>
-    </li>
-  </ul>
-</div>
+    <ul v-show="demo">
+      <li
+        v-for="(item, index) in links"
+        v-bind:key="index">
+        <a
+          v-bind:href="item.url + demo"
+          target="_blank"
+          rel="noopener noreferrer">
+          {{ item.label }}
+          <ExternalLinkSvg />
+        </a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -26,13 +35,13 @@ export default {
     ExternalLinkSvg
   },
   props: {
-    lang: {
-      type: String,
-      default: "en"
-    },
     demo: {
       type: String,
       default: ""
+    },
+    lang: {
+      type: String,
+      default: "en"
     }
   },
   data() {

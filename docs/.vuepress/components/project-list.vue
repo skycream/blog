@@ -1,28 +1,31 @@
 <template>
-<ul>
-  <li
-    v-for="(item, index) in projects"
-    v-bind:key="index">
-    <a target="_blank"
-      v-bind:href="item.url">{{ item.title }}
-      <img
-        v-bind:src="require('../../img/' + item.img)"
-        v-bind:alt="item.title"/>
-    </a>
+  <ul>
+    <li
+      v-for="(item, index) in projects"
+      v-bind:key="index">
+      <a
+        v-bind:href="item.url"
+        target="_blank">
+        {{ item.title }}
+        <img
+          v-bind:src="require('../../img/' + item.img)"
+          v-bind:alt="item.title" />
+      </a>
 
-    <div>
-      <h2>
-        <a target="_blank"
-          v-bind:href="item.url">
-          {{ item.title }}
-        </a>
-      </h2>
-      
-      <p v-if="lang == 'id'">{{ item.description.id }}</p>
-      <p v-else>{{ item.description.en }}</p>
-    </div>
-  </li>
-</ul>
+      <div>
+        <h2>
+          <a
+            v-bind:href="item.url"
+            target="_blank">
+            {{ item.title }}
+          </a>
+        </h2>
+        
+        <p v-if="lang == 'id'">{{ item.description.id }}</p>
+        <p v-else>{{ item.description.en }}</p>
+      </div>
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -48,16 +51,16 @@ ul {
   list-style-type: none;
   padding-left: 0;
   display: grid;
-  grid-row-gap: 2rem;
+  row-gap: 2rem;
 
   @media (min-width: 576px) {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2.5rem;
+    column-gap: 2.5rem;
   }
 
   @media (min-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5rem;
+    column-gap: 5rem;
   }
 }
 
