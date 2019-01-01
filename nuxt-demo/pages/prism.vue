@@ -1,25 +1,27 @@
 <template>
-<div>
-  <h1>Prism Demo</h1>
+  <div>
+    <h1>Prism Demo</h1>
 
-  <h2>HTML</h2>
-  <prism>{{ html }}</prism>
+    <h2>HTML</h2>
+    <prism>{{ html }}</prism>
 
-  <h2>JavaScript</h2>
-  <prism language="js">const me = {
+    <h2>JavaScript</h2>
+    <!-- prettier-ignore -->
+    <prism language="js">const me = {
   name: "Yasmin ZY",
   country: "Indonesia"
 }</prism>
 
-  <h2>SCSS</h2>
-  <prism language="scss">.grid {
+    <h2>SCSS</h2>
+    <!-- prettier-ignore -->
+    <prism language="scss">.grid {
   display: grid;
 
   @media (min-width: 576px) {
     grid-template-columns: 1fr 1fr;
   }
 }</prism>
-</div>
+  </div>
 </template>
 
 <script>
