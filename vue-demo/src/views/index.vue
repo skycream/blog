@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Nuxt Demo</h1>
+    <h1>Vue Demo</h1>
 
     <ul>
       <li v-for="(item, index) in projects" v-bind:key="index">
-        <nuxt-link v-bind:to="urlize(item)">{{ item }}</nuxt-link>
+        <router-link v-bind:to="urlize(item)">{{ item }}</router-link>
       </li>
     </ul>
   </div>
