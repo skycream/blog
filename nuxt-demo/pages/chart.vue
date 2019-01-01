@@ -1,25 +1,27 @@
 <template>
-<div>
-  <h1>Vue Charts Demo</h1>
+  <div>
+    <vue-no-ssr>
+      <h1>Chart Demo</h1>
 
-  <div class="grid">
-    <chart-line/>
-    <chart-bar/>
-    <chart-doughnut/>
+      <div class="grid">
+        <ChartBar />
+        <ChartDoughnut />
+        <ChartLine />
+      </div>
+    </vue-no-ssr>
   </div>
-</div>
 </template>
 
 <script>
-import ChartLine from "@/components/chart-line";
 import ChartBar from "@/components/chart-bar";
 import ChartDoughnut from "@/components/chart-doughnut";
+import ChartLine from "@/components/chart-line";
 
 export default {
   components: {
-    ChartLine,
     ChartBar,
-    ChartDoughnut
+    ChartDoughnut,
+    ChartLine
   }
 };
 </script>
@@ -27,6 +29,6 @@ export default {
 <style lang="scss" scoped>
 .grid {
   display: grid;
-  grid-row-gap: 2rem;
+  row-gap: 2rem;
 }
 </style>
