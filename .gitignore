@@ -1,14 +1,44 @@
 node_modules
 docs/.vuepress/dist
 
-nuxt-demo/node_modules
-nuxt-demo/npm-debug.log
+# Nuxt .gitignore
+nuxt-demo/logs
+nuxt-demo/*.log
+nuxt-demo/npm-debug.log*
+nuxt-demo/yarn-debug.log*
+nuxt-demo/yarn-error.log*
+nuxt-demo/pids
+nuxt-demo/*.pid
+nuxt-demo/*.seed
+nuxt-demo/*.pid.lock
+nuxt-demo/lib-cov
+nuxt-demo/coverage
+nuxt-demo/.nyc_output
+nuxt-demo/.grunt
+nuxt-demo/bower_components
+nuxt-demo/.lock-wscript
+nuxt-demo/build/Release
+nuxt-demo/node_modules/
+nuxt-demo/jspm_packages/
+nuxt-demo/typings/
+nuxt-demo/.npm
+nuxt-demo/.eslintcache
+nuxt-demo/.node_repl_history
+nuxt-demo/*.tgz
+nuxt-demo/.yarn-integrity
+nuxt-demo/.env
+nuxt-demo/.cache
+nuxt-demo/.next
 nuxt-demo/.nuxt
 nuxt-demo/dist
+nuxt-demo/.vuepress/dist
+nuxt-demo/.serverless
+nuxt-demo/.idea
 
+# Vue .gitignore
 vue-demo/.DS_Store
 vue-demo/node_modules
-vue-demo/dist
+vue-demo//dist
 vue-demo/.env.local
 vue-demo/.env.*.local
 vue-demo/npm-debug.log*
