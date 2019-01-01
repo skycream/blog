@@ -2,12 +2,12 @@
 title: How to Use Vuex in a Vue/Nuxt Project
 meta:
   - name: description
-    content: 
+    ? content
 ---
 
 # {{ $page.title }}
 
-<start-tutorial demo="vuex"/>
+<start-tutorial demo="vuex" />
 
 ## Installation
 

@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="prism"/>
+<start-tutorial demo="prism" />
 
 ## Installation
 
@@ -22,7 +22,7 @@ npm i -S prismjs vue-prism-component
 
 In `src/main.js`:
 
-<<< @/vue-demo/src/main.js{20-26}
+<<< vue-demo/src/main.js{20-26}
 
 In this example, I use the funky theme. Here are the available themes:
 
@@ -50,11 +50,11 @@ npm i -S prismjs vue-prism-component
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{32}
+<<< nuxt-demo/nuxt.config.js{18}
 
 In `plugins/prism.js`:
 
-<<< @/nuxt-demo/plugins/prism.js
+<<< nuxt-demo/plugins/prism.js
 
 ## Usage
 
@@ -62,4 +62,4 @@ Now we can use `prism` component. Specify the language in the `language` attribu
 
 In `src/views/prism.vue` and `pages/prism.vue`:
 
-<<< @/vue-demo/src/views/prism.vue{6,9-12,15-21,29-32}
+<<< vue-demo/src/views/prism.vue{6,9-12,15-21,29-32}

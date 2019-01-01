@@ -2,7 +2,7 @@
 title: Project
 meta:
   - name: description
-    content: 
+    ? content
 ---
 
 # {{ $page.title }}

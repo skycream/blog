@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="google-maps"/>
+<start-tutorial demo="google-maps" />
 
 ## Get API Key
 
@@ -40,7 +40,7 @@ npm i -S vue2-google-maps dotenv
 
 In `src/main.js`:
 
-<<< @/vue-demo/src/main.js{1,15-18}
+<<< vue-demo/src/main.js{1,15-18}
 
 After that, create a file named `.env` in the project root and paste your API key. For example:
 
@@ -59,11 +59,11 @@ npm i -S vue2-google-maps @nuxtjs/dotenv
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{29,31}
+<<< nuxt-demo/nuxt.config.js{17}
 
 In `plugins/vue2-google-maps.js`:
 
-<<< @/nuxt-demo/plugins/google-maps.js
+<<< nuxt-demo/plugins/google-maps.js
 
 After that, create a file named `.env` in the project root and paste your API key. For example:
 
@@ -77,7 +77,7 @@ Now we can start embedding Google Maps.
 
 In `src/views/google-maps.vue` and `pages/google-maps.vue`:
 
-<<< @/vue-demo/src/views/google-maps.vue{5-14,22-27}
+<<< vue-demo/src/views/google-maps.vue{5-12,20-25}
 
 We can specify the center of the map with `center`. To make the map zoomed in more, increase the value of `zoom`.
 

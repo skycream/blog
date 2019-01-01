@@ -2,12 +2,12 @@
 title: How to Use Vuepress
 meta:
   - name: description
-    content: 
+    ? content
 ---
 
 # {{ $page.title }}
 
-<start-tutorial demo="vuepress" lang="id"/>
+<start-tutorial demo="vuepress" lang="id" />
 
 ## Instalasi
 

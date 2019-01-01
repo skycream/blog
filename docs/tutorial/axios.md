@@ -2,12 +2,12 @@
 title: How to Use Axios in a Vue/Nuxt Project
 meta:
   - name: description
-    content: 
+    ? content
 ---
 
 # {{ $page.title }}
 
-<start-tutorial demo="axios"/>
+<start-tutorial demo="axios" />
 
 ## Installation
 
@@ -17,4 +17,4 @@ meta:
 
 ## Usage
 
-<google-maps/>
+<google-maps />

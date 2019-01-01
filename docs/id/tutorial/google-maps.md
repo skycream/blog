@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="google-maps" lang="id"/>
+<start-tutorial demo="google-maps" lang="id" />
 
 ## Mendapatkan API Key
 
@@ -40,7 +40,7 @@ npm i -S vue2-google-maps dotenv
 
 Dalam `src/main.js`:
 
-<<< @/vue-demo/src/main.js{1,15-18}
+<<< vue-demo/src/main.js{1,15-18}
 
 Setelah itu, buat file bernama `.env` di root proyek dan paste API key-mu. Contohnya:
 
@@ -59,11 +59,11 @@ npm i -S vue2-google-maps @nuxtjs/dotenv
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{29,31}
+<<< nuxt-demo/nuxt.config.js{17}
 
 Dalam `plugins/vue2-google-maps.js`:
 
-<<< @/nuxt-demo/plugins/google-maps.js
+<<< nuxt-demo/plugins/google-maps.js
 
 Setelah itu, buat file bernama `.env` di root proyek dan paste API key-mu. Contohnya:
 
@@ -77,7 +77,7 @@ Sekarang kita bisa mulai menambahkan Google Maps.
 
 Dalam `src/views/google-maps.vue` dan `pages/google-maps.vue`:
 
-<<< @/vue-demo/src/views/google-maps.vue{5-14,22-27}
+<<< vue-demo/src/views/google-maps.vue{5-12,20-25}
 
 Kita bisa mengatur posisi tengah peta dengan `center`. Untuk membuat peta menunjukkan gambar yang lebih diperbesar, masukkan angka yang lebih tinggi di `zoom`.
 

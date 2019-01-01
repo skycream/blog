@@ -2,12 +2,12 @@
 title: How to Use Axios in a Vue/Nuxt Project
 meta:
   - name: description
-    content: 
+    ? content
 ---
 
 # {{ $page.title }}
 
-<start-tutorial demo="axios" lang="id"/>
+<start-tutorial demo="axios" lang="id" />
 
 ## Instalasi
 
