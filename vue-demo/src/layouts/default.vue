@@ -1,10 +1,6 @@
 <template>
-<router-view class="container"/>
+  <router-view class="container" />
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss">
 // Cool
