@@ -7,24 +7,22 @@ import Default from "./layouts/default";
 // import Blank from "./layouts/blank";
 
 // Views
-import Aos from "./views/aos";
-import Chart from "./views/chart";
-import GoogleMaps from "./views/google-maps";
-import Ionicons from "./views/ionicons";
-import Prism from "./views/prism";
+import Index from "./views/index";
 
 export default new Router({
+  base: process.env.BASE_URL,
   mode: "history",
   routes: [
     {
       path: "/",
       component: Default,
       children: [
-        { path: "/aos", component: Aos },
-        { path: "/chart", component: Chart },
-        { path: "/google-maps", component: GoogleMaps },
-        { path: "/ionicons", component: Ionicons },
-        { path: "/prism", component: Prism }
+        { path: "", component: Index },
+        { path: "aos", component: () => import("./views/aos") },
+        { path: "chart", component: () => import("./views/chart") },
+        { path: "google-maps", component: () => import("./views/google-maps") },
+        { path: "ionicons", component: () => import("./views/ionicons") },
+        { path: "prism", component: () => import("./views/prism") }
       ]
     }
   ]
