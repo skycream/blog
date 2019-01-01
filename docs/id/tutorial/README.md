@@ -15,31 +15,25 @@ Kamu akan melihat `src/main.js` dan `nuxt.config.js` berisi lebih banyak kode da
 
 ## Vue
 
-Proyek demo yang menggunakan Vue ada dalam [vue-demo](https://github.com/yasminzy/blog/tree/master/vue-demo). Saya mulai dengan `vue create vue-demo`.
+Proyek demo yang menggunakan Vue ada dalam [vue-demo](https://github.com/yasminzy/blog/tree/master/vue-demo). Scaffolding proyek mengikuti `vue create vue-demo`.
 
 Saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic). Kebanyakan tutorial disini akan menggunakan ini. Pengecualian hanya ada untuk tutorial tentang cara menggunakan CSS library lainnya.
 
 Ini adalah `package.json` sekarang.
 
-<<< @/vue-demo/package.json
+<<< vue-demo/package.json
 
 Nah, sekarang ayo kita jalankan proyek dengan `npm run serve`.
 
 ## Nuxt
 
-Proyek demo yang menggunakan Nuxt ada dalam [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). Saya mulai dengan:
-
-```bash
-vue init nuxt-community/starter-template nuxt-demo
-cd nuxt-demo
-npm i
-```
+Proyek demo yang menggunakan Nuxt ada dalam [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). Scaffolding proyek mengikuti `npx create-nuxt-app`.
 
 Seperti tutorial untuk Vue, saya juga menginstal [Picnic CSS](https://github.com/franciscop/picnic) disini.
 
 Ini adalah `package.json` sekarang.
 
-<<< @/nuxt-demo/package.json
+<<< nuxt-demo/package.json
 
 Nah, sekarang ayo kita jalankan proyek dengan `npm run dev`.
 

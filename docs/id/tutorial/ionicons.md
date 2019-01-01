@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="ionicons" lang="id"/>
+<start-tutorial demo="ionicons" lang="id" />
 
 ## Instalasi
 
@@ -15,21 +15,21 @@ meta:
 
 Masukkan [Ionicons](https://github.com/ionic-team/ionicons) ke `public/index.html`.
 
-<<< @/vue-demo/public/index.html{18}
+<<< vue-demo/public/index.html{20}
 
 ### Nuxt
 
 Masukkan [Ionicons](https://github.com/ionic-team/ionicons) ke `nuxt.config.js`.
 
-<<< @/nuxt-demo/nuxt.config.js{14}
+<<< nuxt-demo/nuxt.config.js{13}
 
 ## Penggunaan
 
-Untuk menggunakan ikon, masukkan komponen web `ion-icon` ke template-mu. Masukkan nama ikon di atribut `name`. Contohnya, untuk memasukkan ikon hati tulis `<ion-icon name="heart"/>`.
+Untuk menggunakan ikon, masukkan komponen web `ion-icon` ke template-mu. Masukkan nama ikon di atribut `name`. Contohnya, untuk memasukkan ikon hati tulis `<ion-icon name="heart" />`.
 
 Dalam `src/views/ionicons.vue` dan `pages/ionicons.vue`:
 
-<<< @/vue-demo/src/views/ionicons.vue{19}
+<<< vue-demo/src/views/ionicons.vue{21}
 
 `src/assets/ionicons.js` dan `assets/ionicons.js` berisi nama-nama ikon.
 
@@ -51,4 +51,4 @@ const logos = [
 export { appIcons, logos };
 ```
 
-Saya membuat file-file diatas karena saya ingin memasukkan semua ikon untuk demo, dan jumlahnya banyak. Tentu saja, kamu tidak perlu melakukannya karena kemungkinan besar kamu hanya perlu menggunakan beberapa ikon.
+Saya menggunakan file yang berbeda untuk demo karena saya ingin memasukkan semua ikon. Kamu mungkin tidak membutuhkan semuanya jadi masukkan yang kamu butuhkan saja.

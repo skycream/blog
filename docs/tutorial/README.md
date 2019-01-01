@@ -15,31 +15,25 @@ You will find `src/main.js` and `nuxt.config.js` contain more code than you need
 
 ## Vue
 
-The demo projects using Vue are available in [vue-demo](https://github.com/yasminzy/blog/tree/master/vue-demo). I start it with `vue create vue-demo`.
+The demo projects using Vue are available in [vue-demo](https://github.com/yasminzy/blog/tree/master/vue-demo). The project scaffolding follows `vue create vue-demo`.
 
 I also install [Picnic CSS](https://github.com/franciscop/picnic). Most of the tutorials here will use this. The only exceptions are the ones about using other CSS library.
 
 Here is the current `package.json`.
 
-<<< @/vue-demo/package.json
+<<< vue-demo/package.json
 
 Finally, let's launch the project with `npm run serve`.
 
 ## Nuxt
 
-The demo projects using Nuxt are available in [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). I start it with:
-
-```bash
-vue init nuxt-community/starter-template nuxt-demo
-cd nuxt-demo
-npm i
-```
+The demo projects using Nuxt are available in [nuxt-demo](https://github.com/yasminzy/blog/tree/master/nuxt-demo). The project scaffolding follows `npx create-nuxt-app`.
 
 Like the Vue tutorials, I also install [Picnic CSS](https://github.com/franciscop/picnic) here.
 
 Here is the current `package.json`.
 
-<<< @/nuxt-demo/package.json
+<<< nuxt-demo/package.json
 
 Finally, let's launch the project with `npm run dev`.
 

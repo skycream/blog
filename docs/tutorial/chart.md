@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="chart"/>
+<start-tutorial demo="chart" />
 
 ## Installation
 
@@ -22,7 +22,7 @@ npm i -S chart.js hchs-vue-charts
 
 In `src/main.js`:
 
-<<< @/vue-demo/src/main.js{11-13}
+<<< vue-demo/src/main.js{11-13}
 
 ### Nuxt
 
@@ -35,11 +35,11 @@ npm i -S chart.js hchs-vue-charts
 
 In `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{34}
+<<< nuxt-demo/nuxt.config.js{20}
 
 In `plugins/chart.js`:
 
-<<< @/nuxt-demo/plugins/chart.js
+<<< nuxt-demo/plugins/chart.js
 
 ## Usage
 
@@ -47,13 +47,13 @@ I want to use three kinds of charts. I split them into components to make the co
 
 In `src/views/chart.vue` and `pages/chart.vue`:
 
-<<< @/vue-demo/src/views/chart.vue
+<<< vue-demo/src/views/chart.vue
 
 ### Line
 
 In `src/components/chart-line.vue`:
 
-<<< @/vue-demo/src/components/chart-line.vue{7-13,38-50}
+<<< vue-demo/src/components/chart-line.vue{7-15,36-47}
 
 - `beginzero` makes the chart starts from zero if set to `true`.
 - `labels` sets the x-axis labels.
@@ -67,7 +67,7 @@ In `src/components/chart-line.vue`:
 
 In `src/components/chart-bar.vue`:
 
-<<< @/vue-demo/src/components/chart-bar.vue{6-17,26-39}
+<<< vue-demo/src/components/chart-bar.vue{6-19,28-41}
 
 To add many charts, bar charts in this case, add a `canvas`.
 
@@ -75,21 +75,21 @@ To add many charts, bar charts in this case, add a `canvas`.
 
 In `src/components/chart-doughnut.vue`:
 
-<<< @/vue-demo/src/components/chart-doughnut.vue{6-9,18-26}
+<<< vue-demo/src/components/chart-doughnut.vue{6-11,20-28}
 
 - `datasets` is useful for changing many things at once.
 - `hoverBackgroundColor` is for setting the background color when we hover over the chart.
 
 There is also this [issue](https://github.com/hchstera/vue-charts/issues/33) so we need to add that empty object for the `option` as well.
 
-The components for Nuxt are almost identical with the above components. The only difference is the `div` after `template` is wrapped in a `no-ssr` component. Like this:
+The components for Nuxt are almost identical with the above components. The only difference is the `div` after `template` is wrapped in a `vue-no-ssr` component. Like this:
 
 ```html{2,6}
 <template>
-<no-ssr>
+<vue-no-ssr>
   <div>
     <!-- content -->
   </div>
-</no-ssr>
+</vue-no-ssr>
 </template>
 ```

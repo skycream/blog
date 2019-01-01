@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial lang="id"/>
+<start-tutorial lang="id" />
 
 ## Instalasi
 
@@ -26,7 +26,7 @@ npm i -D @vue/eslint-config-prettier
 
 Dalam `.eslintrc.js`:
 
-<<< @/vue-demo/.eslintrc.js{6}
+<<< vue-demo/.eslintrc.js{6}
 
 ### Nuxt
 
@@ -39,7 +39,7 @@ npm i -D eslint-plugin-prettier eslint-config-prettier
 
 Dalam `.eslintrc.js`:
 
-<<< @/nuxt-demo/.eslintrc.js{14}
+<<< nuxt-demo/.eslintrc.js{10-11}
 
 ## Penggunaan
 

@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="prism" lang="id"/>
+<start-tutorial demo="prism" lang="id" />
 
 ## Instalasi
 
@@ -22,7 +22,7 @@ npm i -S prismjs vue-prism-component
 
 Dalam `src/main.js`:
 
-<<< @/vue-demo/src/main.js{20-26}
+<<< vue-demo/src/main.js{20-26}
 
 Pada contoh ini, saya menggunakan tema funky. Berikut adalah tema yang tersedia:
 
@@ -50,11 +50,11 @@ npm i -S prismjs vue-prism-component
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{32}
+<<< nuxt-demo/nuxt.config.js{18}
 
 Dalam `plugins/prism.js`:
 
-<<< @/nuxt-demo/plugins/prism.js
+<<< nuxt-demo/plugins/prism.js
 
 ## Penggunaan
 
@@ -62,4 +62,4 @@ Sekarang kita bisa menggunakan komponen `prism`. Masukkan bahasa di atribut `lan
 
 Dalam `src/views/prism.vue` dan `pages/prism.vue`:
 
-<<< @/vue-demo/src/views/prism.vue{6,9-12,15-21,29-32}
+<<< vue-demo/src/views/prism.vue{6,9-12,15-21,29-32}

@@ -7,7 +7,7 @@ meta:
 
 # {{ $page.title }}
 
-<start-tutorial demo="chart" lang="id"/>
+<start-tutorial demo="chart" lang="id" />
 
 ## Instalasi
 
@@ -22,7 +22,7 @@ npm i -S chart.js hchs-vue-charts
 
 Dalam `src/main.js`:
 
-<<< @/vue-demo/src/main.js{11-13}
+<<< vue-demo/src/main.js{11-13}
 
 ### Nuxt
 
@@ -35,15 +35,15 @@ npm i -S chart.js hchs-vue-charts
 
 Dalam `nuxt.config.js`:
 
-<<< @/nuxt-demo/nuxt.config.js{34}
+<<< nuxt-demo/nuxt.config.js{20}
 
 Dalam `plugins/chart.js`:
 
-<<< @/nuxt-demo/plugins/chart.js
+<<< nuxt-demo/plugins/chart.js
 
 Dalam `plugins/hchs-vue-charts.js`:
 
-<<< @/nuxt-demo/plugins/hchs-vue-charts.js
+<<< nuxt-demo/plugins/hchs-vue-charts.js
 
 ## Penggunaan
 
@@ -51,13 +51,13 @@ Saya ingin menggunakan tiga macam grafik. Saya bagi mereka menjadi komponen-komp
 
 Dalam `src/views/chart.vue` dan `pages/chart.vue`:
 
-<<< @/vue-demo/src/views/chart.vue
+<<< vue-demo/src/views/chart.vue
 
 ### Garis
 
 Dalam `src/components/chart-line.vue`:
 
-<<< @/vue-demo/src/components/chart-line.vue{7-13,38-50}
+<<< vue-demo/src/components/chart-line.vue{7-15,36-47}
 
 - `beginzero` membuat grafik mulai dari nol jika di-set `true`.
 - `labels` mengatur label di sumbu-x.
@@ -71,7 +71,7 @@ Dalam `src/components/chart-line.vue`:
 
 Dalam `src/components/chart-bar.vue`:
 
-<<< @/vue-demo/src/components/chart-bar.vue{6-17,26-39}
+<<< vue-demo/src/components/chart-bar.vue{6-19,28-41}
 
 Untuk memasukkan lebih dari satu grafik, dalam contoh ini bar charts, tambahkan `canvas`.
 
@@ -79,21 +79,21 @@ Untuk memasukkan lebih dari satu grafik, dalam contoh ini bar charts, tambahkan 
 
 Dalam `src/components/chart-doughnut.vue`:
 
-<<< @/vue-demo/src/components/chart-doughnut.vue{6-9,18-26}
+<<< vue-demo/src/components/chart-doughnut.vue{6-11,20-28}
 
 - `datasets` berguna untuk mengganti beberapa hal sekaligus.
 - `hoverBackgroundColor` adalah untuk mengatur latar warna ketika kita hover over grafik.
 
 Disini ada [isu](https://github.com/hchstera/vue-charts/issues/33) jadi kita perlu menambahkan objek kosong di `option` juga.
 
-Komponen-komponen untuk Nuxt hampir identik dengan komponen diatas. Bedanya hanya `div` setelah `template` ada di dalam komponen `no-ssr`. Seperti ini:
+Komponen-komponen untuk Nuxt hampir identik dengan komponen diatas. Bedanya hanya `div` setelah `template` ada di dalam komponen `vue-no-ssr`. Seperti ini:
 
 ```html{2,6}
 <template>
-<no-ssr>
+<vue-no-ssr>
   <div>
     <!-- content -->
   </div>
-</no-ssr>
+</vue-no-ssr>
 </template>
 ```
