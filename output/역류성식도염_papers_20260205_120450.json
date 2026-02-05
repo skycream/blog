@@ -1,0 +1,108 @@
+{
+  "topic": "역류성식도염",
+  "total_papers": 6,
+  "categorized": {
+    "treatment": 1,
+    "general": 5
+  },
+  "papers": [
+    {
+      "pmid": "33218571",
+      "title": "Editorial.",
+      "authors": [
+        "Lash GE"
+      ],
+      "journal": "Placenta",
+      "year": "2020",
+      "abstract": "Not applicable.",
+      "study_type": "Editorial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33218571/",
+      "search_query": "역류성식도염",
+      "category": "general",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "40178552",
+      "title": "Editorial.",
+      "authors": [
+        "Dudek D",
+        "Sobański JA",
+        "Klasa K"
+      ],
+      "journal": "Psychiatria polska",
+      "year": "2024",
+      "abstract": "No summary.",
+      "study_type": "Editorial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40178552/",
+      "search_query": "역류성식도염",
+      "category": "general",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "31317954",
+      "title": "Editorial.",
+      "authors": [
+        "Dudek D",
+        "Sobański JA",
+        "Klasa K"
+      ],
+      "journal": "Psychiatria polska",
+      "year": "2019",
+      "abstract": "no summary.",
+      "study_type": "Editorial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31317954/",
+      "search_query": "역류성식도염",
+      "category": "general",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "31846671",
+      "title": "Cannibalism.",
+      "authors": [
+        "Fouilloux C",
+        "Ringler E",
+        "Rojas B"
+      ],
+      "journal": "Current biology : CB",
+      "year": "2019",
+      "abstract": "Chloe Fouilloux and colleagues introduce animal cannibalism.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31846671/",
+      "search_query": "역류성식도염",
+      "category": "general",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "36283366",
+      "title": "Honeyguides.",
+      "authors": [
+        "Spottiswoode CN",
+        "Lund J",
+        "Lloyd-Jones DJ"
+      ],
+      "journal": "Current biology : CB",
+      "year": "2022",
+      "abstract": "Claire Spottiswoode and colleagues introduce the ancient partnership between wild honeyguides and human honey hunters.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36283366/",
+      "search_query": "역류성식도염",
+      "category": "general",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "36264548",
+      "title": "Rhinoplasty.",
+      "authors": [
+        "Li ML"
+      ],
+      "journal": "JAMA otolaryngology-- head & neck surgery",
+      "year": "2022",
+      "abstract": "This Patient Page describes the cosmetic and functional uses of rhinoplastic surgery.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36264548/",
+      "search_query": "역류성식도염 증상",
+      "category": "treatment",
+      "category_confidence": 1.0
+    }
+  ]
+}

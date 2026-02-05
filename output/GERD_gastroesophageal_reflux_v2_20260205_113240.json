@@ -1,0 +1,297 @@
+{
+  "topic": "GERD gastroesophageal reflux",
+  "total_papers": 18,
+  "categories": {
+    "treatment": 3,
+    "diet": 1,
+    "lifestyle": 4,
+    "mechanism": 0,
+    "prevention": 0,
+    "general": 10
+  },
+  "papers": [
+    {
+      "pmid": "38610738",
+      "title": "Proton Pump Inhibitors and Cancer Risk: A Comprehensive Review of Epidemiological and Mechanistic Evidence.",
+      "authors": [
+        "Sawaid IO",
+        "Samson AO"
+      ],
+      "journal": "Journal of clinical medicine",
+      "year": "2024",
+      "abstract": "No abstract available",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38610738/",
+      "search_query": "GERD gastroesophageal reflux"
+    },
+    {
+      "pmid": "35028550",
+      "title": "Evolution of gastroesophageal reflux disease symptoms after bariatric surgery: A dose-response meta-analysis.",
+      "authors": [
+        "Elzouki AN",
+        "Waheed MA",
+        "Suwileh S",
+        "Elzouki I",
+        "Swehli H"
+      ],
+      "journal": "Surgery open science",
+      "year": "2022",
+      "abstract": "Obesity is associated with increased prevalence of gastroesophageal reflux disease, with recent reports suggesting improvement in gastroesophageal reflux disease symptoms and weight loss following bariatric surgical intervention. However, the exact impact of the type of bariatric surgery on the evolution of gastroesophageal reflux disease symptoms has remained unexamined. We systematically searched electronic databases (PubMed, EMBASE, Web of Science, and the Cochrane Library from inception to December 2018) for eligible studies that satisfy prespecified inclusion criteria. We included clinical trials of all designs that reported on gastroesophageal reflux disease outcomes following laparoscopic sleeve gastrectomy or laparoscopic Roux-en-Y gastric bypass. Two independent reviewers extracted relevant data based on the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guideline. Data were pooled using a random-effects model. Main outcomes were symptomatic improvement in gastroesophageal reflux disease symptoms following bariatric surgery. A total of 31 studies were analyzed, and a robust-error meta-regression model was used to conduct a dose-response meta-analysis synthesizing data on 31 studies that reported gastroesophageal reflux disease outcomes after bariatric surgery. Of 5,295 patients who underwent either laparoscopic sleeve gastrectomy ( Bariatric surgery may improve gastroesophageal reflux disease symptoms in obese patients who underwent laparoscopic sleeve gastrectomy; however, the most favorable effect is likely to be found after Roux-en-Y gastric bypass surgery. The effects were not sustained and returned to baseline within 4 years.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35028550/",
+      "search_query": "GERD gastroesophageal reflux"
+    },
+    {
+      "pmid": "40166062",
+      "title": "Association between obstructive sleep apnea and multiple adverse clinical outcomes: evidence from an umbrella review.",
+      "authors": [
+        "Wang Q",
+        "Zeng H",
+        "Dai J",
+        "Zhang M",
+        "Shen P"
+      ],
+      "journal": "Frontiers in medicine",
+      "year": "2025",
+      "abstract": "In recent years, there has been a notable rise in awareness regarding obstructive sleep apnea (OSA), and a significant number of potential OSA cases have been identified. Numerous studies have established associations between OSA and various adverse clinical outcomes. This umbrella review aims to summarize and evaluate the available evidence on the relationship between OSA and multiple adverse clinical outcomes. PubMed, Embase, and Web of Science databases were systematically searched from inception to September 2023. The AMSTAR and GRADE were used to evaluate the quality of meta-analysis literature and classify the quality of literature evidence. Furthermore, the size of the effect size of the association between OSA and adverse clinical outcomes were assessed by using either a random or fixed-effect model and 95% confidence interval (CI). A total of 27 meta-analyses were enrolled with 43 adverse clinical outcomes. The umbrella review primarily reported the associations between sleep apnea syndrome and thyroid cancer (HR = 2.32,95%CI:1.35-3.98), kidney cancer (RR = 1.81, 95% CI: 1.20-2.74), liver cancer (RR = 1.19, 95% CI: 1.10-1.29), GERD (Gastroesophageal reflux disease)(OR = 1.53, 95% CI: 1.23-1.91), Atrial fibrillation (AF) (OR = 2.54, 95% CI: 2.20-2.92), osteoporosis (OR = 2.03, 95% CI: 1.26-3.27), and diabetes (OR = 1.40, 95% CI: 1.32-1.48). Overall, the AMSTAR rating scale and GRADE quality assessment included in the meta-analysis were generally low. Our study shows that OSA is significantly associated with a variety of adverse clinical outcomes, especially an increased risk of certain malignancies, and some adverse clinical outcomes are closely related to OSA severity.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40166062/",
+      "search_query": "GERD gastroesophageal reflux"
+    },
+    {
+      "pmid": "38424433",
+      "title": "Proton Pump Inhibitors and Cognitive Health: Review on Unraveling the Dementia Connection and Co-morbid Risks.",
+      "authors": [
+        "Khan Z",
+        "Mehan S",
+        "Saifi MA",
+        "Gupta GD",
+        "Narula AS"
+      ],
+      "journal": "Current Alzheimer research",
+      "year": "2024",
+      "abstract": "Dementia, an international health issue distinguished by the impairment of daily functioning due to cognitive decline, currently affects more than 55 million people worldwide, with the majority residing in low-income and middle-income countries. Globally, dementia entails significant economic burdens in 2019, amounting to a cost of 1.3 trillion US dollars. Informal caregivers devote considerable hours to providing care for those affected. Dementia imposes a greater caregiving and disability-adjusted life-year burden on women. A recent study has established a correlation between prolonged Proton Pump Inhibitor (PPI) usage and dementia, in addition to other neurodegenerative conditions. PPIs are frequently prescribed to treat peptic ulcers and GERD (gastroesophageal reflux disease) by decreasing stomach acid secretion. They alleviate acid-related symptoms through the inhibition of acid-secreting H",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38424433/",
+      "search_query": "GERD gastroesophageal reflux"
+    },
+    {
+      "pmid": "30360666",
+      "title": "Pharmacological treatments for functional nausea and functional dyspepsia in children: a systematic review.",
+      "authors": [
+        "Browne PD",
+        "Nagelkerke SCJ",
+        "van Etten-Jamaludin FS",
+        "Benninga MA",
+        "Tabbers MM"
+      ],
+      "journal": "Expert review of clinical pharmacology",
+      "year": "2018",
+      "abstract": "Chronic idiopathic nausea (CIN) and functional dyspepsia (FD) cause considerable strain on many children's lives and their families. Areas covered: This study aims to systematically assess the evidence on efficacy and safety of pharmacological treatments for CIN or FD in children. CENTRAL, EMBASE, and Medline were searched for Randomized Controlled Trials (RCTs) investigating pharmacological treatments of CIN and FD in children (4-18 years). Cochrane risk of bias tool was used to assess methodological quality of the included articles. Expert commentary: Three RCTs (256 children with FD, 2-16 years) were included. No studies were found for CIN. All studies showed considerable risk of bias, therefore results should be interpreted with caution. Compared with baseline, successful relief of dyspeptic symptoms was found for omeprazole (53.8%), famotidine (44.4%), ranitidine (43.2%) and cimetidine (21.6%) (p = 0.024). Compared with placebo, famotidine showed benefit in global symptom improvement (OR 11.0; 95% CI 1.6-75.5; p = 0.02). Compared with baseline, mosapride versus pantoprazole reduced global symptoms (p = 0.011; p = 0.009). One study reported no occurrence of adverse events. This systematic review found no evidence to support the use of pharmacological drugs to treat CIN or FD in children. More high-quality clinical trials are needed. AP-FGID: Abdominal Pain Related Functional Gastrointestinal Disorders; BART: Biofeedback-Assisted Relaxation Training; CIN: Chronic Idiopathic Nausea; COS: Core Outcomes Sets; EPS: Epigastric Pain Syndrome; ESPGHAN: European Society for Pediatric Gastroenterology Hepatology and Nutrition; FAP: Functional Abdominal Pain; FD: Functional Dyspepsia; GERD: Gastroesophageal Reflux Disease; GES: Gastric Electrical Stimulation; H",
+      "study_type": "Comparative Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30360666/",
+      "search_query": "GERD gastroesophageal reflux"
+    },
+    {
+      "pmid": "33882662",
+      "title": "Risk factors for gastroesophageal reflux disease symptoms related to lifestyle and diet.",
+      "authors": [
+        "Taraszewska A"
+      ],
+      "journal": "Roczniki Panstwowego Zakladu Higieny",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is one of the most common diseases of the upper gastrointestinal tract. The most characteristic symptom of the disease is heartburn, which occurs at least once a week. The prevalence of the disease varies and, depending on the region of the world, it may affect from a few to over 30% of an adult population. It is estimated that in Poland this disease may affect up to 35.5% of adults reporting abdominal ailments. If untreated, the disease can lead to serious complications including precancerous conditions and esophageal adenocarcinoma. Pharmacotherapy is considered as the first-line treatment in GERD patients but lifestyle modifications, including diet changes, are an important element supporting the treatment of the disease. Many factors may contribute to the development of the disease. Among them, there are non-modifiable factors such as age, sex or genetic factors and modifiable factors, e.g. lifestyle, diet, excessive body weight. This review focuses on GERD risk factors related to lifestyle and nutrition that include both dietary components and nutritional behaviour. Lifestyle risk factors that may contribute to GERD symptoms include excessive body weight, particularly obesity, moderate/high alcohol consumption, smoking, postprandial and vigorous physical activity, as well as lack of regular physical activity. Many studies indicate fatty, fried, sour, spicy food/products, orange and grapefruit juice, tomatoes and tomato preserves, chocolate, coffee/tea, carbonated beverages, alcohol as triggers for GERD symptoms. Eating habits such as irregular meal pattern, large volume of meals, eating meals just before bedtime may correlate with the symptoms of GERD. The role of lifestyle, diet and eating habits as risk factors for GERD is not clearly understood, and the results of the available studies are often contradictory. Determination of modifiable risk factors for this disease and its symptoms is important for effective dietary prevention and diet therapy of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33882662/",
+      "search_query": "GERD gastroesophageal reflux lifestyle"
+    },
+    {
+      "pmid": "28502434",
+      "title": "Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Mousa H",
+        "Hassan M"
+      ],
+      "journal": "Pediatric clinics of North America",
+      "year": "2017",
+      "abstract": "Gastroesophageal reflux (GER) is a normal physiologic process. It is important to distinguish GER from GER disease (GERD) since GER does not require treatment. Although a diagnosis of GERD can largely be based on history and physical alone, endoscopy and pH impedance studies can help make the diagnosis when there in atypical presentation. In children and adolescents, lifestyle changes and acid suppression are first-line treatments for GERD. In infants, acid suppression is not effective, but a trial of hydrolyzed formula can be considered, as milk protein sensitivity can be difficult to differentiate from GER symptoms.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28502434/",
+      "search_query": "GERD gastroesophageal reflux lifestyle"
+    },
+    {
+      "pmid": "34326345",
+      "title": "Gastro-oesophageal reflux disease.",
+      "authors": [
+        "Fass R",
+        "Boeckxstaens GE",
+        "El-Serag H",
+        "Rosen R",
+        "Sifrim D"
+      ],
+      "journal": "Nature reviews. Disease primers",
+      "year": "2021",
+      "abstract": "Gastro-oesophageal reflux disease (GERD) is a common disorder in adults and children. The global prevalence of GERD is high and increasing. Non-erosive reflux disease is the most common phenotype of GERD. Heartburn and regurgitation are considered classic symptoms but GERD may present with various atypical and extra-oesophageal manifestations. The pathophysiology of GERD is multifactorial and different mechanisms may result in GERD symptoms, including gastric composition and motility, anti-reflux barrier, refluxate characteristics, clearance mechanisms, mucosal integrity and symptom perception. In clinical practice, the diagnosis of GERD is commonly established on the basis of response to anti-reflux treatment; however, a more accurate diagnosis requires testing that includes upper gastrointestinal tract endoscopy and reflux monitoring. New techniques and new reflux testing parameters help to better phenotype the condition. In children, the diagnosis of GERD is primarily based on history and physical examination and treatment vary with age. Treatment in adults includes a combination of lifestyle modifications with pharmacological, endoscopic or surgical intervention. In refractory GERD, optimization of proton-pump inhibitor treatment should be attempted before a series of diagnostic tests to assess the patient's phenotype.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34326345/",
+      "search_query": "GERD gastroesophageal reflux lifestyle"
+    },
+    {
+      "pmid": "33229333",
+      "title": "Advances in the diagnosis and management of gastroesophageal reflux disease.",
+      "authors": [
+        "Katzka DA",
+        "Kahrilas PJ"
+      ],
+      "journal": "BMJ (Clinical research ed.)",
+      "year": "2020",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a multifaceted disorder encompassing a family of syndromes attributable to, or exacerbated by, gastroesophageal reflux that impart morbidity, mainly through troublesome symptoms. Major GERD phenotypes are non-erosive reflux disease, GERD hypersensitivity, low or high grade esophagitis, Barrett's esophagus, reflux chest pain, laryngopharyngeal reflux, and regurgitation dominant reflux. GERD is common throughout the world, and its epidemiology is linked to the Western lifestyle, obesity, and the demise of ",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33229333/",
+      "search_query": "GERD gastroesophageal reflux lifestyle"
+    },
+    {
+      "pmid": "37061897",
+      "title": "AGA Clinical Practice Update on the Diagnosis and Management of Extraesophageal Gastroesophageal Reflux Disease: Expert Review.",
+      "authors": [
+        "Chen JW",
+        "Vela MF",
+        "Peterson KA",
+        "Carlson DA"
+      ],
+      "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+      "year": "2023",
+      "abstract": "The purpose of this American Gastroenterological Association (AGA) Institute Clinical Practice Update is to review the available evidence and expert advice regarding the clinical management of patients with suspected extraesophageal gastroesophageal reflux disease. This article provides practical advice based on the available published evidence including that identified from recently published reviews from leading investigators in the field, prospective and population studies, clinical trials, and recent clinical guidelines and technical reviews. This best practice document is not based on a formal systematic review. The best practice advice as presented in this document applies to patients with symptoms or conditions suspected to be related to extraesophageal reflux (EER). This expert review was commissioned and approved by the AGA Institute Clinical Practice Updates Committee (CPUC) and the AGA Governing Board to provide timely guidance on a topic of high clinical importance to the AGA membership and underwent internal peer review by the CPUC and external peer review through standard procedures of Clinical Gastroenterology and Hepatology. These Best Practice Advice (BPA) statements were drawn from a review of the published literature and from expert opinion. Because systematic reviews were not performed, these BPA statements do not carry formal ratings of the quality of evidence or strength of the presented considerations. BEST PRACTICE ADVICE 1: Gastroenterologists should be aware of potential extraesophageal manifestations of gastroesophageal reflux disease (GERD) and should inquire about such disorders including laryngitis, chronic cough, asthma, and dental erosions in GERD patients to determine whether GERD may be a contributing factor to these conditions. BEST PRACTICE ADVICE 2: Development of a multidisciplinary approach to extraesophageal (EER) manifestations is an important consideration because the conditions are often multifactorial, requiring input from non-gastroenterology (GI) specialties. Results from diagnostic testing (ie, bronchoscopy, thoracic imaging, laryngoscopy, etc) from non-GI disciplines should be taken into consideration when gastroesophageal reflux (GER) is considered as a cause for extraesophageal symptoms. BEST PRACTICE ADVICE 3: Currently, there is no single diagnostic tool that can conclusively identify GER as the cause of EER symptoms. Determination of the contribution of GER to EER symptoms should be based on the global clinical impression derived from patients' symptoms, response to GER therapy, and results of endoscopy and reflux testing. BEST PRACTICE ADVICE 4: Consideration should be given toward diagnostic testing for reflux before initiation of proton pump inhibitor (PPI) therapy in patients with potential extraesophageal manifestations of GERD, but without typical GERD symptoms. Initial single-dose PPI trial, titrating up to twice daily in those with typical GERD symptoms, is reasonable. BEST PRACTICE ADVICE 5: Symptom improvement of EER manifestations while on PPI therapy may result from mechanisms of action other than acid suppression and should not be regarded as confirmation for GERD. BEST PRACTICE ADVICE 6: In patients with suspected extraesophageal manifestation of GERD who have failed one trial (up to 12 weeks) of PPI therapy, one should consider objective testing for pathologic GER, because additional trials of different PPIs are low yield. BEST PRACTICE ADVICE 7: Initial testing to evaluate for reflux should be tailored to patients' clinical presentation and can include upper endoscopy and ambulatory reflux monitoring studies of acid suppressive therapy. BEST PRACTICE ADVICE 8: Testing can be considered for those with an established objective diagnosis of GERD who do not respond to high doses of acid suppression. Testing can include pH-impedance monitoring while on acid suppression to evaluate the role of ongoing acid or non-acid reflux. BEST PRACTICE ADVICE 9: Alternative treatment methods to acid suppressive therapy (eg, lifestyle modifications, alginate-containing antacids, external upper esophageal sphincter compression device, cognitive-behavioral therapy, neuromodulators) may serve a role in management of EER symptoms. BEST PRACTICE ADVICE 10: Shared decision-making should be performed before referral for anti-reflux surgery for EER when the patient has clear, objectively defined evidence of GERD. However, a lack of response to PPI therapy predicts lack of response to anti-reflux surgery and should be incorporated into the decision process.",
+      "study_type": "Practice Guideline",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37061897/",
+      "search_query": "GERD gastroesophageal reflux lifestyle"
+    },
+    {
+      "pmid": "40520453",
+      "title": "Hyaluronic acid and chondroitin sulfate-based medical devices: formulations, esophageal mucosal protection, and their place in the management of GERD.",
+      "authors": [
+        "Scarpignato C",
+        "De Bortoli N",
+        "Iovino P",
+        "Nacci A",
+        "Sarnelli G"
+      ],
+      "journal": "Therapeutic advances in gastroenterology",
+      "year": "2025",
+      "abstract": "Gastroesophageal reflux disease (GERD) remains a challenging condition, even in the third millennium. For much of the past century, Schwartz's dictum-\"No acid, no ulcer\"-has shaped our approach to acid-related diseases, making acid suppression the cornerstone of therapy. Proton pump inhibitors (PPIs) are widely regarded as the standard treatment for GERD. However, they provide only symptomatic relief and do not address the underlying disease. Moreover, nearly 50% of patients experience limited or no response to PPIs in clinical practice. Recent advances in understanding GERD's pathophysiology, particularly the role of impaired mucosal integrity, have led to innovative therapeutic strategies. Among these, medical devices designed to prevent reflux or coat the esophageal mucosa and form a stable protective barrier represent a significant breakthrough. Esophageal mucosal protection is emerging as a promising approach, especially for patients who do not respond adequately to PPIs. While mucosal-protective agents such as sucralfate and irsogladine have long been available, their formulations have not been well-suited for esophageal protection. The rapid transit time of liquids through the esophagus (typically just a few seconds, even in a supine position) limits the duration of contact between active ingredients and the mucosa. However, hyaluronic acid and chondroitin sulfate-based medical devices have revolutionized the field by enabling active ingredients to adhere to the esophageal lining, ensuring prolonged contact and enhanced protection. Further advancements have led to the development of three distinct formulations (Esoxx™ One, Esoxx Defence, and Esoxx Protection), incorporating additional components, that is, Poloxamer 407, aluminum hydroxide, or natural remedies such as  Medical devices with esophageal mucosal protective activity for the management of GERD Gastro-esophageal reflux disease (GERD), a condition where stomach acid or food flows back into the esophagus, is highly prevalent in the Western world and strongly impairs quality of life. It can cause symptoms like heartburn (a burning feeling in your chest), regurgitation (feeling like food is coming back up), and sometimes even coughing or a sore throat. GERD is still a tough condition to manage, even today. For many years, doctors have focused on reducing stomach acid to treat GERD, with proton pump inhibitors (PPIs) being the standard treatment. However, PPIs only help with the symptoms and don’t tackle the root cause of the disease. Additionally, about half of patients don’t experience enough relief from PPIs. New research into the causes of GERD has led to the development of new treatments, especially those designed to protect the lining of the esophagus. These treatments aim to prevent acid from damaging the esophagus or to create a protective barrier around it. Recently introduced medical devices containing hyaluronic acid (HA) and chondroitin sulfate (CS) that stick to the esophagus offer good protection of the esophageal mucosa, ultimately aiming to provide better results and a better quality of life for patients.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40520453/",
+      "search_query": "GERD gastroesophageal reflux natural remedies"
+    },
+    {
+      "pmid": "28827081",
+      "title": "Management of Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Gyawali CP",
+        "Fass R"
+      ],
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "abstract": "Management of gastroesophageal reflux disease (GERD) commonly starts with an empiric trial of proton pump inhibitor (PPI) therapy and complementary lifestyle measures, for patients without alarm symptoms. Optimization of therapy (improving compliance and timing of PPI doses), or increasing PPI dosage to twice daily in select circumstances, can reduce persistent symptoms. Patients with continued symptoms can be evaluated with endoscopy and tests of esophageal physiology, to better determine their disease phenotype and optimize treatment. Laparoscopic fundoplication, magnetic sphincter augmentation, and endoscopic therapies can benefit patients with well-characterized GERD. Patients with functional diseases that overlap with or mimic GERD can also be treated with neuromodulators (primarily antidepressants), or psychological interventions (psychotherapy, hypnotherapy, cognitive and behavioral therapy). Future approaches to treatment of GERD include potassium-competitive acid blockers, reflux-reducing agents, bile acid binders, injection of inert substances into the esophagogastric junction, and electrical stimulation of the lower esophageal sphincter.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28827081/",
+      "search_query": "GERD gastroesophageal reflux PPI therapy"
+    },
+    {
+      "pmid": "38173155",
+      "title": "Refractory Gastroesophageal Reflux Disease: Diagnosis and Management.",
+      "authors": [
+        "Davis TA",
+        "Gyawali CP"
+      ],
+      "journal": "Journal of neurogastroenterology and motility",
+      "year": "2024",
+      "abstract": "Gastroesophageal reflux disease (GERD) is common, with increasing worldwide disease prevalence and high economic burden. A significant number of patients will remain symptomatic following an empiric proton pump inhibitor (PPI) trial. Persistent symptoms despite PPI therapy are often mislabeled as refractory GERD. For patients with no prior GERD evidence (unproven GERD), testing is performed off antisecretory therapy to identify objective evidence of pathologic reflux using criteria outlined by the Lyon consensus. In proven GERD, differentiation between refractory symptoms (persisting symptoms despite optimized antisecretory therapy) and refractory GERD (abnormal reflux metrics on ambulatory pH impedance monitoring and/or persistent erosive esophagitis on endoscopy while on optimized PPI therapy) can direct subsequent management. While refractory symptoms may arise from esophageal hypersensitivity or functional heartburn, proven refractory GERD requires personalization of the management approach, tapping from an array of non-pharmacologic, pharmacologic, endoscopic, and surgical interventions. Proper diagnosis and management of refractory GERD is critical to mitigate undesirable long-term complications such as strictures, Barrett's esophagus, and esophageal adenocarcinoma. This review outlines the diagnostic workup of patients presenting with refractory GERD symptoms, describes the distinction between unproven and proven GERD, and provides a comprehensive review of the current treatment strategies available for the management of refractory GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38173155/",
+      "search_query": "GERD gastroesophageal reflux PPI therapy"
+    },
+    {
+      "pmid": "32770672",
+      "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2C19 and Proton Pump Inhibitor Dosing.",
+      "authors": [
+        "Lima JJ",
+        "Thomas CD",
+        "Barbarino J",
+        "Desta Z",
+        "Van Driest SL"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "year": "2021",
+      "abstract": "Proton pump inhibitors (PPIs) are widely used for acid suppression in the treatment and prevention of many conditions, including gastroesophageal reflux disease, gastric and duodenal ulcers, erosive esophagitis, Helicobacter pylori infection, and pathological hypersecretory conditions. Most PPIs are metabolized primarily by cytochrome P450 2C19 (CYP2C19) into inactive metabolites, and CYP2C19 genotype has been linked to PPI exposure, efficacy, and adverse effects. We summarize the evidence from the literature and provide therapeutic recommendations for PPI prescribing based on CYP2C19 genotype (updates at www.cpicpgx.org). The potential benefits of using CYP2C19 genotype data to guide PPI therapy include (i) identifying patients with genotypes predictive of lower plasma exposure and prescribing them a higher dose that will increase the likelihood of efficacy, and (ii) identifying patients on chronic therapy with genotypes predictive of higher plasma exposure and prescribing them a decreased dose to minimize the risk of toxicity that is associated with long-term PPI use, particularly at higher plasma concentrations.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32770672/",
+      "search_query": "GERD gastroesophageal reflux PPI therapy"
+    },
+    {
+      "pmid": "28232473",
+      "title": "Global prevalence of, and risk factors for, gastro-oesophageal reflux symptoms: a meta-analysis.",
+      "authors": [
+        "Eusebi LH",
+        "Ratnakumaran R",
+        "Yuan Y",
+        "Solaymani-Dodaran M",
+        "Bazzoli F"
+      ],
+      "journal": "Gut",
+      "year": "2018",
+      "abstract": "Gastro-oesophageal reflux symptoms are common in the community, but there has been no definitive systematic review and meta-analysis of data from all studies to estimate their global prevalence, or potential risk factors for them. Medline, Embase and Embase Classic were searched (until September 2016) to identify population-based studies that reported the prevalence of gastro-oesophageal reflux symptoms in adults (≥15 years); gastro-oesophageal reflux was defined using symptom-based criteria or questionnaires. The prevalence was extracted for all studies, and according to the criteria used to define it. Pooled prevalence, according to study location and certain other characteristics, OR and 95% CIs were calculated. Of the 14 132 citations evaluated, 102 reported the prevalence of gastro-oesophageal reflux symptoms in 108 separate study populations, containing 460 984 subjects. Prevalence varied according to country (from 2.5% in China to 51.2% in Greece) and criteria used to define gastro-oesophageal reflux symptoms. When only studies using a weekly frequency of heart burn or regurgitation to define presence were considered, pooled prevalence was 13.3% (95% CI 12.0% to 14.6%). Prevalence was higher in subjects ≥50 years (OR 1.32; 95% CI 1.12 to 1.54), smokers (OR 1.26; 95% CI 1.04 to 1.52), non-steroidal anti-inflammatory drug (NSAID)/aspirin users (OR 1.44; 95% CI 1.10 to 1.88) and obese individuals (OR 1.73; 95% CI 1.46 to 2.06). The prevalence of gastro-oesophageal reflux symptoms varied strikingly among countries, even when similar definitions were used to define their presence. Prevalence was significantly higher in subjects ≥50 years, smokers, NSAID users and obese individuals, although these associations were modest.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28232473/",
+      "search_query": "GERD gastroesophageal reflux risk factors"
+    },
+    {
+      "pmid": "29199166",
+      "title": "Which drugs are risk factors for the development of gastroesophageal reflux disease?",
+      "authors": [
+        "Mungan Z",
+        "Pınarbaşı Şimşek B"
+      ],
+      "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+      "year": "2017",
+      "abstract": "Gastroesophageal reflux disease (GERD), which is common in many communities, is associated with structural factors, eating habits, and the use of certain drugs. The use of such drugs can lead to the emergence of GERD and can also exacerbate existing reflux symptoms. These drugs can contribute to GERD by directly causing mucosal damage, by reducing lower esophageal sphincter pressure (LESP), or by affecting esophagogastric motility. In this article, we report our investigation of the relationships between GERD and medications within the scope of the \"Turkish GERD Consensus Group.\" For the medication groups for which sufficient data were obtained (Figure 1), a systematic literature review in English was conducted using the keywords \"gastroesophageal reflux\" [MeSH Terms] and \"anti-inflammatory agents, non-steroidal\" [MeSH Terms], \"gastroesophageal reflux\" [MeSH Terms] and \"acetylsalicylic acid\" [MeSH Terms], \"gastroesophageal reflux\" [All Fields] and \"estrogenic agents\" [All Fields], \"gastroesophageal reflux\" [All Fields] and \"progesterones\" [All Fields], \"gastroesophageal reflux\" [All Fields] and \"hormone replacement therapy\" [All Fields], \"gastroesophageal reflux\" [MeSH Terms] and \"diphosphonates\" [MeSH Terms] OR \"diphosphonates\" [All Fields], \"calcium channel blockers\" [MeSH Terms] and \"gastroesophageal reflux\" [MeSH Terms], \"gastroesophageal reflux\" [MeSH Terms] and \"nitrates\" [MeSH Terms], \"gastroesophageal reflux\" [MeSH Terms] and \"antidepressive agents\" [MeSH Terms], \"gastroesophageal reflux\" [MeSH Terms] and \"benzodiazepines\" [MeSH Terms] and \"hypnotic drugs\" [MeSH Terms], \"gastroesophageal reflux\" [MeSH Terms] and \"cholinergic antagonists\" [MeSH Terms], \"gastroesophageal reflux\" [MeSH Terms] and \"theophylline\" [MeSH Terms], and \"gastroesophageal reflux [MeSH Terms] AND \"anti-asthmatic agents\" [MeSH Terms]. The studies were analyzed and the results are presented here.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29199166/",
+      "search_query": "GERD gastroesophageal reflux risk factors"
+    },
+    {
+      "pmid": "35731535",
+      "title": "Effect of Laparoscopic Sleeve Gastrectomy vs Roux-en-Y Gastric Bypass on Weight Loss, Comorbidities, and Reflux at 10 Years in Adult Patients With Obesity: The SLEEVEPASS Randomized Clinical Trial.",
+      "authors": [
+        "Salminen P",
+        "Grönroos S",
+        "Helmiö M",
+        "Hurme S",
+        "Juuti A"
+      ],
+      "journal": "JAMA surgery",
+      "year": "2022",
+      "abstract": "Long-term results from randomized clinical trials comparing laparoscopic sleeve gastrectomy (LSG) with laparoscopic Roux-en-Y-gastric bypass (LRYGB) are limited. To compare long-term outcomes of weight loss and remission of obesity-related comorbidities and the prevalence of gastroesophageal reflux symptoms (GERD), endoscopic esophagitis, and Barrett esophagus (BE) after LSG and LRYGB at 10 years. This 10-year observational follow-up evaluated patients in the Sleeve vs Bypass (SLEEVEPASS) multicenter equivalence randomized clinical trial comparing LSG and LRYGB in the treatment of severe obesity in which 240 patients aged 18 to 60 years with median body mass index of 44.6 were randomized to LSG (n = 121) or LRYGB (n = 119). The initial trial was conducted from April 2008 to June 2010 in Finland, with last follow-up on January 27, 2021. LSG or LRYGB. The primary end point was 5-year percentage excess weight loss (%EWL). This current analysis focused on 10-year outcomes with special reference to reflux and BE. At 10 years, of 240 randomized patients (121 randomized to LSG and 119 to LRYGB; 167 women [69.6%]; mean [SD] age, 48.4 [9.4] years; mean [SD] baseline BMI, 45.9 [6.0]), 2 never underwent surgery and there were 10 unrelated deaths; 193 of the remaining 228 patients (85%) completed follow-up on weight loss and comorbidities, and 176 of 228 (77%) underwent gastroscopy. Median (range) %EWL was 43.5% (2.1%-109.2%) after LSG and 50.7% (1.7%-111.7%) after LRYGB. Mean estimate %EWL was not equivalent between the procedures; %EWL was 8.4 (95% CI, 3.1-13.6) higher in LRYGB. After LSG and LRYGB, there was no statistically significant difference in type 2 diabetes remission (26% and 33%, respectively; P = .63), dyslipidemia (19% and 35%, respectively; P = .23), or obstructive sleep apnea (16% and 31%, respectively; P = .30). Hypertension remission was superior after LRYGB (8% vs 24%; P = .04). Esophagitis was more prevalent after LSG (31% vs 7%; P < .001) with no statistically significant difference in BE (4% vs 4%; P = .29). The overall reoperation rate was 15.7% for LSG and 18.5% for LRYGB (P = .57). At 10 years, %EWL was greater after LRYGB and the procedures were not equivalent for weight loss, but both LSG and LRYGB resulted in good and sustainable weight loss. Esophagitis was more prevalent after LSG, but the cumulative incidence of BE was markedly lower than in previous trials and similar after both procedures. ClinicalTrials.gov Identifier: NCT00793143.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35731535/",
+      "search_query": "GERD gastroesophageal reflux long term outcomes"
+    },
+    {
+      "pmid": "31000707",
+      "title": "Oesophageal atresia.",
+      "authors": [
+        "van Lennep M",
+        "Singendonk MMJ",
+        "Dall'Oglio L",
+        "Gottrand F",
+        "Krishnan U"
+      ],
+      "journal": "Nature reviews. Disease primers",
+      "year": "2019",
+      "abstract": "Oesophageal atresia (EA) is a congenital abnormality of the oesophagus that is caused by incomplete embryonic compartmentalization of the foregut. EA commonly occurs with a tracheo-oesophageal fistula (TEF). Associated birth defects or anomalies, such as VACTERL association, trisomy 18 or 21 and CHARGE syndrome, occur in the majority of patients born with EA. Although several studies have revealed signalling pathways and genes potentially involved in the development of EA, our understanding of the pathophysiology of EA lags behind the improvements in surgical and clinical care of patients born with this anomaly. EA is treated surgically to restore the oesophageal interruption and, if present, ligate and divide the TEF. Survival is now ~90% in those born with EA with severe associated anomalies and even higher in those born with EA alone. Despite these achievements, long-term gastrointestinal and respiratory complications and comorbidities in patients born with EA are common and lead to decreased quality of life. Oesophageal motility disorders are probably ubiquitous in patients after undergoing EA repair and often underlie these complications and comorbidities. The implementation of several new diagnostic and screening tools in clinical care, including high-resolution impedance manometry, pH-multichannel intraluminal impedance testing and disease-specific quality of life questionnaires now provide better insight into these problems and may contribute to better long-term outcomes in the future.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31000707/",
+      "search_query": "GERD gastroesophageal reflux long term outcomes"
+    }
+  ]
+}

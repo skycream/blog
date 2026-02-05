@@ -1,0 +1,87 @@
+{
+  "series_plan": {
+    "topic": "GERD",
+    "total_episodes": 5,
+    "episodes": [
+      {
+        "number": 1,
+        "category": "cause",
+        "korean_name": "원인편",
+        "subtitle": "왜 생기는 걸까요?",
+        "paper_count": 7
+      },
+      {
+        "number": 2,
+        "category": "treatment",
+        "korean_name": "치료편",
+        "subtitle": "어떻게 치료할까요?",
+        "paper_count": 5
+      },
+      {
+        "number": 3,
+        "category": "diet",
+        "korean_name": "식이요법편",
+        "subtitle": "뭘 먹고, 뭘 피해야 할까요?",
+        "paper_count": 4
+      },
+      {
+        "number": 4,
+        "category": "lifestyle",
+        "korean_name": "생활습관편",
+        "subtitle": "일상에서 어떻게 관리할까요?",
+        "paper_count": 8
+      },
+      {
+        "number": 5,
+        "category": "complications",
+        "korean_name": "합병증편",
+        "subtitle": "주의해야 할 점들",
+        "paper_count": 3
+      }
+    ],
+    "created_at": "2026-02-05T12:07:03.489105"
+  },
+  "posts": [
+    {
+      "episode": 1,
+      "category": "cause",
+      "korean_name": "원인편",
+      "filename": "GERD_series_원인편_20260205.html",
+      "filepath": "output\\GERD_series_원인편_20260205.html",
+      "paper_count": 7
+    },
+    {
+      "episode": 2,
+      "category": "treatment",
+      "korean_name": "치료편",
+      "filename": "GERD_series_치료편_20260205.html",
+      "filepath": "output\\GERD_series_치료편_20260205.html",
+      "paper_count": 5
+    },
+    {
+      "episode": 3,
+      "category": "diet",
+      "korean_name": "식이요법편",
+      "filename": "GERD_series_식이요법편_20260205.html",
+      "filepath": "output\\GERD_series_식이요법편_20260205.html",
+      "paper_count": 4
+    },
+    {
+      "episode": 4,
+      "category": "lifestyle",
+      "korean_name": "생활습관편",
+      "filename": "GERD_series_생활습관편_20260205.html",
+      "filepath": "output\\GERD_series_생활습관편_20260205.html",
+      "paper_count": 8
+    },
+    {
+      "episode": 5,
+      "category": "complications",
+      "korean_name": "합병증편",
+      "filename": "GERD_series_합병증편_20260205.html",
+      "filepath": "output\\GERD_series_합병증편_20260205.html",
+      "paper_count": 3
+    }
+  ],
+  "generated_at": "2026-02-05T12:07:04.750210"
+}

@@ -1,0 +1,118 @@
+{
+  "main_keyword": "간헐적 단식",
+  "main_keyword_en": "간헐적 단식",
+  "analysis_date": "2026-02-05T20:36:45.300300",
+  "blogs_analyzed": 15,
+  "blogs": [
+    {
+      "url": "https://blog.naver.com/chidamam/224139520573",
+      "title": "워킹맘의 건강한 한끼 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/hohos87/224080950003",
+      "title": "건강한 육아이야기, 김주부별전 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/borabithyanggi/224155672546",
+      "title": "땡초영양사 블로그 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/easyinfo7777/224152652096",
+      "title": "이지인포노트 | 쉽게 정리한 생활·정보 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/hyunmi3209/224142356563",
+      "title": "민내과의원 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/tectonic_analyzer/224147899276",
+      "title": "Tenic : 택티컬 바디 분석소 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/uslife_486/224076483300",
+      "title": "Us, Life 486 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/bonwater32/224091128122",
+      "title": "뽀시래기 부부일기 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/just_now/223471891834",
+      "title": "행복은 오늘부터 시작 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/holy0426/224075431757",
+      "title": "홀리신 건강, 운동 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/diamond7559/224152419053",
+      "title": "공대누나 김부장의 노후준비 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/flnwork/224159623276",
+      "title": "flnwork님의 블로그 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/taengtaeng2014/224085496836",
+      "title": "정보창고 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/cicizoco/224118678998",
+      "title": "우리누리 : 네이버 블로그"
+    },
+    {
+      "url": "https://blog.naver.com/ear7541/224151936353",
+      "title": "나은필병원 EA : 네이버 블로그"
+    }
+  ],
+  "topic_counts": {
+    "커피": 12,
+    "야식": 6,
+    "스트레스": 9,
+    "체중": 15,
+    "과식": 10,
+    "만성": 6,
+    "기름진음식": 14,
+    "운동": 9,
+    "나이": 4,
+    "탄산음료": 3,
+    "임신": 5,
+    "재발": 3,
+    "위산": 1,
+    "가슴쓰림": 3,
+    "술": 2,
+    "초콜릿": 2,
+    "오트밀": 1
+  },
+  "top_topics": [
+    "체중",
+    "기름진음식",
+    "커피",
+    "과식",
+    "스트레스",
+    "운동",
+    "야식",
+    "만성",
+    "임신",
+    "나이",
+    "탄산음료",
+    "재발",
+    "가슴쓰림",
+    "술",
+    "초콜릿"
+  ],
+  "search_queries": [
+    "간헐적 단식 AND obesity weight",
+    "간헐적 단식 AND fatty food",
+    "간헐적 단식 AND coffee caffeine",
+    "간헐적 단식 AND overeating meal size",
+    "간헐적 단식 AND stress psychological",
+    "간헐적 단식 AND exercise physical activity",
+    "간헐적 단식 AND late night eating",
+    "간헐적 단식 AND chronic",
+    "간헐적 단식 AND pregnancy",
+    "간헐적 단식 AND age elderly",
+    "간헐적 단식 AND carbonated beverage",
+    "간헐적 단식 AND recurrence relapse"
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "topic": "GERD",
+  "total_papers": 27,
+  "categorized": {
+    "cause": 7,
+    "treatment": 5,
+    "complications": 3,
+    "diet": 4,
+    "lifestyle": 8
+  },
+  "papers": [
+    {
+      "pmid": "33015827",
+      "title": "Pathophysiology and treatment options for gastroesophageal reflux disease: looking beyond acid.",
+      "authors": [
+        "Sharma P",
+        "Yadlapati R"
+      ],
+      "journal": "Annals of the New York Academy of Sciences",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a disorder due to the retrograde flow of refluxate into the esophagus. Although GERD is a common clinical diagnosis, its pathogenesis is quite complex. As a result of its multifactorial development, many patients continue to experience adverse symptoms due to GERD despite prolonged acid suppression with proton pump inhibitor therapy. The pathogenesis of GERD involves an interplay of chemical, mechanical, psychologic, and neurologic mechanisms, which contribute to symptom presentation, diagnosis, and treatment. As such, GERD should be approached as a disorder beyond acid. This review will investigate the major factors that contribute to the development of GERD, including factors related to the refluxate, esophageal defenses, and factors that promote pathologic reflux into the esophagus. In reviewing GERD pathogenesis, this paper will highlight therapeutic advances, with mention of future opportunities of study when approaching GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33015827/",
+      "search_query": "GERD",
+      "category": "cause",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "34326345",
+      "title": "Gastro-oesophageal reflux disease.",
+      "authors": [
+        "Fass R",
+        "Boeckxstaens GE",
+        "El-Serag H",
+        "Rosen R",
+        "Sifrim D"
+      ],
+      "journal": "Nature reviews. Disease primers",
+      "year": "2021",
+      "abstract": "Gastro-oesophageal reflux disease (GERD) is a common disorder in adults and children. The global prevalence of GERD is high and increasing. Non-erosive reflux disease is the most common phenotype of GERD. Heartburn and regurgitation are considered classic symptoms but GERD may present with various atypical and extra-oesophageal manifestations. The pathophysiology of GERD is multifactorial and different mechanisms may result in GERD symptoms, including gastric composition and motility, anti-reflux barrier, refluxate characteristics, clearance mechanisms, mucosal integrity and symptom perception. In clinical practice, the diagnosis of GERD is commonly established on the basis of response to anti-reflux treatment; however, a more accurate diagnosis requires testing that includes upper gastrointestinal tract endoscopy and reflux monitoring. New techniques and new reflux testing parameters help to better phenotype the condition. In children, the diagnosis of GERD is primarily based on history and physical examination and treatment vary with age. Treatment in adults includes a combination of lifestyle modifications with pharmacological, endoscopic or surgical intervention. In refractory GERD, optimization of proton-pump inhibitor treatment should be attempted before a series of diagnostic tests to assess the patient's phenotype.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34326345/",
+      "search_query": "GERD",
+      "category": "treatment",
+      "category_confidence": 0.7
+    },
+    {
+      "pmid": "34265794",
+      "title": "Endoscopic approaches to gastroesophageal reflux disease.",
+      "authors": [
+        "Zhang LY",
+        "Canto MI"
+      ],
+      "journal": "Current opinion in gastroenterology",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is one of the most common chronic conditions affecting adults. A substantial proportion of patients continue to have symptoms despite medical therapy, and there has been increased demand for minimally invasive GERD therapy. We will examine currently available techniques and outcomes data on endoscopic approaches to the treatment of GERD. In the last 2 years, research has given rise to more robust understanding of not only the pathophysiology of GERD but also how to better manage the various phenotypes. We are learning the ideal patient to benefit from endoscopic GERD therapy. In this review, we describe the four major endoluminal techniques for treating GERD and summarize current data. Endoscopic therapies are well positioned to fill the 'therapy gap' between medical therapy and more invasive surgical procedures.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34265794/",
+      "search_query": "GERD therapy",
+      "category": "treatment",
+      "category_confidence": 0.875
+    },
+    {
+      "pmid": "21711416",
+      "title": "The lower esophageal sphincter.",
+      "authors": [
+        "Hershcovici T",
+        "Mashimo H",
+        "Fass R"
+      ],
+      "journal": "Neurogastroenterology and motility",
+      "year": "2011",
+      "abstract": "The lower esophageal sphincters (LES) together with the crural diaphragm are the major antireflux barriers protecting the esophagus from reflux of gastric content. However, reflux of gastric contents into the esophagus is a normal phenomenon in healthy individuals occurring primarily during episodes of transient lower esophageal sphincter relaxation (TLESR), defined as LES relaxation in the absence of a swallow. Transient lower esophageal sphincter relaxation is also the dominant mechanism of pathologic reflux in gastroesophageal reflux disorder (GERD) patients. Frequency of TLESR does not differ significantly between healthy individuals and those with GERD, but TLESRs are more likely to be associated with acid reflux in GERD patients. Understanding the mechanisms responsible for elicitation of a TLESR, using recently introduced novel technology is an area of intense interest. Pharmacologic and non-pharmacologic manipulation of receptors involved in the control of TLESR has recently emerged as a potential target for GERD therapy.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21711416/",
+      "search_query": "GERD therapy",
+      "category": "cause",
+      "category_confidence": 0.6666666666666666
+    },
+    {
+      "pmid": "24503358",
+      "title": "Role of endoscopy in GERD.",
+      "authors": [
+        "Sharma VK"
+      ],
+      "journal": "Gastroenterology clinics of North America",
+      "year": "2014",
+      "abstract": "Endoscopy is commonly performed for the diagnosis and management of gastroesophageal reflux disease (GERD). Endoscopy allows the physician to evaluate esophageal mucosa for evidence of esophagitis and Barrett esophagus, to obtain mucosal biopsies for evaluation of such conditions as eosinophilic esophagitis and diagnosis and grading of Barrett esophagus, and to apply various therapies. In a patient with suboptimal response to GERD therapy, endoscopy excludes other etiologies as a cause of patients' symptoms. Newer endoscopic therapies for GERD are available or are in development. Advances in imaging techniques in development will improve the diagnostic yield of endoscopy and may replace the need for mucosal biopsies.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24503358/",
+      "search_query": "GERD therapy",
+      "category": "complications",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "35226174",
+      "title": "Evidence-based clinical practice guidelines for gastroesophageal reflux disease 2021.",
+      "authors": [
+        "Iwakiri K",
+        "Fujiwara Y",
+        "Manabe N",
+        "Ihara E",
+        "Kuribayashi S"
+      ],
+      "journal": "Journal of gastroenterology",
+      "year": "2022",
+      "abstract": "In Japan, with the increasing prevalence of gastroesophageal reflux disease (GERD) and growing public interest, the Japanese Society of Gastroenterology issued Evidence-based Clinical Practice Guidelines for GERD (1st edition) in 2009 and a revised 2nd edition in 2015. A number of studies on GERD were subsequently conducted in Japan and abroad, and vonoprazan, a potassium-competitive acid blocker (P-CAB), became available for the first time in Japan in February 2015. The revised 3rd edition (Japanese edition), which incorporates new findings and information, was published in April 2021. These guidelines are summarized herein, particularly sections related to the treatment of GERD. The important clinical issues addressed in the present revision are (i) the introduction of treatment algorithms that classify GERD into reflux esophagitis and non-erosive reflux disease, (ii) the clarification of treatment algorithms based on to the severity of reflux esophagitis, and (iii) the positioning of vonoprazan in the treatment for GERD. The present guidelines propose vonoprazan as the initial/maintenance treatment for severe reflux esophagitis. They also recommend vonoprazan or PPI as an initial treatment for mild reflux esophagitis and recommended PPI and proposed vonoprazan as maintenance treatment. These updated guidelines offer the best clinical strategies for GERD patients in Japan and hope that they will be of global use for the diagnosis and treatment for GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35226174/",
+      "search_query": "GERD proton pump inhibitor",
+      "category": "treatment",
+      "category_confidence": 0.9090909090909091
+    },
+    {
+      "pmid": "28827081",
+      "title": "Management of Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Gyawali CP",
+        "Fass R"
+      ],
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "abstract": "Management of gastroesophageal reflux disease (GERD) commonly starts with an empiric trial of proton pump inhibitor (PPI) therapy and complementary lifestyle measures, for patients without alarm symptoms. Optimization of therapy (improving compliance and timing of PPI doses), or increasing PPI dosage to twice daily in select circumstances, can reduce persistent symptoms. Patients with continued symptoms can be evaluated with endoscopy and tests of esophageal physiology, to better determine their disease phenotype and optimize treatment. Laparoscopic fundoplication, magnetic sphincter augmentation, and endoscopic therapies can benefit patients with well-characterized GERD. Patients with functional diseases that overlap with or mimic GERD can also be treated with neuromodulators (primarily antidepressants), or psychological interventions (psychotherapy, hypnotherapy, cognitive and behavioral therapy). Future approaches to treatment of GERD include potassium-competitive acid blockers, reflux-reducing agents, bile acid binders, injection of inert substances into the esophagogastric junction, and electrical stimulation of the lower esophageal sphincter.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28827081/",
+      "search_query": "GERD proton pump inhibitor",
+      "category": "treatment",
+      "category_confidence": 0.9166666666666666
+    },
+    {
+      "pmid": "33882662",
+      "title": "Risk factors for gastroesophageal reflux disease symptoms related to lifestyle and diet.",
+      "authors": [
+        "Taraszewska A"
+      ],
+      "journal": "Roczniki Panstwowego Zakladu Higieny",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is one of the most common diseases of the upper gastrointestinal tract. The most characteristic symptom of the disease is heartburn, which occurs at least once a week. The prevalence of the disease varies and, depending on the region of the world, it may affect from a few to over 30% of an adult population. It is estimated that in Poland this disease may affect up to 35.5% of adults reporting abdominal ailments. If untreated, the disease can lead to serious complications including precancerous conditions and esophageal adenocarcinoma. Pharmacotherapy is considered as the first-line treatment in GERD patients but lifestyle modifications, including diet changes, are an important element supporting the treatment of the disease. Many factors may contribute to the development of the disease. Among them, there are non-modifiable factors such as age, sex or genetic factors and modifiable factors, e.g. lifestyle, diet, excessive body weight. This review focuses on GERD risk factors related to lifestyle and nutrition that include both dietary components and nutritional behaviour. Lifestyle risk factors that may contribute to GERD symptoms include excessive body weight, particularly obesity, moderate/high alcohol consumption, smoking, postprandial and vigorous physical activity, as well as lack of regular physical activity. Many studies indicate fatty, fried, sour, spicy food/products, orange and grapefruit juice, tomatoes and tomato preserves, chocolate, coffee/tea, carbonated beverages, alcohol as triggers for GERD symptoms. Eating habits such as irregular meal pattern, large volume of meals, eating meals just before bedtime may correlate with the symptoms of GERD. The role of lifestyle, diet and eating habits as risk factors for GERD is not clearly understood, and the results of the available studies are often contradictory. Determination of modifiable risk factors for this disease and its symptoms is important for effective dietary prevention and diet therapy of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33882662/",
+      "search_query": "GERD diet",
+      "category": "diet",
+      "category_confidence": 0.5809935205183585
+    },
+    {
+      "pmid": "28521699",
+      "title": "Food and Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Surdea-Blaga T",
+        "Negrutiu DE",
+        "Palage M",
+        "Dumitrascu DL"
+      ],
+      "journal": "Current medicinal chemistry",
+      "year": "2019",
+      "abstract": "Gastroesophageal reflux disease is a chronic condition with a high prevalence in western countries. Transient lower esophageal sphincter relaxation episodes and a decreased lower esophageal sphincter pressure are the main mechanisms involved. Currently used drugs are efficient on reflux symptoms, but only as long as they are administered, because they do not modify the reflux barrier. Certain nutrients or foods are generally considered to increase the frequency of gastroesophageal reflux symptoms, therefore physicians recommend changes in diet and some patients avoid bothering foods. This review summarizes current knowledge regarding food and gastroesophageal reflux. For example, fat intake increases the perception of reflux symptoms. Regular coffee and chocolate induce gastroesophageal reflux and increase the lower esophageal exposure to acid. Spicy foods might induce heartburn, but the exact mechanism is not known. Beer and wine induce gastroesophageal reflux, mainly in the first hour after intake. For other foods, like fried food or carbonated beverages data on gastroesophageal reflux is scarce. Similarly, there are few data about the type of diet and gastroesophageal reflux. Mediterranean diet and a very low carbohydrate diet protect against reflux. Regarding diet-related practices, consistent data showed that a \"short-meal-to-sleep interval\" favors reflux episodes, therefore some authors recommend that dinner should be at least four hours before bedtime. All these recommendations should consider patient's weight, because several meta-analyses showed a positive association between increased body mass index and gastroesophageal reflux disease.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28521699/",
+      "search_query": "GERD diet",
+      "category": "diet",
+      "category_confidence": 0.8222222222222222
+    },
+    {
+      "pmid": "29470322",
+      "title": "Pediatric Gastroesophageal Reflux Clinical Practice Guidelines: Joint Recommendations of the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition and the European Society for Pediatric Gastroenterology, Hepatology, and Nutrition.",
+      "authors": [
+        "Rosen R",
+        "Vandenplas Y",
+        "Singendonk M",
+        "Cabana M",
+        "DiLorenzo C"
+      ],
+      "journal": "Journal of pediatric gastroenterology and nutrition",
+      "year": "2018",
+      "abstract": "This document serves as an update of the North American Society for Pediatric Gastroenterology, Hepatology, and Nutrition (NASPGHAN) and the European Society for Pediatric Gastroenterology, Hepatology, and Nutrition (ESPGHAN) 2009 clinical guidelines for the diagnosis and management of gastroesophageal reflux disease (GERD) in infants and children and is intended to be applied in daily practice and as a basis for clinical trials. Eight clinical questions addressing diagnostic, therapeutic and prognostic topics were formulated. A systematic literature search was performed from October 1, 2008 (if the question was addressed by 2009 guidelines) or from inception to June 1, 2015 using Embase, MEDLINE, the Cochrane Database of Systematic Reviews and the Cochrane Central Register of Controlled Clinical Trials. The approach of the Grading of Recommendations Assessment, Development and Evaluation (GRADE) was applied to define and prioritize outcomes. For therapeutic questions, the quality of evidence was also assessed using GRADE. Grading the quality of evidence for other questions was performed according to the Quality Assessment of Studies of Diagnostic Accuracy (QUADAS) and Quality in Prognostic Studies (QUIPS) tools. During a 3-day consensus meeting, all recommendations were discussed and finalized. In cases where no randomized controlled trials (RCT; therapeutic questions) or diagnostic accuracy studies were available to support the recommendations, expert opinion was used. The group members voted on each recommendation, using the nominal voting technique. With this approach, recommendations regarding evaluation and management of infants and children with GERD to standardize and improve quality of care were formulated. Additionally, 2 algorithms were developed, 1 for infants <12 months of age and the other for older infants and children.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29470322/",
+      "search_query": "GERD nutrition",
+      "category": "diet",
+      "category_confidence": 0.7321428571428571
+    },
+    {
+      "pmid": "31758470",
+      "title": "Knowledge and Attitudes Towards Obesity and Bariatric Surgery in Chinese Nurses.",
+      "authors": [
+        "Fan M",
+        "Hong J",
+        "Cheung PN",
+        "Tang S",
+        "Zhang J"
+      ],
+      "journal": "Obesity surgery",
+      "year": "2020",
+      "abstract": "Obesity has become a global epidemic. Surgical treatment of obesity and metabolic disorders in China is increasing rapidly, but it is still a new discipline even to health professionals. As an important member of the multidisciplinary team, the knowledge and attitudes of nurses provide crucial health care to the patients and support to surgeons. To study the Chinese nurses' knowledge of obesity and metabolic disorders, and attitudes towards bariatric surgery and to improve their capability of work in this new discipline. This is a multicenter study, with the questionnaire distributed to cooperative hospitals in the form of an electronic questionnaire by the First Affiliated Hospital of Jinan University in April 2018. A questionnaire was designed to investigate nurses' demographic, knowledge, and attitude towards obesity, weight loss, and bariatric surgery. A total of 5311 questionnaires were received, with an effective rate of 91.8% (4878 questionnaires); 65.2% of nurses had a normal BMI. Nurses generally had a high knowledge of obesity and related cardiovascular diseases (98.6%) and type 2 diabetes mellitus (90.2%). However, there was a lack of knowledge in other related aspects, for example its relations to carcinoma (49.5%), gastroesophageal reflux disease (40.1%), and psychological disorders (49.1%), which are controversial issues in bariatric surgery. It was found that education (p < 0.05) had an important influence to nurses' knowledge about the comorbidities of obesity. Female nurses had a higher tendency to choose weight loss than males, but male nurses did physical exercise more frequently than females (p < 0.05). Their acceptance of safety (25.1%) and efficacy (22.9%) of bariatric surgery is low, with concerns predominantly about postoperative complications and adverse effects. Surgical nurses had a more optimistic attitude towards surgery (p < 0.05). Chinese nurses have poor knowledge of obesity-related metabolic disorders and also have poor acceptance of surgical treatment modalities. Our findings suggest that it is crucial to enhance the continuing education of Chinese nurses for obesity, metabolic disorders, and bariatric surgery.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31758470/",
+      "search_query": "GERD obesity weight",
+      "category": "treatment",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "40293759",
+      "title": "Non-Cystic Fibrosis Bronchiectasis in Adults: A Review.",
+      "authors": [
+        "Barker AF",
+        "Karamooz E"
+      ],
+      "journal": "JAMA",
+      "year": "2025",
+      "abstract": "Non-cystic fibrosis (CF) bronchiectasis is a chronic lung condition caused by permanent bronchial dilatation and inflammation and is characterized by daily cough, sputum, and recurrent exacerbations. Approximately 500 000 people in the US have non-CF bronchiectasis. Non-CF bronchiectasis may be associated with prior pneumonia, infection with nontuberculous mycobacteria or tuberculosis, genetic conditions (eg, α1-antitrypsin deficiency, primary ciliary dyskinesia), autoimmune diseases (eg, rheumatoid arthritis, inflammatory bowel disease), allergic bronchopulmonary aspergillosis, and immunodeficiency syndromes (eg, common variable immunodeficiency). Up to 38% of cases are idiopathic. According to US data, conditions associated with non-CF bronchiectasis include gastroesophageal reflux disease (47%), asthma (29%), and chronic obstructive pulmonary disease (20%). The prevalence of non-CF bronchiectasis increases substantially with age (7 per 100 000 in individuals 18-34 years vs 812 per 100 000 in those ≥75 years) and is more common in women than men (180 vs 95 per 100 000). Diagnosis is confirmed with noncontrast chest computed tomography showing dilated airways and often airway thickening and mucus plugging. Initial diagnostic evaluation involves blood testing (complete blood cell count with differential); immunoglobulin quantification testing (IgG, IgA, IgE, and IgM); sputum cultures for bacteria, mycobacteria, and fungi; and prebronchodilator and postbronchodilator spirometry. Treatment includes airway clearance techniques; nebulization of saline to loosen tenacious secretions; and regular exercise, participation in pulmonary rehabilitation, or both. Inhaled bronchodilators (β-agonists and antimuscarinic agents) and inhaled corticosteroids are indicated for patients with bronchiectasis who have asthma or chronic obstructive pulmonary disease. Exacerbations of bronchiectasis, which typically present with increased cough and sputum and worsened fatigue, are associated with progressive decline in lung function and decreased quality of life. Exacerbations should be treated with oral or intravenous antibiotics. Individuals with 3 or more exacerbations of bronchiectasis annually may benefit from long-term inhaled antibiotics (eg, colistin, gentamicin) or daily oral macrolides (eg, azithromycin). Lung transplant may be considered for patients with severely impaired pulmonary function, frequent exacerbations, or both. Among patients with non-CF bronchiectasis, mortality is higher for those with frequent and severe exacerbations, infection with Pseudomonas aeruginosa, and comorbidities, such as chronic obstructive pulmonary disease. Non-CF bronchiectasis is a chronic lung condition that typically causes chronic cough and daily sputum production. Exacerbations are associated with progressive decline in lung function and decreased quality of life. Management involves treatment of conditions associated with bronchiectasis, airway clearance techniques, oral or intravenous antibiotics for acute exacerbations, and consideration of long-term inhaled antibiotics or oral macrolides for patients with 3 or more exacerbations annually.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40293759/",
+      "search_query": "GERD exercise",
+      "category": "cause",
+      "category_confidence": 0.625
+    },
+    {
+      "pmid": "33320506",
+      "title": "Acute Chest Pain in Adults: Outpatient Evaluation.",
+      "authors": [
+        "McConaghy JR",
+        "Sharma M",
+        "Patel H"
+      ],
+      "journal": "American family physician",
+      "year": "2020",
+      "abstract": "Approximately 1% of primary care office visits are for chest pain, and 2% to 4% of these patients will have unstable angina or myocardial infarction. Initial evaluation is based on determining whether the patient needs to be referred to a higher level of care to rule out acute coronary syndrome (ACS). A combination of age, sex, and type of chest pain can predict the likelihood of coronary artery disease as the cause of chest pain. The Marburg Heart Score and the INTERCHEST clinical decision rule can also help estimate ACS risk. Twelve-lead electrocardiography is recommended to look for ST segment changes, new-onset left bundle branch block, presence of Q waves, and new T-wave inversions. Patients with suspicion of ACS or changes on electrocardiography should be transported immediately to the emergency department. Those at low or intermediate risk of ACS can undergo exercise stress testing, coronary computed tomography angiography, or cardiac magnetic resonance imaging. In those with low suspicion for ACS, consider other diagnoses such as chest wall pain or costochondritis, gastroesophageal reflux disease, and panic disorder or anxiety states. Other less common, but important, diagnostic considerations include acute pericarditis, pneumonia, heart failure, pulmonary embolism, and acute thoracic aortic dissection.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33320506/",
+      "search_query": "GERD exercise",
+      "category": "lifestyle",
+      "category_confidence": 0.75
+    },
+    {
+      "pmid": "35176784",
+      "title": "Obesity and Asthma.",
+      "authors": [
+        "Dixon AE",
+        "Que LG"
+      ],
+      "journal": "Seminars in respiratory and critical care medicine",
+      "year": "2022",
+      "abstract": "Obesity is a major risk factor for the development of asthma, and the prevalence of obesity is higher in people with asthma than in the general population. Obese people often have severe asthma-recent studies in the United States suggest that 60% of adults with severe asthma are obese. Multiple mechanisms link obesity and asthma, which are discussed in this article, and these pathways contribute to different phenotypes of asthma among people with obesity. From a practical aspect, changes in physiology and immune markers affect diagnosis and monitoring of disease activity in people with asthma and obesity. Obesity also affects response to asthma medications and is associated with an increased risk of co-morbidities such as gastroesophageal reflux disease, depression, and obstructive sleep apnea, all of which may affect asthma control. Obese people may be at elevated risk of exacerbations related to increased risk of severe disease in response to viral infections. Interventions that target improved dietary quality, exercise, and weight loss are likely to be particularly helpful for this patient population.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35176784/",
+      "search_query": "GERD exercise",
+      "category": "lifestyle",
+      "category_confidence": 0.7324840764331211
+    },
+    {
+      "pmid": "37094911",
+      "title": "Dietary factors involved in GERD management.",
+      "authors": [
+        "Fox M",
+        "Gyawali CP"
+      ],
+      "journal": "Best practice & research. Clinical gastroenterology",
+      "year": "2023",
+      "abstract": "Gastroesophageal reflux disease (GERD) is extremely common, and even modest weight gain has been associated with higher symptom burden as well as objective evidence of reflux on endoscopy and physiological measurement. Certain trigger foods, especially citrus, coffee, chocolate, fried food, spicy food and red sauces are frequently reported to worsen reflux symptoms, although hard evidence linking these items to objective GERD is lacking. There is better evidence that large meal volume and high calorie content can increase esophageal reflux burden. Conversely, sleeping with the head end of the bed raised, avoiding lying down close to meals, sleeping on the left side and weight loss can improve reflux symptoms and objective reflux evidence, especially when the esophagogastric junction 'reflux barrier' is compromised (e.g., in the presence of a hiatus hernia). Consequently, attention to diet and weight loss are both important elements of management of GERD, and need to be incorporated into management plans.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37094911/",
+      "search_query": "GERD sleep position",
+      "category": "diet",
+      "category_confidence": 0.6954314720812182
+    },
+    {
+      "pmid": "34928874",
+      "title": "Associations Between Sleep Position and Nocturnal Gastroesophageal Reflux: A Study Using Concurrent Monitoring of Sleep Position and Esophageal pH and Impedance.",
+      "authors": [
+        "Schuitenmaker JM",
+        "van Dijk M",
+        "Oude Nijhuis RAB",
+        "Smout AJPM",
+        "Bredenoord AJ"
+      ],
+      "journal": "The American journal of gastroenterology",
+      "year": "2022",
+      "abstract": "The aim of this study was to investigate the effect of spontaneous sleep positions on the occurrence of nocturnal gastroesophageal reflux. In patients referred for ambulatory pH-impedance reflux monitoring, the concurrent sleep position was measured using a sleep position measurement device (measuring left, right, supine, and prone positions). Fifty-seven patients were included. We observed a significantly shorter acid exposure time in the left (median 0.0%, P25-P75, 0.0%-3.0%), compared with the right lateral position (median 1.2%, 0.0%-7.5%, P = 0.022) and the supine position (median 0.6%, 0.00%-8.3%, P = 0.022). The esophageal acid clearance time was significantly shorter in the left lateral decubitus position (median 35 seconds, 16-115 seconds), compared with the supine (median 76 seconds, 22-257 seconds, P = 0.030) and right lateral positions (median 90 seconds, 26-250 seconds, P = 0.002). The left lateral decubitus position is associated with significantly shorter nocturnal esophageal acid exposure time and faster esophageal acid clearance compared with the supine and right lateral decubitus positions (see visual abstract).",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34928874/",
+      "search_query": "GERD sleep position",
+      "category": "lifestyle",
+      "category_confidence": 0.95
+    },
+    {
+      "pmid": "37142593",
+      "title": "Depression and 24 gastrointestinal diseases: a Mendelian randomization study.",
+      "authors": [
+        "Ruan X",
+        "Chen J",
+        "Sun Y",
+        "Zhang Y",
+        "Zhao J"
+      ],
+      "journal": "Translational psychiatry",
+      "year": "2023",
+      "abstract": "The causality of the association between depression and gastrointestinal diseases is undetermined. We conducted Mendelian randomization (MR) analyses to systematically explore the associations of depression with 24 gastrointestinal diseases. Independent genetic variants associated with depression at the genome-wide significance level were selected as instrumental variables. Genetic associations with 24 gastrointestinal diseases were obtained from the UK Biobank study, the FinnGen study, and large consortia. Multivariable MR analysis was conducted to explore the mediation effects of body mass index, cigarette smoking, and type 2 diabetes. After multiple-testing corrections, genetic liability to depression was associated with an increased risk of irritable bowel syndrome, non-alcohol fatty liver disease, alcoholic liver disease, gastroesophageal reflux, chronic pancreatitis, duodenal ulcer, chronic gastritis, gastric ulcer, diverticular disease, cholelithiasis, acute pancreatitis, and ulcerative colitis. For the causal effect of genetic liability to depression on non-alcoholic fatty liver disease, a substantial proportion was mediated by body mass index. Genetic predisposition to smoking initiation mediated half of effect of depression on acute pancreatitis. This MR study suggests that depression may play a causal role in many gastrointestinal diseases.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37142593/",
+      "search_query": "GERD smoking",
+      "category": "lifestyle",
+      "category_confidence": 0.4347826086956522
+    },
+    {
+      "pmid": "35972481",
+      "title": "Barrett Esophagus: A Review.",
+      "authors": [
+        "Sharma P"
+      ],
+      "journal": "JAMA",
+      "year": "2022",
+      "abstract": "Barrett esophagus is characterized by the replacement of normal esophageal squamous cell epithelium with columnar metaplasia and affects approximately 5% of people in the US and approximately 1% worldwide. Approximately 3% to 5% of patients with Barrett esophagus will be diagnosed with esophageal adenocarcinoma in their lifetime. Barrett esophagus affects approximately 2.3% to 8.3% of people with gastroesophageal reflux disease (GERD) and approximately 1.2% to 5.6% of people without GERD. Characteristics associated with Barrett esophagus include older age (prevalence of approximately 1.1% in individuals older than 50 years compared with 0.3% in those 50 years or younger), male sex, and smoking (prevalence of approximately 12% in people who smoke cigarettes compared with 1.1% in those who do not smoke cigarettes). The histopathology of Barrett esophagus progresses from metaplasia to dysplasia and, without treatment, can progress to adenocarcinoma. People with Barrett esophagus have approximately a 0.2% to 0.5% annual rate of developing esophageal adenocarcinoma. Management of Barrett esophagus primarily consists of acid-suppressive medications to reduce underlying GERD symptoms and surveillance endoscopy every 3 to 5 years. In patients with Barrett esophagus and dysplasia or early cancer, endoscopic therapy consisting of resection and ablation successfully treats 80% to 90% of patients. Barrett esophagus affects approximately 5% of people in the US and approximately 1% worldwide and is associated with an increased risk of esophageal adenocarcinoma. First-line therapy for Barrett esophagus consists of proton-pump inhibitors for control of reflux symptoms, but their role in chemoprevention is unclear. Surveillance with upper endoscopy is recommended by practice guidelines to monitor for progression to esophageal adenocarcinoma, but randomized clinical trials are lacking.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35972481/",
+      "search_query": "GERD smoking",
+      "category": "complications",
+      "category_confidence": 0.7254901960784313
+    },
+    {
+      "pmid": "21424733",
+      "title": "Obesity and GERD: pathophysiology and effect of bariatric surgery.",
+      "authors": [
+        "Tutuian R"
+      ],
+      "journal": "Current gastroenterology reports",
+      "year": "2011",
+      "abstract": "Epidemiologic, endoscopic, and pathophysiologic studies document the relationship between obesity and gastroesophageal reflux disease (GERD). Increased body mass index and accumulation of visceral fat are associated with a two- to threefold increased risk of developing reflux symptoms and esophageal lesions. Given this association, many studies were designed to evaluate the outcome of reflux symptoms following conventional and surgical treatment of obesity. Among bariatric procedures, gastric sleeve and banded gastroplasty were shown to have no effect or even worsen reflux symptoms in the postoperative setting. Gastric banding improves reflux symptoms and findings (endoscopic and pH-measured distal esophageal acid exposure) in many patients, but is associated with de novo reflux symptoms or lesions in a considerable proportion of patients. To date, Roux-en-Y gastric bypass is the most effective bariatric procedure that consistently leads to weight reduction and improvement of GERD symptoms in patients undergoing direct gastric bypass and among those converted from restrictive bariatric procedures to gastric bypass.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21424733/",
+      "search_query": "GERD pathophysiology",
+      "category": "lifestyle",
+      "category_confidence": 0.37142857142857144
+    },
+    {
+      "pmid": "33883513",
+      "title": "Understanding the GERD Barrier.",
+      "authors": [
+        "Dunn CP",
+        "Wu J",
+        "Gallagher SP",
+        "Putnam LR",
+        "Bildzukewicz NA"
+      ],
+      "journal": "Journal of clinical gastroenterology",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is steadily increasing in incidence and now affects 18% to 28% of the population in the United States. A thorough understanding of the pathophysiology underlying this disease is necessary to improve the current standard of care. Most GERD pathophysiology models focus on the lower esophageal sphincter (LES) as the key element which prevents esophageal reflux. More recent research has highlighted the crural diaphragm (CD) as an additional critical component of the GERD barrier. We now know that the CD actively relaxes when the distal esophagus is distended and contracts when the stomach is distended. Crural myotomy in animal models increases esophageal acid exposure, highlighting the CD's vital role. There are also multiple physiological studies in patients with symptomatic hiatal hernia that demonstrate CD dysfunction is associated with GERD. Finally, computer models integrating physiological data predict that the CD and the LES each contribute roughly 50% to the GERD barrier. This more robust understanding has implications for future procedural management of GERD. Specifically, effective GERD management mandates repair of the CD and reinforcement of the LES. Given the high rate of hiatal hernia recurrences, it seems that novel antireflux procedures should target this essential component of the GERD barrier. Future research should focus on methods to maintain crural integrity, decrease hiatal hernia recurrence, and improve long-term competency of the GERD barrier.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33883513/",
+      "search_query": "GERD pathophysiology",
+      "category": "cause",
+      "category_confidence": 1.0
+    },
+    {
+      "pmid": "30004267",
+      "title": "Gastroesophageal Reflux Disease in Obese Patients.",
+      "authors": [
+        "Valezi AC",
+        "Herbella FAM",
+        "Schlottmann F",
+        "Patti MG"
+      ],
+      "journal": "Journal of laparoendoscopic & advanced surgical techniques. Part A",
+      "year": "2018",
+      "abstract": "Gastroesophageal reflux disease (GERD) and obesity coexist in many patients in the Western population. The association is not coincidental, since GERD pathophysiology is, in part, linked to obesity. Visceral adipose tissue secretes hormones, which increase the risk of GERD. Obesity increases esophageal motor disorders and higher number of transient lower esophageal sphincter relaxations. Central obesity increases abdominal-thoracic pressure gradient and disrupts the gastroesophageal junction by inducing hiatal hernia formation. Obese patients benefit from weight loss by diet to decrease GERD symptoms; however, Roux-en-Y gastric bypass surgery is associated with a higher weight loss and a decrease in GERD symptoms, and is considered the best way to treat both diseases at the same time.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30004267/",
+      "search_query": "GERD pathophysiology",
+      "category": "lifestyle",
+      "category_confidence": 0.5882352941176471
+    },
+    {
+      "pmid": "32718584",
+      "title": "Long-term use of proton pump inhibitors as a risk factor for various adverse manifestations.",
+      "authors": [
+        "Koyyada A"
+      ],
+      "journal": "Therapie",
+      "year": "2021",
+      "abstract": "The long-term use of proton pump inhibitors (PPIs) can lead to increased gastric pH, hypochlorhydria and in some cases to achlorhydria when compared to other acid-suppressing agents like histamine-2 (H2) receptor blockers and antacids. These consequences by the use of long-term PPIs may lead to significant vitamin (B",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32718584/",
+      "search_query": "GERD risk factor",
+      "category": "cause",
+      "category_confidence": 1.0
+    },
+    {
+      "pmid": "37977498",
+      "title": "Mendelian Randomization Studies in Atopic Dermatitis: A Systematic Review.",
+      "authors": [
+        "Elhage KG",
+        "Kranyak A",
+        "Jin JQ",
+        "Haran K",
+        "Spencer RK"
+      ],
+      "journal": "The Journal of investigative dermatology",
+      "year": "2024",
+      "abstract": "Prior studies have found associations between atopic dermatitis (AD) and comorbidities, including depression, obesity, asthma, and allergic rhinitis. Although observational studies often cannot establish robust causality between potential risk factors and AD, Mendelian randomization minimizes confounding when exploring causality by relying on random allelic assortment at birth. In this study, we systematically reviewed 30 Mendelian randomization studies in AD. Body mass index, gut microbial flora, the IL-18 signaling pathway, and gastroesophageal reflux disease were among the causal factors for AD, whereas AD was causal for several medical conditions, including heart failure, rheumatoid arthritis, and conjunctivitis. These insights may improve preventive counseling in AD.",
+      "study_type": "Systematic Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37977498/",
+      "search_query": "GERD risk factor",
+      "category": "lifestyle",
+      "category_confidence": 0.6896551724137931
+    },
+    {
+      "pmid": "37516505",
+      "title": "Dysphagia.",
+      "authors": [
+        "Hurtte E",
+        "Young J",
+        "Gyawali CP"
+      ],
+      "journal": "Primary care",
+      "year": "2023",
+      "abstract": "Dysphagia is an important clinical symptom that increases in prevalence with age. Both oropharyngeal and esophageal processes can contribute to dysphagia, and these can be differentiated with a careful history. Neuromuscular processes are more prevalent than structural causes in oropharyngeal dysphagia, therefore, investigation should start with a modified barium swallow. In contrast, structural processes dominate in esophageal dysphagia, and endoscopy can offer biopsy and therapy by way of dilation. Manometry is performed for esophageal dysphagia when no structural etiology is found. Specific management of dysphagia is dependent on the etiology and mechanism of dysphagia.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37516505/",
+      "search_query": "GERD etiology",
+      "category": "cause",
+      "category_confidence": 0.75
+    },
+    {
+      "pmid": "36753304",
+      "title": "Role of the Gut-Brain Axis in the Shared Genetic Etiology Between Gastrointestinal Tract Diseases and Psychiatric Disorders: A Genome-Wide Pleiotropic Analysis.",
+      "authors": [
+        "Gong W",
+        "Guo P",
+        "Li Y",
+        "Liu L",
+        "Yan R"
+      ],
+      "journal": "JAMA psychiatry",
+      "year": "2023",
+      "abstract": "Comorbidities and genetic correlations between gastrointestinal tract diseases and psychiatric disorders have been widely reported, with the gut-brain axis (GBA) hypothesized as a potential biological basis. However, the degree to which the shared genetic determinants are involved in these associations underlying the GBA is unclear. To investigate the shared genetic etiology between gastrointestinal tract diseases and psychiatric disorders and to identify shared genomic loci, genes, and pathways. This genome-wide pleiotropic association study using genome-wide association summary statistics from publicly available data sources was performed with various statistical genetic approaches to sequentially investigate the pleiotropic associations from genome-wide single-nucleotide variation (SNV; formerly single-nucleotide polymorphism [SNP]), and gene levels and biological pathways to disentangle the underlying shared genetic etiology between 4 gastrointestinal tract diseases (inflammatory bowel disease, irritable bowel syndrome, peptic ulcer disease, and gastroesophageal reflux disease) and 6 psychiatric disorders (schizophrenia, bipolar disorder, major depressive disorder, attention-deficit/hyperactivity disorder, posttraumatic stress disorder, and anorexia nervosa). Data were collected from March 10, 2021, to August 25, 2021, and analysis was performed from January 8 through May 30, 2022. The primary outcomes consisted of a list of genetic loci, genes, and pathways shared between gastrointestinal tract diseases and psychiatric disorders. Extensive genetic correlations and genetic overlaps were found among 22 of 24 trait pairs. Pleiotropic analysis under a composite null hypothesis identified 2910 significant potential pleiotropic SNVs in 19 trait pairs, with 83 pleiotropic loci and 24 colocalized loci detected. Gene-based analysis found 158 unique candidate pleiotropic genes, which were highly enriched in certain GBA-related phenotypes and tissues, whereas pathway enrichment analysis further highlighted biological pathways primarily involving cell adhesion, synaptic structure and function, and immune cell differentiation. Several identified pleiotropic loci also shared causal variants with gut microbiomes. Mendelian randomization analysis further illustrated vertical pleiotropy across 8 pairwise traits. Notably, many pleiotropic loci were identified for multiple pairwise traits, such as 1q32.1 (INAVA), 19q13.33 (FUT2), 11q23.2 (NCAM1), and 1p32.3 (LRP8). These findings suggest that the pleiotropic genetic determinants between gastrointestinal tract diseases and psychiatric disorders are extensively distributed across the genome. These findings not only support the shared genetic basis underlying the GBA but also have important implications for intervention and treatment targets of these diseases simultaneously.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36753304/",
+      "search_query": "GERD etiology",
+      "category": "cause",
+      "category_confidence": 0.6521739130434783
+    },
+    {
+      "pmid": "35731535",
+      "title": "Effect of Laparoscopic Sleeve Gastrectomy vs Roux-en-Y Gastric Bypass on Weight Loss, Comorbidities, and Reflux at 10 Years in Adult Patients With Obesity: The SLEEVEPASS Randomized Clinical Trial.",
+      "authors": [
+        "Salminen P",
+        "Grönroos S",
+        "Helmiö M",
+        "Hurme S",
+        "Juuti A"
+      ],
+      "journal": "JAMA surgery",
+      "year": "2022",
+      "abstract": "Long-term results from randomized clinical trials comparing laparoscopic sleeve gastrectomy (LSG) with laparoscopic Roux-en-Y-gastric bypass (LRYGB) are limited. To compare long-term outcomes of weight loss and remission of obesity-related comorbidities and the prevalence of gastroesophageal reflux symptoms (GERD), endoscopic esophagitis, and Barrett esophagus (BE) after LSG and LRYGB at 10 years. This 10-year observational follow-up evaluated patients in the Sleeve vs Bypass (SLEEVEPASS) multicenter equivalence randomized clinical trial comparing LSG and LRYGB in the treatment of severe obesity in which 240 patients aged 18 to 60 years with median body mass index of 44.6 were randomized to LSG (n = 121) or LRYGB (n = 119). The initial trial was conducted from April 2008 to June 2010 in Finland, with last follow-up on January 27, 2021. LSG or LRYGB. The primary end point was 5-year percentage excess weight loss (%EWL). This current analysis focused on 10-year outcomes with special reference to reflux and BE. At 10 years, of 240 randomized patients (121 randomized to LSG and 119 to LRYGB; 167 women [69.6%]; mean [SD] age, 48.4 [9.4] years; mean [SD] baseline BMI, 45.9 [6.0]), 2 never underwent surgery and there were 10 unrelated deaths; 193 of the remaining 228 patients (85%) completed follow-up on weight loss and comorbidities, and 176 of 228 (77%) underwent gastroscopy. Median (range) %EWL was 43.5% (2.1%-109.2%) after LSG and 50.7% (1.7%-111.7%) after LRYGB. Mean estimate %EWL was not equivalent between the procedures; %EWL was 8.4 (95% CI, 3.1-13.6) higher in LRYGB. After LSG and LRYGB, there was no statistically significant difference in type 2 diabetes remission (26% and 33%, respectively; P = .63), dyslipidemia (19% and 35%, respectively; P = .23), or obstructive sleep apnea (16% and 31%, respectively; P = .30). Hypertension remission was superior after LRYGB (8% vs 24%; P = .04). Esophagitis was more prevalent after LSG (31% vs 7%; P < .001) with no statistically significant difference in BE (4% vs 4%; P = .29). The overall reoperation rate was 15.7% for LSG and 18.5% for LRYGB (P = .57). At 10 years, %EWL was greater after LRYGB and the procedures were not equivalent for weight loss, but both LSG and LRYGB resulted in good and sustainable weight loss. Esophagitis was more prevalent after LSG, but the cumulative incidence of BE was markedly lower than in previous trials and similar after both procedures. ClinicalTrials.gov Identifier: NCT00793143.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35731535/",
+      "search_query": "GERD barrett esophagus",
+      "category": "lifestyle",
+      "category_confidence": 0.6666666666666666
+    },
+    {
+      "pmid": "25965138",
+      "title": "Esophageal strictures and diverticula.",
+      "authors": [
+        "Smith CD"
+      ],
+      "journal": "The Surgical clinics of North America",
+      "year": "2015",
+      "abstract": "Esophageal disease and dysfunction of the lower esophageal sphincter (LES) manifesting as gastroesophageal reflux disease (GERD) particularly, is the most common of all gastrointestinal conditions impacting patients on a day-to-day basis. LES dysfunction can lead to anatomic changes to the distal esophagus, with GERD-mediated changes being benign stricture or progression of GERD to Barrett's esophagus and even esophageal cancer, and LES hypertension impairing esophageal emptying with subsequent development of pulsion esophageal diverticulum. This article details the causes, clinical presentation, workup, and treatment of esophageal stricture and epiphrenic esophageal diverticulum. Other types of esophageal diverticula (Zenker's and midesophageal) are also covered.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25965138/",
+      "search_query": "GERD complications",
+      "category": "complications",
+      "category_confidence": 0.7142857142857143
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "keyword": "역류성식도염",
+  "keyword_en": "GERD",
+  "pipeline_date": "2026-02-05T17:02:23.405127",
+  "blogs_analyzed": 20,
+  "top_topics": [
+    "위산",
+    "커피",
+    "체중",
+    "가슴쓰림",
+    "기름진음식",
+    "만성",
+    "하부식도괄약근",
+    "야식",
+    "스트레스",
+    "과식"
+  ],
+  "topic_counts": {
+    "커피": 15,
+    "술": 11,
+    "기름진음식": 14,
+    "매운음식": 12,
+    "야식": 13,
+    "탄산음료": 9,
+    "수면자세": 10,
+    "스트레스": 13,
+    "운동": 9,
+    "흡연": 7,
+    "체중": 15,
+    "과식": 13,
+    "위산": 16,
+    "기침": 10,
+    "목이물감": 13,
+    "가슴쓰림": 15,
+    "신물": 11,
+    "약물치료": 10,
+    "만성": 14,
+    "내시경": 9,
+    "양배추": 8,
+    "바나나": 6,
+    "식도협착": 3,
+    "초콜릿": 5,
+    "하부식도괄약근": 14,
+    "재발": 11,
+    "가래": 3,
+    "나이": 1,
+    "바렛식도": 1,
+    "수술": 2,
+    "임신": 4,
+    "한방치료": 5,
+    "오트밀": 3
+  },
+  "search_queries": [
+    "GERD AND gastric acid",
+    "GERD AND coffee caffeine",
+    "GERD AND obesity weight",
+    "GERD AND heartburn",
+    "GERD AND fatty food",
+    "GERD AND chronic",
+    "GERD AND lower esophageal sphincter LES",
+    "GERD AND late night eating",
+    "GERD AND stress psychological",
+    "GERD AND overeating meal size"
+  ],
+  "papers_count": 42,
+  "papers_by_topic": {
+    "gastric acid": 10,
+    "coffee caffeine": 1,
+    "obesity weight": 2,
+    "heartburn": 10,
+    "fatty food": 3,
+    "chronic": 10,
+    "lower esophageal sphincter LES": 10,
+    "late night eating": 1,
+    "stress psychological": 0,
+    "overeating meal size": 0
+  },
+  "papers": [
+    {
+      "pmid": "33229333",
+      "title": "Advances in the diagnosis and management of gastroesophageal reflux disease.",
+      "authors": [
+        "Katzka DA",
+        "Kahrilas PJ"
+      ],
+      "journal": "BMJ (Clinical research ed.)",
+      "year": "2020",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a multifaceted disorder encompassing a family of syndromes attributable to, or exacerbated by, gastroesophageal reflux that impart morbidity, mainly through troublesome symptoms. Major GERD phenotypes are non-erosive reflux disease, GERD hypersensitivity, low or high grade esophagitis, Barrett's esophagus, reflux chest pain, laryngopharyngeal reflux, and regurgitation dominant reflux. GERD is common throughout the world, and its epidemiology is linked to the Western lifestyle, obesity, and the demise of ",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33229333/"
+    },
+    {
+      "pmid": "22314561",
+      "title": "Stress and the gut: pathophysiology, clinical consequences, diagnostic approach and treatment options.",
+      "authors": [
+        "Konturek PC",
+        "Brzozowski T",
+        "Konturek SJ"
+      ],
+      "journal": "Journal of physiology and pharmacology : an official journal of the Polish Physiological Society",
+      "year": "2011",
+      "abstract": "Stress, which is defined as an acute threat to homeostasis, shows both short- and long-term effects on the functions of the gastrointestinal tract. Exposure to stress results in alterations of the brain-gut interactions (\"brain-gut axis\") ultimately leading to the development of a broad array of gastrointestinal disorders including inflammatory bowel disease (IBD), irritable bowel syndrome (IBS) and other functional gastrointestinal diseases, food antigen-related adverse responses, peptic ulcer and gastroesophageal reflux disease (GERD). The major effects of stress on gut physiology include: 1) alterations in gastrointestinal motility; 2) increase in visceral perception; 3) changes in gastrointestinal secretion; 4) increase in intestinal permeability; 5) negative effects on regenerative capacity of gastrointestinal mucosa and mucosal blood flow; and 6) negative effects on intestinal microbiota. Mast cells (MC) are important effectors of brain-gut axis that translate the stress signals into the release of a wide range of neurotransmitters and proinflammatory cytokines, which may profoundly affect the gastrointestinal physiology. IBS represents the most important gastrointestinal disorder in humans, and is characterized by chronic or recurrent pain associated with altered bowel motility. The diagnostic testing for IBS patients include routine blood tests, stool tests, celiac disease serology, abdominal sonography, breath testing to rule out carbohydrate (lactose, fructose, etc.) intolerance and small intestinal bacterial overgrowth. Colonoscopy is recommended if alarming symptoms are present or to obtain colonic biopsies especially in patients with diarrhoea predominant IBS. The management of IBS is based on a multifactorial approach and includes pharmacotherapy targeted against the predominant symptom, behavioural and psychological treatment, dietary alterations, education, reassurance and effective patient-physician relationship. When evaluating for the stress-induced condition in the upper GI tract, the diagnostic testing includes mainly blood tests and gastroscopy to rule out GERD and peptic ulcer disease. The therapy for these conditions is mainly based on the inhibition of gastric acid by proton pump inhibitors and eradication of Helicobacter pylori-infection. Additionally, melatonin an important mediator of brain gut axis has been shown to exhibit important protective effects against stress-induced lesions in the gastrointestinal tract. Finally, probiotics may profoundly affect the brain-gut interactions (\"microbiome-gut-brain axis\") and attenuate the development of stress-induced disorders in both the upper and lower gastrointestinal tract. Further studies on the brain-gut axis are needed to open new therapeutic avenues in the future.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22314561/"
+    },
+    {
+      "pmid": "35146797",
+      "title": "Night-time gastric acid suppression by tegoprazan compared to vonoprazan or esomeprazole.",
+      "authors": [
+        "Yang E",
+        "Kim S",
+        "Kim B",
+        "Kim B",
+        "Kim Y"
+      ],
+      "journal": "British journal of clinical pharmacology",
+      "year": "2022",
+      "abstract": "Nocturnal acid breakthrough has been considered an unmet need of proton-pump inhibitors. Tegoprazan, a novel potassium-competitive acid blocker, is expected to show improved properties for this unmet need. This study was aimed to compare night-time acid suppression by tegoprazan with that by vonoprazan or esomeprazole, and to explore the effect of CYP2C19 phenotypes on acid-suppressive effects. A randomized, open-label, 3-period, 6-sequence crossover study was conducted. A single oral dose of tegoprazan 50 mg, vonoprazan 20 mg or esomeprazole 40 mg was administered at night in each period. Continuous intragastric pH was monitored at baseline and after each dosing. Sixteen healthy subjects (6 CYP2C19 extensive metabolizers, 5 intermediate metabolizers, 5 poor metabolizers) completed the study. After a single dose of tegoprazan, intragastric pH increased more rapidly to over 4 at approximately 1 hour compared to the other treatments, and elevated intragastric pH was maintained stably at night. Tegoprazan exhibited night-time acid suppression for slightly but not significantly longer than vonoprazan, and greater than esomeprazole; % time at pH ≥ 4 at night was 66.0%, 60.5% and 36.1% for tegoprazan, vonoprazan and esomeprazole, respectively. Night-time acid suppression by tegoprazan and vonoprazan was not dependent on CYP2C19 phenotypes, while that by esomeprazole tended to be influenced by CYP2C19 phenotypes. Tegoprazan produced more rapid, potent and well sustained night-time acid suppression vs. vonoprazan or esomeprazole when administered at night. Furthermore, tegoprazan showed no CYP2C19 phenotype dependency in acid suppression. It suggests the potential of tegoprazan, especially in preventing nocturnal acid breakthrough.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35146797/"
+    },
+    {
+      "pmid": "36181401",
+      "title": "A comparison of efficacy and safety of potassium-competitive acid blocker and proton pump inhibitor in gastric acid-related diseases: A systematic review and meta-analysis.",
+      "authors": [
+        "Simadibrata DM",
+        "Syam AF",
+        "Lee YY"
+      ],
+      "journal": "Journal of gastroenterology and hepatology",
+      "year": "2022",
+      "abstract": "Potassium-competitive acid blocker (PCAB) is a recent alternative to proton pump inhibitor (PPI) for potent acid suppression. The current systematic review and meta-analysis aimed to compare the efficacy and safety of PCAB versus PPI in treating gastric acid-related diseases. We searched up to June 5, 2022, for randomized controlled trials of gastric acid-related diseases that included erosive esophagitis, symptomatic gastroesophageal reflux disease (GERD), peptic ulcers, and Helicobacter pylori infection. The pooled risk ratio (RR) was evaluated for the efficacy outcome and treatment-emergent adverse events (TEAEs) as the safety outcome. Sensitivity analyses were performed to test the robustness of the study findings. Of the 710 screened studies, 19 studies including 7023 participants were analyzed. The RRs for the healing of erosive esophagitis with Vonoprazan versus PPI were 1.09 (95% confidence interval [CI] 1.03-1.14), 1.03 (95% CI 1.00-1.07), and 1.02 (95% CI 1.00-1.05) in Weeks 2, 4, and 8, respectively. There were no differences in the improvement of GERD symptoms and healing of gastric and duodenal ulcers between PCAB and PPI. The pooled eradication rates of H. pylori were significantly higher in Vonoprazan versus PPI first-line treatment (RR 1.13; 95% CI 1.04-1.22). The overall RR of TEAEs with Vonoprazan versus PPI was 1.08 (95% CI 0.89-1.31). Overall, the risk of bias was low to some concerns. Furthermore, sensitivity analyses confirmed the robustness of the study's conclusion. Vonoprazan is superior to PPI in first-line H. pylori eradication and erosive esophagitis but non-inferior in other gastric acid-related diseases. Likewise, short-term safety is comparable in both treatment groups.",
+      "study_type": "Meta-Analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36181401/"
+    },
+    {
+      "pmid": "35057580",
+      "title": "Effects of Coffee on the Gastro-Intestinal Tract: A Narrative Review and Literature Update.",
+      "authors": [
+        "Nehlig A"
+      ],
+      "journal": "Nutrients",
+      "year": "2022",
+      "abstract": "The objective of the present research was to review the state of the art on the consequences of drinking coffee at the different levels of the gastrointestinal tract. At some steps of the digestive process, the effects of coffee consumption seem rather clear. This is the case for the stimulation of gastric acid secretion, the stimulation of biliary and pancreatic secretion, the reduction of gallstone risk, the stimulation of colic motility, and changes in the composition of gut microbiota. Other aspects are still controversial, such as the possibility for coffee to affect gastro-esophageal reflux, peptic ulcers, and intestinal inflammatory diseases. This review also includes a brief summary on the lack of association between coffee consumption and cancer of the different digestive organs, and points to the powerful protective effect of coffee against the risk of hepatocellular carcinoma. This review reports the available evidence on different topics and identifies the areas that would most benefit from additional studies.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35057580/"
+    },
+    {
+      "pmid": "32327613",
+      "title": "Proton Pump Inhibitor-Related Gastric Mucosal Changes.",
+      "authors": [
+        "Kim GH"
+      ],
+      "journal": "Gut and liver",
+      "year": "2021",
+      "abstract": "Proton pump inhibitors (PPIs) are used worldwide to treat of acid-related disorders such as peptic ulcer and gastroesophageal reflux disease and to prevent gastroduodenal injuries due to nonsteroidal anti-inflammatory drugs. PPIs are the most potent inhibitors of gastric acid secretion currently available, and they are one of the most commonly prescribed classes of drugs because of their high efficacy and low toxicity. However, long-term PPI use causes histopathological changes such as parietal cell protrusion into the gland lumen, cystic dilation of gastric fundic glands, and foveolar epithelial hyperplasia. These changes can manifest on endoscopic examination as fundic gland polyps, hyperplastic polyps, multiple white and flat elevated lesions, cobblestone-like mucosa, or black spots. Clinicians must be aware of PPI-induced endoscopic features in patients with chronic long-term PPI use. Conversely, identifying patients with long-term PPI use based on their endoscopic findings is important. Recently, potassium-competitive acid blockers (P-CABs), a new class of acid suppressants that inhibit gastric acid secretion more strongly than PPIs, have recently been introduced clinically. Further long-term prospective studies on these gastric mucosal lesions in patients with either PPI or P-CAB use are required to investigate their association with histopathological changes and to establish the clinical significance of these findings.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32327613/"
+    },
+    {
+      "pmid": "39466255",
+      "title": "The Role of P-CABs in GERD.",
+      "authors": [
+        "Howden CW"
+      ],
+      "journal": "The American journal of gastroenterology",
+      "year": "2025",
+      "abstract": "Potassium-competitive acid blockers (P-CABs) constitute a relatively new class of gastric acid-suppressing drugs. Among this class, vonoprazan is the first to have been approved in the United States. However, some P-CABs including vonoprazan, tegoprazan, and fexuprazan have been available in other countries since at least 2014. The first aim of this article is to review pharmacological differences between P-CABs that are currently approved or in development with proton pump inhibitors. The specific focus thereafter is on the likely role of P-CABs in the treatment of different manifestations of gastroesophageal reflux disease. Multiple clinical trials have compared P-CABs with proton pump inhibitors in erosive esophagitis. Additional trials have compared P-CABs with placebo in nonerosive reflux disease. Relevant results are reviewed, and inferences are drawn for their use in the United States. Finally, consideration is given to additional, potential uses of P-CABs in the broader spectrum of gastroesophageal reflux disease, and some suggestions are made for future research initiatives.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39466255/"
+    },
+    {
+      "pmid": "38263507",
+      "title": "A systematic review and meta-analysis of the efficacy of vonoprazan for proton pump inhibitor-resistant gastroesophageal reflux disease.",
+      "authors": [
+        "Simadibrata DM",
+        "Lesmana E",
+        "Fass R"
+      ],
+      "journal": "Journal of gastroenterology and hepatology",
+      "year": "2024",
+      "abstract": "Up to 40% of gastroesophageal reflux disease (GERD) patients experience inadequate symptom relief with a proton pump inhibitor (PPI), termed PPI-resistant or refractory GERD. Vonoprazan, a potassium-competitive acid blocker, has better efficacy than PPI in suppressing gastric acid secretion. This meta-analysis summarizes the efficacy and safety of vonoprazan for treating PPI-resistant GERD (both erosive esophagitis [EE] and non-erosive reflux disease [NERD]). Four electronic databases (Medline, Embase, SCOPUS, and CENTRAL) were searched for studies indexed until August 1, 2023. Both observational studies and clinical trials assessing the efficacy and safety of vonoprazan in PPI-resistant GERD were included. Efficacy outcomes included healing and maintenance rates of EE and improvement of the Frequency Scale for Symptoms of GERD (FSSG) scores. Serious adverse events (SAEs) were considered a safety outcome. The modified Newcastle-Ottawa Scale (NOS) was used to assess study quality. Twelve studies were included in this meta-analysis. Healing rates of PPI-resistant EE with vonoprazan 20 mg were 91.7% (95% CI 86.8-94.8%) and 88.5% (95% CI 69.7-96.2%) at weeks 4 and 8, respectively. For healed PPI-resistant EE, the overall maintenance rates with vonoprazan 10 mg were 82.6% (95% 61.2-95.0%) at week 8, 86.0% (95% CI 72.1-94.7%) at week 24, and 93.8% (95% CI 69.8-99.8%) at week 48. FSSG scores were improved in 74.6% (95% CI 65.8-81.7%) and 51.9% (95% CI 37.8-65.7%) of patients at weeks 4 and 8. Overall, no SAE was reported. Vonoprazan demonstrated high efficacy in the healing and maintenance of PPI-resistant EE and moderate efficacy for the improvement of FSSG score. Vonoprazan was well tolerated in PPI-resistant GERD patients.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38263507/"
+    },
+    {
+      "pmid": "32718584",
+      "title": "Long-term use of proton pump inhibitors as a risk factor for various adverse manifestations.",
+      "authors": [
+        "Koyyada A"
+      ],
+      "journal": "Therapie",
+      "year": "2021",
+      "abstract": "The long-term use of proton pump inhibitors (PPIs) can lead to increased gastric pH, hypochlorhydria and in some cases to achlorhydria when compared to other acid-suppressing agents like histamine-2 (H2) receptor blockers and antacids. These consequences by the use of long-term PPIs may lead to significant vitamin (B",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32718584/"
+    },
+    {
+      "pmid": "33608531",
+      "title": "GWAS of peptic ulcer disease implicates Helicobacter pylori infection, other gastrointestinal disorders and depression.",
+      "authors": [
+        "Wu Y",
+        "Murray GK",
+        "Byrne EM",
+        "Sidorenko J",
+        "Visscher PM"
+      ],
+      "journal": "Nature communications",
+      "year": "2021",
+      "abstract": "Genetic factors are recognized to contribute to peptic ulcer disease (PUD) and other gastrointestinal diseases, such as gastro-oesophageal reflux disease (GORD), irritable bowel syndrome (IBS) and inflammatory bowel disease (IBD). Here, genome-wide association study (GWAS) analyses based on 456,327 UK Biobank (UKB) individuals identify 8 independent and significant loci for PUD at, or near, genes MUC1, MUC6, FUT2, PSCA, ABO, CDX2, GAST and CCKBR. There are previously established roles in susceptibility to Helicobacter pylori infection, response to counteract infection-related damage, gastric acid secretion or gastrointestinal motility for these genes. Only two associations have been previously reported for duodenal ulcer, here replicated trans-ancestrally. The results highlight the role of host genetic susceptibility to infection. Post-GWAS analyses for PUD, GORD, IBS and IBD add insights into relationships between these gastrointestinal diseases and their relationships with depression, a commonly comorbid disorder.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33608531/"
+    },
+    {
+      "pmid": "41132014",
+      "title": "[Gastroesophageal Reflux Disease].",
+      "authors": [
+        "Lee JY",
+        "Kim SE",
+        "Shin JE",
+        "Cha B",
+        "Na W"
+      ],
+      "journal": "The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi",
+      "year": "2025",
+      "abstract": "Gastroesophageal reflux disease (GERD) is increasingly prevalent and often not fully controlled by proton pump inhibitors alone, prompting renewed interest in evidence-based dietary and lifestyle management. This narrative review integrates contemporary guidelines with clinical, physiologic, and epidemiologic studies to formulate practical, patient-centered recommendations. Interventions with the most consistent support included the following: weight reduction, maintaining a two-to-three-hour interval between the final meal and bedtime, head-of-bed elevation and left-lateral sleep, smoking cessation, and light postprandial activity while avoiding high-intensity exercise immediately after meals. Eating slowly and consuming smaller portions are encouraged. Dietary triggers, such as high-fat foods, alcohol, carbonated beverages, coffee/caffeine, chocolate, and acidic items (e.g., tomato products and citrus), show heterogeneous associations across studies. Accordingly, individualized avoidance or substitution is preferable to universal prohibition. Pragmatic substitutions (e.g., decaffeinated coffee or low-fat latte; lean poultry or fish instead of fatty processed meats; less acidic fruits such as apple, pear, or banana) may enhance adherence. Emerging randomized evidence suggests that diaphragmatic breathing can reduce postprandial reflux events, increase inspiratory lower esophageal sphincter pressure, and improve symptoms and quality of life. On the other hand, the evidence base remains limited in scope and duration. Overall, tailored dietary and lifestyle modification constitutes a credible adjunct to pharmacotherapy and a practical framework for patient counseling in GERD. Gastroesophageal reflux disease (GERD) is increasingly prevalent and often not fully controlled by proton pump inhibitors alone, prompting renewed interest in evidence-based dietary and lifestyle management. This narrative review integrates contemporary guidelines with clinical, physiologic, and epidemiologic studies to formulate practical, patient-centered recommendations. Interventions with the most consistent support included the following: weight reduction, maintaining a two-to-three-hour interval between the final meal and bedtime, head-of-bed elevation and left-lateral sleep, smoking cessation, and light postprandial activity while avoiding high-intensity exercise immediately after meals. Eating slowly and consuming smaller portions are encouraged. Dietary triggers, such as high-fat foods, alcohol, carbonated beverages, coffee/caffeine, chocolate, and acidic items (e.g., tomato products and citrus), show heterogeneous associations across studies. Accordingly, individualized avoidance or substitution is preferable to universal prohibition. Pragmatic substitutions (e.g., decaffeinated coffee or low-fat latte; lean poultry or fish instead of fatty processed meats; less acidic fruits such as apple, pear, or banana) may enhance adherence. Emerging randomized evidence suggests that diaphragmatic breathing can reduce postprandial reflux events, increase inspiratory lower esophageal sphincter pressure, and improve symptoms and quality of life. On the other hand, the evidence base remains limited in scope and duration. Overall, tailored dietary and lifestyle modification constitutes a credible adjunct to pharmacotherapy and a practical framework for patient counseling in GERD.",
+      "study_type": "English Abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41132014/"
+    },
+    {
+      "pmid": "35315311",
+      "title": "What is clinically relevant weight loss for your patients and how can it be achieved? A narrative review.",
+      "authors": [
+        "Horn DB",
+        "Almandoz JP",
+        "Look M"
+      ],
+      "journal": "Postgraduate medicine",
+      "year": "2022",
+      "abstract": "Obesity is a chronic disease with increasing prevalence. It affects quality of life and renders those affected at increased risk of mortality. For people living with obesity, weight loss is one of the most important strategies to improve health outcomes and prevent or reverse obesity-related complications. In line with newly released clinical practice guidelines, weight loss targets for people living with obesity should be defined individually based on their clinical profile, and progress measured in the context of improvements in health outcomes, rather than weight loss alone. We outline current treatment options for clinically meaningful weight loss and briefly discuss pharmacological agents and devices under development. Numerous studies have shown that weight loss of ≥5% results in significant improvements in cardiometabolic risk factors associated with obesity; this degree of weight loss is also required for the approval of novel anti-obesity medications by the US Food and Drug Administration. However, some obesity-related comorbidities and complications, such as non-alcoholic steatohepatitis, obstructive sleep apnea, gastroesophageal reflux disease and remission of type 2 diabetes, require a greater magnitude of weight loss to achieve clinically meaningful improvements. In this review, we assessed the available literature describing the effect of categorical weight losses of ≥5%, ≥10%, and ≥15% on obesity-related comorbidities and complications, and challenge the concept of clinically meaningful weight loss to go beyond percentage change in total body weight. We discuss weight-loss interventions including lifestyle interventions and therapeutic options including devices, and pharmacological and surgical approaches as assessed from the available literature.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35315311/"
+    },
+    {
+      "pmid": "31758470",
+      "title": "Knowledge and Attitudes Towards Obesity and Bariatric Surgery in Chinese Nurses.",
+      "authors": [
+        "Fan M",
+        "Hong J",
+        "Cheung PN",
+        "Tang S",
+        "Zhang J"
+      ],
+      "journal": "Obesity surgery",
+      "year": "2020",
+      "abstract": "Obesity has become a global epidemic. Surgical treatment of obesity and metabolic disorders in China is increasing rapidly, but it is still a new discipline even to health professionals. As an important member of the multidisciplinary team, the knowledge and attitudes of nurses provide crucial health care to the patients and support to surgeons. To study the Chinese nurses' knowledge of obesity and metabolic disorders, and attitudes towards bariatric surgery and to improve their capability of work in this new discipline. This is a multicenter study, with the questionnaire distributed to cooperative hospitals in the form of an electronic questionnaire by the First Affiliated Hospital of Jinan University in April 2018. A questionnaire was designed to investigate nurses' demographic, knowledge, and attitude towards obesity, weight loss, and bariatric surgery. A total of 5311 questionnaires were received, with an effective rate of 91.8% (4878 questionnaires); 65.2% of nurses had a normal BMI. Nurses generally had a high knowledge of obesity and related cardiovascular diseases (98.6%) and type 2 diabetes mellitus (90.2%). However, there was a lack of knowledge in other related aspects, for example its relations to carcinoma (49.5%), gastroesophageal reflux disease (40.1%), and psychological disorders (49.1%), which are controversial issues in bariatric surgery. It was found that education (p < 0.05) had an important influence to nurses' knowledge about the comorbidities of obesity. Female nurses had a higher tendency to choose weight loss than males, but male nurses did physical exercise more frequently than females (p < 0.05). Their acceptance of safety (25.1%) and efficacy (22.9%) of bariatric surgery is low, with concerns predominantly about postoperative complications and adverse effects. Surgical nurses had a more optimistic attitude towards surgery (p < 0.05). Chinese nurses have poor knowledge of obesity-related metabolic disorders and also have poor acceptance of surgical treatment modalities. Our findings suggest that it is crucial to enhance the continuing education of Chinese nurses for obesity, metabolic disorders, and bariatric surgery.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31758470/"
+    },
+    {
+      "pmid": "39133924",
+      "title": "Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Dunbar KB"
+      ],
+      "journal": "Annals of internal medicine",
+      "year": "2024",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a condition that occurs when reflux of gastric contents into the esophagus causes symptoms and/or complications. The prevalence of GERD in Western societies has been estimated at 30%, making it one of the most commonly encountered disorders in primary care. The spectrum of GERD includes typical symptoms of esophageal reflux (heartburn and/or regurgitation); esophageal injury (erosive esophagitis; stricture; Barrett esophagus; and, rarely, adenocarcinoma); and extraesophageal symptoms, such as hoarseness and chronic cough. Proper diagnosis and treatment of GERD includes symptom control, exclusion of other disorders, avoiding overuse of medications and invasive testing, and minimizing complications.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39133924/"
+    },
+    {
+      "pmid": "34326345",
+      "title": "Gastro-oesophageal reflux disease.",
+      "authors": [
+        "Fass R",
+        "Boeckxstaens GE",
+        "El-Serag H",
+        "Rosen R",
+        "Sifrim D"
+      ],
+      "journal": "Nature reviews. Disease primers",
+      "year": "2021",
+      "abstract": "Gastro-oesophageal reflux disease (GERD) is a common disorder in adults and children. The global prevalence of GERD is high and increasing. Non-erosive reflux disease is the most common phenotype of GERD. Heartburn and regurgitation are considered classic symptoms but GERD may present with various atypical and extra-oesophageal manifestations. The pathophysiology of GERD is multifactorial and different mechanisms may result in GERD symptoms, including gastric composition and motility, anti-reflux barrier, refluxate characteristics, clearance mechanisms, mucosal integrity and symptom perception. In clinical practice, the diagnosis of GERD is commonly established on the basis of response to anti-reflux treatment; however, a more accurate diagnosis requires testing that includes upper gastrointestinal tract endoscopy and reflux monitoring. New techniques and new reflux testing parameters help to better phenotype the condition. In children, the diagnosis of GERD is primarily based on history and physical examination and treatment vary with age. Treatment in adults includes a combination of lifestyle modifications with pharmacological, endoscopic or surgical intervention. In refractory GERD, optimization of proton-pump inhibitor treatment should be attempted before a series of diagnostic tests to assess the patient's phenotype.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34326345/"
+    },
+    {
+      "pmid": "29132520",
+      "title": "Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Kellerman R",
+        "Kintanar T"
+      ],
+      "journal": "Primary care",
+      "year": "2017",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a gastrointestinal motility disorder that results from the reflux of stomach contents into the esophagus or oral cavity resulting in symptoms or complications. The typical symptoms of GERD are heartburn and regurgitation of gastric contents into the oropharynx. GERD affects quality of life and may cause erosive esophagitis, esophageal strictures, and Barrett esophagus, a precursor to esophageal adenocarcinoma. GERD is a clinical diagnosis and is most effectively treated with proton-pump inhibitors (PPIs). Long-term use of PPIs is associated with bone fractures, chronic renal disease, acute renal disease, community-acquired pneumonia, and Clostridium difficile intestinal infection.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29132520/"
+    },
+    {
+      "pmid": "30688703",
+      "title": "Gastroesophageal Reflux Disease: Pathophysiology, Diagnosis, and Treatment.",
+      "authors": [
+        "Chen J",
+        "Brady P"
+      ],
+      "journal": "Gastroenterology nursing : the official journal of the Society of Gastroenterology Nurses and Associates",
+      "year": "2019",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a common chronic disorder in industrialized countries. Gastroesophageal reflux disease is one of the most frequent diseases encountered by primary care providers. The primary symptoms of GERD include heartburn, regurgitation, globus sensation, dysphagia, chest pain, and belching. If symptoms are left untreated, a major concern is complications and the potential risk of esophageal adenocarcinoma associated with GERD. With the increasing prevalence and incidence of GERD and the increasing cost of this disease, there is a need for advanced practice registered nurses to understand the nature of GERD including its pathophysiology, signs and symptoms, and treatment options to address the disease.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30688703/"
+    },
+    {
+      "pmid": "33882662",
+      "title": "Risk factors for gastroesophageal reflux disease symptoms related to lifestyle and diet.",
+      "authors": [
+        "Taraszewska A"
+      ],
+      "journal": "Roczniki Panstwowego Zakladu Higieny",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is one of the most common diseases of the upper gastrointestinal tract. The most characteristic symptom of the disease is heartburn, which occurs at least once a week. The prevalence of the disease varies and, depending on the region of the world, it may affect from a few to over 30% of an adult population. It is estimated that in Poland this disease may affect up to 35.5% of adults reporting abdominal ailments. If untreated, the disease can lead to serious complications including precancerous conditions and esophageal adenocarcinoma. Pharmacotherapy is considered as the first-line treatment in GERD patients but lifestyle modifications, including diet changes, are an important element supporting the treatment of the disease. Many factors may contribute to the development of the disease. Among them, there are non-modifiable factors such as age, sex or genetic factors and modifiable factors, e.g. lifestyle, diet, excessive body weight. This review focuses on GERD risk factors related to lifestyle and nutrition that include both dietary components and nutritional behaviour. Lifestyle risk factors that may contribute to GERD symptoms include excessive body weight, particularly obesity, moderate/high alcohol consumption, smoking, postprandial and vigorous physical activity, as well as lack of regular physical activity. Many studies indicate fatty, fried, sour, spicy food/products, orange and grapefruit juice, tomatoes and tomato preserves, chocolate, coffee/tea, carbonated beverages, alcohol as triggers for GERD symptoms. Eating habits such as irregular meal pattern, large volume of meals, eating meals just before bedtime may correlate with the symptoms of GERD. The role of lifestyle, diet and eating habits as risk factors for GERD is not clearly understood, and the results of the available studies are often contradictory. Determination of modifiable risk factors for this disease and its symptoms is important for effective dietary prevention and diet therapy of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33882662/"
+    },
+    {
+      "pmid": "35226174",
+      "title": "Evidence-based clinical practice guidelines for gastroesophageal reflux disease 2021.",
+      "authors": [
+        "Iwakiri K",
+        "Fujiwara Y",
+        "Manabe N",
+        "Ihara E",
+        "Kuribayashi S"
+      ],
+      "journal": "Journal of gastroenterology",
+      "year": "2022",
+      "abstract": "In Japan, with the increasing prevalence of gastroesophageal reflux disease (GERD) and growing public interest, the Japanese Society of Gastroenterology issued Evidence-based Clinical Practice Guidelines for GERD (1st edition) in 2009 and a revised 2nd edition in 2015. A number of studies on GERD were subsequently conducted in Japan and abroad, and vonoprazan, a potassium-competitive acid blocker (P-CAB), became available for the first time in Japan in February 2015. The revised 3rd edition (Japanese edition), which incorporates new findings and information, was published in April 2021. These guidelines are summarized herein, particularly sections related to the treatment of GERD. The important clinical issues addressed in the present revision are (i) the introduction of treatment algorithms that classify GERD into reflux esophagitis and non-erosive reflux disease, (ii) the clarification of treatment algorithms based on to the severity of reflux esophagitis, and (iii) the positioning of vonoprazan in the treatment for GERD. The present guidelines propose vonoprazan as the initial/maintenance treatment for severe reflux esophagitis. They also recommend vonoprazan or PPI as an initial treatment for mild reflux esophagitis and recommended PPI and proposed vonoprazan as maintenance treatment. These updated guidelines offer the best clinical strategies for GERD patients in Japan and hope that they will be of global use for the diagnosis and treatment for GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35226174/"
+    },
+    {
+      "pmid": "28780072",
+      "title": "Presentation and Epidemiology of Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Richter JE",
+        "Rubenstein JH"
+      ],
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "abstract": "Gastroesophageal reflux disease (GERD) is the most prevalent gastrointestinal disorder in the United States, and leads to substantial morbidity, though associated mortality is rare. The prevalence of GERD symptoms appeared to increase until 1999. Risk factors for complications of GERD include advanced age, male sex, white race, abdominal obesity, and tobacco use. Most patients with GERD present with heartburn and effortless regurgitation. Coexistent dysphagia is considered an alarm symptom, prompting evaluation. There is substantial overlap between symptoms of GERD and those of eosinophilic esophagitis, functional dyspepsia, and gastroparesis, posing a challenge for patient management.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28780072/"
+    },
+    {
+      "pmid": "35605234",
+      "title": "Gastroesophageal reflux disease and oral health: A narrative review.",
+      "authors": [
+        "Mahajan R",
+        "Kulkarni R",
+        "Stoopler ET"
+      ],
+      "journal": "Special care in dentistry : official publication of the American Association of Hospital Dentists, the Academy of Dentistry for the Handicapped, and the American Society for Geriatric Dentistry",
+      "year": "2022",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a clinical condition in which stomach contents leak backward into the esophagus. It affects millions of people worldwide and has a detrimental effect on quality of life. Heartburn and acid regurgitation are typical GERD symptoms, while atypical manifestations include noncardiac chest pain, cough and laryngitis. The oral and maxillofacial manifestations of GERD may include dental erosion, xerostomia, mucositis, aphthous like ulcerations, sour taste, burning mouth, hyperesthesia, bruxism, and/or temporomandibular disorder (TMD). This narrative review provides oral health care professionals with an update to medical aspects of GERD, recognition and management of oral and maxillofacial manifestations of the condition and provision of appropriate dental care for this patient population.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35605234/"
+    },
+    {
+      "pmid": "32238378",
+      "title": "GERD: A practical approach.",
+      "authors": [
+        "Young A",
+        "Kumar MA",
+        "Thota PN"
+      ],
+      "journal": "Cleveland Clinic journal of medicine",
+      "year": "2020",
+      "abstract": "Gastroesophageal reflux disease (GERD) is mainly a clinical diagnosis based on typical symptoms of heartburn and acid regurgitation. Current guidelines indicate that patients with typical symptoms should first try a proton pump inhibitor (PPI). If reflux symptoms persist after 8 weeks on a PPI, endoscopy of the esophagus is recommended, with biopsies taken to rule out eosinophilic esophagitis. This review discusses the evidence for different medical, endoscopic, and surgical therapies and presents a management algorithm.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32238378/"
+    },
+    {
+      "pmid": "28146448",
+      "title": "Diet and gastroesophageal reflux disease: role in pathogenesis and management.",
+      "authors": [
+        "Sethi S",
+        "Richter JE"
+      ],
+      "journal": "Current opinion in gastroenterology",
+      "year": "2017",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a common disease that presents with a variety of symptoms including heartburn and acid regurgitation. Although dietary modification is currently regarded as first-line therapy for the disease, the role of diet in the pathogenesis and management of GERD is still poorly understood. The present article aims to review recent literature that examines the relationship of diet and GERD. Increased awareness of medications side effects and widespread overuse has brought nonpharmacological therapies to the forefront for the management of GERD. Recent findings have established the important role of nutrition for the managements of symptoms of GERD. Increasing scientific evidence has produced objective data on the role of certain trigger foods, whereas population studies endorse decreased reflux symptoms by following certain diets. Obesity has been linked with increased symptoms of GERD as well. Furthermore, the importance of lifestyle techniques such as head of bed elevation and increased meal to sleep time may provide nonpharmacologic methods for effective symptom control in GERD. We provide a comprehensive review on the association between diet and its role in the development and management of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28146448/"
+    },
+    {
+      "pmid": "38599865",
+      "title": "Different Food Preferences in Patients with Gastrointestinal Disorders.",
+      "authors": [
+        "Katsumata R",
+        "Kaburagi T",
+        "Hosokawa T",
+        "Manabe N",
+        "Ishii M"
+      ],
+      "journal": "Internal medicine (Tokyo, Japan)",
+      "year": "2024",
+      "abstract": "Objective Gastrointestinal (GI) disorders such as functional dyspepsia (FD), irritable bowel syndrome (IBS), gastroesophageal reflux disease (GERD), and inflammatory bowel disease (IBD) can exhibit overlapping GI symptoms, including abdominal pain and alterations in bowel habits. The symptoms of GI disorders are commonly considered to be triggered and exacerbated by fatty food intake. Therefore, this study aimed to compare the food preferences of patients with GI disorders. Methods Forty food images (including fatty and light foods) and 20 animal images were selected to evaluate food preferences. The preference score was assessed using a visual analog scale ranging from 1 to 100. GI symptoms were evaluated using the GI Symptom Rating Scale (GSRS), and correlations between the GSRS and preference scores were investigated. Results Overall, 22 healthy controls and 23, 29, 27, and 20 patients with FD, IBS, GERD, and IBD, respectively, were enrolled. The preference score for all foods in patients with FD was significantly lower than that in healthy controls and those with IBS, GERD, and IBD (52.9 vs. 66.5 vs. 68.5 vs. 69.1 vs. 70.7, p<0.01). The score of fatty foods was lower in patients with FD than in healthy controls and those with IBS, GERD, and IBD (43.8 vs. 72.3 vs. 77.5 vs. 77.4 vs. 80.7, p<0.01), whereas that of light foods and animal images was not different among the groups. No significant correlation was found between the preference score and symptom severity. Conclusion Patients with FD had a negative preference for foods, particularly fatty foods, independent of the severity of GI symptoms.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38599865/"
+    },
+    {
+      "pmid": "31882910",
+      "title": "Association between skeletal muscle attenuation and gastroesophageal reflux disease: A health check-up cohort study.",
+      "authors": [
+        "Kim YM",
+        "Kim JH",
+        "Baik SJ",
+        "Jung DH",
+        "Park JJ"
+      ],
+      "journal": "Scientific reports",
+      "year": "2019",
+      "abstract": "Sarcopenia is defined as skeletal muscle attenuation and has an association with metabolic syndrome. Metabolic syndrome, which includes obesity, is one of known predictive factors for gastroesophageal reflux disease (GERD). This study aimed to elucidate the association between sarcopenia and GERD. We retrospectively reviewed electronic medical records of 8,218 patients who were performed an upper gastrointestinal endoscopy at check-up center of the Gangnam Severance Hospital. GERD was diagnosed by endoscopic findings. Erosive reflux disease (ERD) included Barrett's esophagus and reflux esophagitis, with the exception of minimal change esophagitis. Sarcopenia was defined by appendicular skeletal muscle (skeletal muscle in the upper and lower limbs). Sarcopenic obesity was defined as the presence of both sarcopenia and obesity. Associations between sarcopenia and GERD, as well as between sarcopenic obesity and ERD, were analyzed. A total of 3,414 patients were diagnosed with GERD, and 574 (16.8%) had sarcopenia. Sarcopenia was independent predictive factor for GERD (odds ratio [OR] = 1.170, 95% confidence interval [CI]: 1.016-1.346, P = 0.029). In addition, male sex, smoking, alcohol, and diet, including sweets and fatty food, had a significant association with GERD. A total of 1,423 (17.3%) of 8,218 patients were diagnosed with ERD, and 302 (21.2%) had sarcopenia. Male sex, smoking, and fatty food consumption had a significant association with ERD. Moreover, sarcopenia (OR = 1.215, 95% CI: 1.019-1.449, P = 0.030), obesity (OR = 1.343, 95% CI: 1.163-1.552, P < 0.001), and sarcopenic obesity (OR = 1.406, 95% CI: 1.195-1.654, P < 0.001) were independent predictive factors for ERD. Sarcopenia is associated with GERD, and sarcopenic obesity may be predictive factor for ERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31882910/"
+    },
+    {
+      "pmid": "29208856",
+      "title": "Prevalence of GERD in Type II Diabetes Mellitus Patients Admitted in A Tertiary Care Hospital of Bangladesh.",
+      "authors": [
+        "Rouf MA",
+        "Khan M",
+        "Sharif JU",
+        "Karim MR",
+        "Rahman MM"
+      ],
+      "journal": "Mymensingh medical journal : MMJ",
+      "year": "2017",
+      "abstract": "Gastroesophageal reflux disease (GERD) is defined as symptoms or complications associated with regurgitation from the stomach and/or the duodenum to the esophagus. Patients with type II diabetes mellitus (DM) were known to have higher prevalence of GERD in the Western countries, but data on the impact of GERD on DM patients in our country are scarce. The aim of this cross-sectional study was to evaluate the presence of GERD in type II DM patients admitted at the Department of Medicine, Mymensingh Medical College Hospital, Mymensingh, Bangladesh from April 2015 to September 2015. A total of 137 type II DM cases were purposively collected. Reflux Disease Questionnaire (RDQ) was used to check the presence of GERD. Patient's characteristics, laboratory data, face-to-face interview data were analyzed. Out of 137 type 2 DM patients 108 were suffering from GERD giving a prevalence rate of 78.8% which is quite high. Pathophysiological factors like age, sex, duration of DM, weight, waist circumference (WC) had no significant difference between GERD-DM and non-GERD-type II DM patients. Only hypertension and frequent eating fatty food were found to have significant differences between the two groups. From the study findings it could be said that the higher rate of GERD in patients with type II DM may be associated with lifestyle factor and some pathophysiological factors like hypertension. Psychiatric factors may also play role in contributing GERD. Further in-depth and large scale studies are necessary in our country in this regard.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29208856/"
+    },
+    {
+      "pmid": "33351048",
+      "title": "Gastroesophageal Reflux Disease: A Review.",
+      "authors": [
+        "Maret-Ouda J",
+        "Markar SR",
+        "Lagergren J"
+      ],
+      "journal": "JAMA",
+      "year": "2020",
+      "abstract": "Gastroesophageal reflux disease (GERD) is defined by recurrent and troublesome heartburn and regurgitation or GERD-specific complications and affects approximately 20% of the adult population in high-income countries. GERD can influence patients' health-related quality of life and is associated with an increased risk of esophagitis, esophageal strictures, Barrett esophagus, and esophageal adenocarcinoma. Obesity, tobacco smoking, and genetic predisposition increase the risk of developing GERD. Typical GERD symptoms are often sufficient to determine the diagnosis, but less common symptoms and signs, such as dysphagia and chronic cough, may occur. Patients with typical GERD symptoms can be medicated empirically with a proton pump inhibitor (PPI). Among patients who do not respond to such treatment or if the diagnosis is unclear, endoscopy, esophageal manometry, and esophageal pH monitoring are recommended. Patients with GERD symptoms combined with warning symptoms of malignancy (eg, dysphagia, weight loss, bleeding) and those with other main risk factors for esophageal adenocarcinoma, such as older age, male sex, and obesity, should undergo endoscopy. Lifestyle changes, medication, and surgery are the main treatment options for GERD. Weight loss and smoking cessation are often useful. Medication with a PPI is the most common treatment, and after initial full-dose therapy, which usually is omeprazole 20 mg once daily, the aim is to use the lowest effective dose. Observational studies have suggested several adverse effects after long-term PPI, but these findings need to be confirmed before influencing clinical decision making. Surgery with laparoscopic fundoplication is an invasive treatment alternative in select patients after thorough and objective assessments, particularly if they are young and healthy. Endoscopic and less invasive surgical techniques are emerging, which may reduce the use of long-term PPI and fundoplication, but the long-term safety and efficacy remain to be scientifically established. The clinical management of GERD influences the lives of many individuals and is responsible for substantial consumption of health care and societal resources. Treatments include lifestyle modification, PPI medication, and laparoscopic fundoplication. New endoscopic and less invasive surgical procedures are evolving. PPI use remains the dominant treatment, but long-term therapy requires follow-up and reevaluation for potential adverse effects.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33351048/"
+    },
+    {
+      "pmid": "37061897",
+      "title": "AGA Clinical Practice Update on the Diagnosis and Management of Extraesophageal Gastroesophageal Reflux Disease: Expert Review.",
+      "authors": [
+        "Chen JW",
+        "Vela MF",
+        "Peterson KA",
+        "Carlson DA"
+      ],
+      "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+      "year": "2023",
+      "abstract": "The purpose of this American Gastroenterological Association (AGA) Institute Clinical Practice Update is to review the available evidence and expert advice regarding the clinical management of patients with suspected extraesophageal gastroesophageal reflux disease. This article provides practical advice based on the available published evidence including that identified from recently published reviews from leading investigators in the field, prospective and population studies, clinical trials, and recent clinical guidelines and technical reviews. This best practice document is not based on a formal systematic review. The best practice advice as presented in this document applies to patients with symptoms or conditions suspected to be related to extraesophageal reflux (EER). This expert review was commissioned and approved by the AGA Institute Clinical Practice Updates Committee (CPUC) and the AGA Governing Board to provide timely guidance on a topic of high clinical importance to the AGA membership and underwent internal peer review by the CPUC and external peer review through standard procedures of Clinical Gastroenterology and Hepatology. These Best Practice Advice (BPA) statements were drawn from a review of the published literature and from expert opinion. Because systematic reviews were not performed, these BPA statements do not carry formal ratings of the quality of evidence or strength of the presented considerations. BEST PRACTICE ADVICE 1: Gastroenterologists should be aware of potential extraesophageal manifestations of gastroesophageal reflux disease (GERD) and should inquire about such disorders including laryngitis, chronic cough, asthma, and dental erosions in GERD patients to determine whether GERD may be a contributing factor to these conditions. BEST PRACTICE ADVICE 2: Development of a multidisciplinary approach to extraesophageal (EER) manifestations is an important consideration because the conditions are often multifactorial, requiring input from non-gastroenterology (GI) specialties. Results from diagnostic testing (ie, bronchoscopy, thoracic imaging, laryngoscopy, etc) from non-GI disciplines should be taken into consideration when gastroesophageal reflux (GER) is considered as a cause for extraesophageal symptoms. BEST PRACTICE ADVICE 3: Currently, there is no single diagnostic tool that can conclusively identify GER as the cause of EER symptoms. Determination of the contribution of GER to EER symptoms should be based on the global clinical impression derived from patients' symptoms, response to GER therapy, and results of endoscopy and reflux testing. BEST PRACTICE ADVICE 4: Consideration should be given toward diagnostic testing for reflux before initiation of proton pump inhibitor (PPI) therapy in patients with potential extraesophageal manifestations of GERD, but without typical GERD symptoms. Initial single-dose PPI trial, titrating up to twice daily in those with typical GERD symptoms, is reasonable. BEST PRACTICE ADVICE 5: Symptom improvement of EER manifestations while on PPI therapy may result from mechanisms of action other than acid suppression and should not be regarded as confirmation for GERD. BEST PRACTICE ADVICE 6: In patients with suspected extraesophageal manifestation of GERD who have failed one trial (up to 12 weeks) of PPI therapy, one should consider objective testing for pathologic GER, because additional trials of different PPIs are low yield. BEST PRACTICE ADVICE 7: Initial testing to evaluate for reflux should be tailored to patients' clinical presentation and can include upper endoscopy and ambulatory reflux monitoring studies of acid suppressive therapy. BEST PRACTICE ADVICE 8: Testing can be considered for those with an established objective diagnosis of GERD who do not respond to high doses of acid suppression. Testing can include pH-impedance monitoring while on acid suppression to evaluate the role of ongoing acid or non-acid reflux. BEST PRACTICE ADVICE 9: Alternative treatment methods to acid suppressive therapy (eg, lifestyle modifications, alginate-containing antacids, external upper esophageal sphincter compression device, cognitive-behavioral therapy, neuromodulators) may serve a role in management of EER symptoms. BEST PRACTICE ADVICE 10: Shared decision-making should be performed before referral for anti-reflux surgery for EER when the patient has clear, objectively defined evidence of GERD. However, a lack of response to PPI therapy predicts lack of response to anti-reflux surgery and should be incorporated into the decision process.",
+      "study_type": "Practice Guideline",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37061897/"
+    },
+    {
+      "pmid": "37507070",
+      "title": "Mepolizumab in Patients With Severe Asthma and Comorbidities: 1-Year REALITI-A Analysis.",
+      "authors": [
+        "Liu MC",
+        "Bagnasco D",
+        "Matucci A",
+        "Pilette C",
+        "Price RG"
+      ],
+      "journal": "The journal of allergy and clinical immunology. In practice",
+      "year": "2023",
+      "abstract": "Severe asthma is complex; comorbidities may influence disease outcomes. To assess mepolizumab effectiveness in patients with severe asthma and comorbidities. REALITI-A was a 2-year international, prospective study enrolling adults with asthma newly prescribed mepolizumab (100 mg subcutaneously) at physician's discretion. This post hoc analysis assessed 1-year outcomes stratified by comorbidities at enrollment: chronic rhinosinusitis with nasal polyps (CRSwNP), gastroesophageal reflux disease (GERD), depression/anxiety, and chronic obstructive pulmonary disease (COPD). Outcomes included the rate of clinically significant asthma exacerbations (CSEs; requiring systemic corticosteroids and/or hospital/emergency room admission) between the 12 months pre- and post-mepolizumab treatment and changes from baseline in daily maintenance oral corticosteroid dose (mo 12), Asthma Control Questionnaire-5 score (mo 12) and forced expiratory volume in 1 second (FEV At enrollment (n = 822), 321 of 822 (39%), 309 of 801 (39%), 203 of 785 (26%), and 81 of 808 (10%) patients had comorbid CRSwNP, GERD, depression/anxiety, and COPD, respectively. Post- versus pre-treatment across all comorbidity subgroups: the rate of CSEs decreased by 63% or more; among 298 (39%) patients on maintenance oral corticosteroids at baseline, median dose decreased by 50% or more; Asthma Control Questionnaire-5 score decreased by 0.63 or more points; FEV Mepolizumab improved disease outcomes in patients with severe asthma irrespective of comorbidities, with additional benefit for patients with CRSwNP.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37507070/"
+    },
+    {
+      "pmid": "34279710",
+      "title": "SAGES guidelines for the surgical treatment of gastroesophageal reflux (GERD).",
+      "authors": [
+        "Slater BJ",
+        "Dirks RC",
+        "McKinley SK",
+        "Ansari MT",
+        "Kohn GP"
+      ],
+      "journal": "Surgical endoscopy",
+      "year": "2021",
+      "abstract": "Gastroesophageal Reflux Disease (GERD) is an extremely common condition with several medical and surgical treatment options. A multidisciplinary expert panel was convened to develop evidence-based recommendations to support clinicians, patients, and others in decisions regarding the treatment of GERD with an emphasis on evaluating different surgical techniques. Literature reviews were conducted for 4 key questions regarding the surgical treatment of GERD in both adults and children: surgical vs. medical treatment, robotic vs. laparoscopic fundoplication, partial vs. complete fundoplication, and division vs. preservation of short gastric vessels in adults or maximal versus minimal dissection in pediatric patients. Evidence-based recommendations were formulated using the GRADE methodology by subject experts. Recommendations for future research were also proposed. The panel provided seven recommendations for adults and children with GERD. All recommendations were conditional due to very low, low, or moderate certainty of evidence. The panel conditionally recommended surgical treatment over medical management for adults with chronic or chronic refractory GERD. There was insufficient evidence for the panel to make a recommendation regarding surgical versus medical treatment in children. The panel suggested that once the decision to pursue surgical therapy is made, adults and children with GERD may be treated with either a robotic or a laparoscopic approach, and either partial or complete fundoplication based on surgeon-patient shared decision-making and patient values. In adults, the panel suggested either division or non-division of the short gastric vessels is appropriate, and that children should undergo minimal dissection during fundoplication. These recommendations should provide guidance with regard to surgical decision-making in the treatment of GERD and highlight the importance of shared decision-making and patient values to optimize patient outcomes. Pursuing the identified research needs may improve future versions of guidelines for the treatment of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34279710/"
+    },
+    {
+      "pmid": "23322552",
+      "title": "Gastroesophageal reflux disease in neonates and infants : when and how to treat.",
+      "authors": [
+        "Czinn SJ",
+        "Blanchard S"
+      ],
+      "journal": "Paediatric drugs",
+      "year": "2013",
+      "abstract": "Gastroesophageal reflux (GER) is defined as the involuntary retrograde passage of gastric contents into the esophagus with or without regurgitation or vomiting. It is a frequently experienced physiologic condition occurring several times a day, mostly postprandial and causes no symptoms. These infants are also called 'happy spitters'. GER disease (GERD) occurs when reflux of the gastric contents causes symptoms that affect the quality of life or pathologic complications, such as failure to thrive, feeding or sleeping problems, chronic respiratory disorders, esophagitis, hematemesis, apnea, and apparent life-threatening events. About 70-85 % of infants have regurgitation within the first 2 months of life, and this resolves without intervention in 95 % of infants by 1 year of age. The predominant mechanism causing GERD is transient lower esophageal sphincter (LES) relaxation, which is defined as an abrupt decrease in LES pressure to the level of intragastric pressure, unrelated to swallowing and of relatively longer duration than the relaxation triggered by a swallow. Regurgitation and vomiting are the most common symptoms of infant reflux. A thorough history and physical examination with attention to warning signals suggesting other causes is generally sufficient to establish a clinical diagnosis of uncomplicated infant GER. Choking, gagging, coughing with feedings or significant irritability can be warning signs for GERD or other diagnoses. If there is forceful vomiting, laboratory and radiographic investigation (upper gastrointestinal series) are warranted to exclude other causes of vomiting. Irritability coupled with back arching in infants is thought to be a non-verbal equivalent of heartburn in older children. Other causes of irritability, including cow's milk protein allergy, neurologic disorders, constipation and infection, should be ruled out. The presentation of cow's milk protein allergy overlaps with GERD, and both conditions may co-exist in 42-58 % of infants. In these infants, symptoms decrease significantly within 2-4 weeks after elimination of cow's milk protein from the diet. For non-complicated reflux, no intervention is required for most infants. Effective parental reassurance and education regarding regurgitation and lifestyle changes are usually sufficient to manage infant reflux. Sandifer syndrome, apnea and apparent life-threatening events are the extraesophageal manifestations of GERD in infants. Pharmacotherapeutic agents used to treat GERD encompass antisecretory agents, antacids, surface barrier agents and prokinetics. Currently, North American Society for Pediatric Gasroenterology, Hepatology and Nutrition (NASPGHAN) and European Society for Paediatric Gastroenterology, Hepatology and Nutrition (ESPGHAN) practice guidelines concluded that there is insufficient evidence to justify the routine use of prokinetic agents. Esomeprazole (Nexium) is now approved in the US for short-term treatment of GERD with erosive esophagitis in infants aged from 1 to 12 months. Although Nissen fundoplication is now well established as a treatment option in selected cases of GERD in children, its role in neonates and young infants is unclear and is only reserved for selective infants who did not respond to medical therapy and have life-threatening complications of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23322552/"
+    },
+    {
+      "pmid": "24117635",
+      "title": "Laryngopharyngeal reflux and GERD.",
+      "authors": [
+        "Johnston N",
+        "Dettmar PW",
+        "Strugala V",
+        "Allen JE",
+        "Chan WW"
+      ],
+      "journal": "Annals of the New York Academy of Sciences",
+      "year": "2013",
+      "abstract": "In patients with laryngopharygeal reflux (LPR), gastric contents exhibit retrograde flow into the upper aero-digestive tract, causing extraesophageal symptoms including chronic cough, hoarseness, indigestion, difficulty swallowing, globus pharyngis, and asthma. The following on laryngopharyngeal reflux includes commentaries on the use of patient-completed questionaires and anti-human pepsin antibodies and other non-invasive tests in diagnosis; the role of pepsin and acid in the etiologies of laryngeal cancers; and the application of proton pump inhibitor (PPI) therapy for the treatment of LPR.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24117635/"
+    },
+    {
+      "pmid": "39523069",
+      "title": "Achalasia: Diagnosis and Management.",
+      "authors": [
+        "Provenza CG",
+        "Romanelli JR"
+      ],
+      "journal": "The Surgical clinics of North America",
+      "year": "2025",
+      "abstract": "Achalasia is an incurable condition of the esophagus involving the inflammation and degeneration of inhibitory neurons of the lower esophageal sphincter (LES) resulting in failure of the LES to relax. Typical symptoms of achalasia are dysphagia, retrosternal chest pain, regurgitation, and weight loss. Three studies are typically required for the diagnosis of achalasia: barium swallow, high-resolution esophageal manometry, and esophagogastroduodenoscopy. Differential diagnosis includes gastroesophageal reflux disease, pseudoachalasia, neoplasm, and nonachalasia esophageal motility disorders such as scleroderma, jackhammer esophagus, distal esophageal spasm, and nutcracker esophagus.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39523069/"
+    },
+    {
+      "pmid": "38767884",
+      "title": "Gastrointestinal Conditions: Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Bailey JM"
+      ],
+      "journal": "FP essentials",
+      "year": "2024",
+      "abstract": "Gastroesophageal reflux disease (GERD) affects more than 20% of adults. Risk factors include older age, obesity, smoking, and sedentary lifestyle. Lower esophageal sphincter (LES) dysfunction is a primary cause. Classic symptoms include heartburn and regurgitation. With classic symptoms, proton pump inhibitors (PPIs) can be prescribed without further testing; PPIs should be taken on an empty stomach. Patients with atypical symptoms and those not benefiting from management should undergo esophagogastroduodenoscopy (EGD), and potentially pH and impedance testing to confirm GERD or identify other conditions. This is important because GERD increases risk of esophageal erosions/stricture, Barrett esophagus, and esophageal adenocarcinoma. However, a large percentage of adults taking PPIs have no clear indication for treatment, and PPIs and other antisecretory therapy should be tapered off if possible. Of note, vonoprazan, a new drug approved by the Food and Drug Administration (FDA), has shown superiority to PPIs. In addition to pharmacotherapy, lifestyle changes are indicated, including losing weight if overweight, not lying down after meals, and ceasing tobacco use. Procedural interventions, including fundoplication and magnetic sphincter augmentation, can be considered for patients wishing to discontinue drugs or with symptoms unresponsive to PPIs. Procedural interventions are effective for the first 1 to 3 years, but effectiveness decreases over time.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38767884/"
+    },
+    {
+      "pmid": "33009052",
+      "title": "Effects of Diaphragmatic Breathing on the Pathophysiology and Treatment of Upright Gastroesophageal Reflux: A Randomized Controlled Trial.",
+      "authors": [
+        "Halland M",
+        "Bharucha AE",
+        "Crowell MD",
+        "Ravi K",
+        "Katzka DA"
+      ],
+      "journal": "The American journal of gastroenterology",
+      "year": "2021",
+      "abstract": "Uncontrolled results suggest that diaphragmatic breathing (DB) is effective in gastroesophageal reflux disease (GERD) but the mechanism of action and rigor of proof is lacking. This study aimed to determine the effects of DB on reflux, lower esophageal sphincter (LES), and gastric pressures in patients with upright GERD and controls. Adult patients with pH proven upright GERD were studied. During a high-resolution impedance manometry, study patients received a standardized pH neutral refluxogenic meal followed by LES challenge maneuvers (Valsalva and abdominal hollowing) while randomized to DB or sham. After that, patients underwent 48 hours of pH-impedance monitoring, with 50% randomization to postprandial DB during the second day. On examining 23 patients and 10 controls, postprandial gastric pressure was found to be significantly higher in patients compared with that in controls (12 vs 7 mm Hg, P = 0.018). Valsalva maneuver produced reflux in 65.2% of patients compared with 44.4% of controls (P = 0.035). LES increased during the inspiratory portion of DB (42.2 vs 23.1 mm Hg, P < 0.001) in patients and healthy persons. Postprandial DB reduced the number of postprandial reflux events in patients (0.36 vs 2.60, P < 0.001) and healthy subjects (0.00 vs 1.75, P < 0.001) compared with observation. During 48-hour ambulatory study, DB reduced the reflux episodes on day 2 compared with observation on day 1 in both the patient and control groups (P = 0.049). In patients, comparing DB with sham, total acid exposure on day 2 was not different (10.2 ± 7.9 vs 9.4 ± 6.2, P = 0.804). In patients randomized to DB, esophageal acid exposure in a 2-hour window after the standardized meal on day 1 vs day 2 reduced from 11.8% ±6.4 to 5.2% ± 5.1, P = 0.015. In patients with upright GERD, DB reduces the number of postprandial reflux events pressure by increasing the difference between LES and gastric pressure. These data further encourage studying DB as therapy for GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33009052/"
+    },
+    {
+      "pmid": "22146488",
+      "title": "Positive effect of abdominal breathing exercise on gastroesophageal reflux disease: a randomized, controlled study.",
+      "authors": [
+        "Eherer AJ",
+        "Netolitzky F",
+        "Högenauer C",
+        "Puschnig G",
+        "Hinterleitner TA"
+      ],
+      "journal": "The American journal of gastroenterology",
+      "year": "2012",
+      "abstract": "The lower esophageal sphincter (LES), surrounded by diaphragmatic muscle, prevents gastroesophageal reflux. When these structures become incompetent, gastric contents may cause gastroesophageal reflux disease (GERD). For treatment, lifestyle interventions are always recommended. We hypothesized that by actively training the crura of the diaphragm as part of the LES using breathing training exercises, GERD can be positively influenced. A prospective randomized controlled study was performed. Patients with non-erosive GERD or healed esophagitis without large hernia and/or previous surgery were included. Patients were randomized and allocated either to active breathing training program or to a control group. Quality of life (QoL), pH-metry, and on-demand proton pump inhibitor (PPI) usage were assessed at baseline and after 4 weeks of training. For long-term follow-up, all patients were invited to continue active breathing training and were further assessed regarding QoL and PPI usage after 9 months. Paired and unpaired t-test was used for statistical analysis. Nineteen patients with non-erosive GERD or healed esophagitis were randomized into two groups (10 training group and 9 control group). There was no difference in baseline patient characteristics between the groups and all patients finished the study. There was a significant decrease in time with a pH<4.0 in the training group (9.1±1.3 vs. 4.7±0.9%; P<0.05), but there was no change in the control group. QoL scores improved significantly in the training group (13.4±1.98 before and 10.8±1.86 after training; P<0.01), but no changes in QoL were seen in the control group. At long-term follow-up at 9 months, patients who continued breathing exercise (11/19) showed a significant decrease in QoL scores and PPI usage (15.1±2.2 vs. 9.7±1.6; 98±34 vs. 25±12 mg/week, respectively; P<0.05), whereas patients who did not train had no long-term effect. We show that actively training the diaphragm by breathing exercise can improve GERD as assessed by pH-metry, QoL scores and PPI usage. This non-pharmacological lifestyle intervention could help to reduce the disease burden of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22146488/"
+    },
+    {
+      "pmid": "38008079",
+      "title": "Functional Endoscopy.",
+      "authors": [
+        "Inoue H",
+        "Shimamura Y"
+      ],
+      "journal": "Digestion",
+      "year": "2024",
+      "abstract": "Functional endoscopy signifies a significant advancement in gastrointestinal examination, integrating motor function assessments alongside routine endoscopy findings. Traditional gastrointestinal endoscopy primarily focuses on the detection of early-stage cancer by identifying morphological changes within the gastrointestinal tract. These alterations include modifications in lumen structure, color tone, and surface patterns, which can be diagnosed using endoscopic images that assess these morphological changes. In contrast, functional endoscopy aims to dynamically evaluate the peristaltic movements of the digestive tract and the presence or movement of reflux of digestive fluids during the endoscopic procedure. It also seeks to identify morphological changes such as hiatal hernias, as observed in conventional endoscopy. Consequently, relying solely on endoscopic images proves inadequate for diagnosis, necessitating continuous observation of these dynamic movements. The endoscopic pressure study integrated system (EPSIS) serves as an exemplar of functional endoscopy. It incorporates a stress test to assess the functionality of the lower esophageal sphincter (LES) through intragastric insufflation. A crucial element of EPSIS evaluation is the identification of the scope holding sign (SHS), which signifies LES contraction. EPSIS also encompasses the observation of esophageal peristaltic waves and the auditory detection of burping, providing a comprehensive diagnostic approach while observing the sphincter from a retroflex view on the stomach side. By integrating these dynamic findings, functional endoscopy offers an efficient method for diagnosing functional gastrointestinal diseases, such as gastroesophageal reflux disease (GERD). Functional endoscopy combines motor function assessments with traditional endoscopy, enhancing the diagnostic capabilities of gastrointestinal examinations. Traditional endoscopy focuses on identifying morphological changes, while functional endoscopy evaluates dynamic movements, reflux, and sphincter functionality. EPSIS exemplifies functional endoscopy, featuring a stress test and the SHS for LES contraction assessment. EPSIS provides a comprehensive approach to diagnose GERD by integrating dynamic observations.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38008079/"
+    },
+    {
+      "pmid": "25965138",
+      "title": "Esophageal strictures and diverticula.",
+      "authors": [
+        "Smith CD"
+      ],
+      "journal": "The Surgical clinics of North America",
+      "year": "2015",
+      "abstract": "Esophageal disease and dysfunction of the lower esophageal sphincter (LES) manifesting as gastroesophageal reflux disease (GERD) particularly, is the most common of all gastrointestinal conditions impacting patients on a day-to-day basis. LES dysfunction can lead to anatomic changes to the distal esophagus, with GERD-mediated changes being benign stricture or progression of GERD to Barrett's esophagus and even esophageal cancer, and LES hypertension impairing esophageal emptying with subsequent development of pulsion esophageal diverticulum. This article details the causes, clinical presentation, workup, and treatment of esophageal stricture and epiphrenic esophageal diverticulum. Other types of esophageal diverticula (Zenker's and midesophageal) are also covered.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25965138/"
+    },
+    {
+      "pmid": "24503360",
+      "title": "Esophageal manometry in gastroesophageal reflux disease.",
+      "authors": [
+        "Mello M",
+        "Gyawali CP"
+      ],
+      "journal": "Gastroenterology clinics of North America",
+      "year": "2014",
+      "abstract": "High-resolution manometry (HRM) allows nuanced evaluation of esophageal motor function, and more accurate evaluation of lower esophageal sphincter (LES) function, in comparison with conventional manometry. Pathophysiologic correlates of gastroesophageal reflux disease (GERD) and esophageal peristaltic performance are well addressed by this technique. HRM may alter the surgical decision by assessment of esophageal peristaltic function and exclusion of esophageal outflow obstruction before antireflux surgery. Provocative testing during HRM may assess esophageal smooth muscle peristaltic reserve and help predict the likelihood of transit symptoms following antireflux surgery. HRM represents a continuously evolving new technology that compliments the evaluation and management of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24503360/"
+    },
+    {
+      "pmid": "24117632",
+      "title": "Outcomes of esophageal surgery, especially of the lower esophageal sphincter.",
+      "authors": [
+        "Bonavina L",
+        "Siboni S",
+        "Saino GI",
+        "Cavadas D",
+        "Braghetto I"
+      ],
+      "journal": "Annals of the New York Academy of Sciences",
+      "year": "2013",
+      "abstract": "This paper includes commentaries on outcomes of esophageal surgery, including the mechanisms by which fundoduplication improves lower esophageal sphincter (LES) pressure; the efficacy of the Linx™ management system in improving LES function; the utility of radiologic characterization of antireflux valves following surgery; the correlation between endoscopic findings and reported symptoms following antireflux surgery; the links between laparoscopic sleeve gastrectomy and decreased LES pressure, endoscopic esophagitis, and gastroesophageal reflux disease (GERD); the less favorable outcomes following fundoduplication among obese patients; the application of bioprosthetic meshes to reinforce hiatal repair and decrease the incidence of paraesophageal hernia; the efficacy of endoluminal antireflux procedures, and the limited efficacy of revisional antireflux operations, underscoring the importance of good primary surgery and diligent work-up to prevent the necessity of revisional procedures.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24117632/"
+    },
+    {
+      "pmid": "40717168",
+      "title": "Management of Barrett's Esophagus in the Context of Achalasia.",
+      "authors": [
+        "Zhou MJ",
+        "Clarke JO"
+      ],
+      "journal": "Current gastroenterology reports",
+      "year": "2025",
+      "abstract": "Achalasia is characterized by impaired lower esophageal sphincter (LES) relaxation, while Barrett's esophagus (BE) is typically associated with gastroesophageal reflux disease (GERD) which can occur with excess LES relaxation. This article will provide an overview of the diagnostic challenges, surveillance strategies, and management approaches in the coexistence of these two conditions. Data on outcomes and management of concurrent BE and achalasia are limited. Most commonly, GERD and subsequent BE may occur after therapies for achalasia directed at increasing LES relaxation, and recent papers have focused on GERD and BE outcomes after achalasia therapies. The coexistence of BE and achalasia represents a challenging clinical scenario that requires consideration of the pathophysiology, diagnostic approach, and management strategies for both conditions.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40717168/"
+    },
+    {
+      "pmid": "35099721",
+      "title": "Laryngopharyngeal reflux induced sleep-related laryngospasm.",
+      "authors": [
+        "O'Shea R",
+        "Gaffney M",
+        "Kaare M",
+        "Fenton JE"
+      ],
+      "journal": "Irish journal of medical science",
+      "year": "2023",
+      "abstract": "Sleep-related laryngospasm (SRL) has been defined as the sustained closure of the vocal cords during sleep. Studies have suggested that it is a rare manifestation of laryngopharyngeal reflux (LPR). Difficulties in diagnosing SRL and LPR have led to the condition being under-recognised in the clinical setting. The aim of this study was to determine if LPR was the cause of the SRL symptoms seen in our patients. A retrospective chart assessment of patients with SRL. Patients with risk factors for LPR were identified. These included smoking status, alcohol intake, a history of dyspepsia or history of gastroesophageal reflux disease, a history of late-night eating and a history of eating spicy or fatty foods before bed. A clinical diagnosis based on the history and response to management was made for the diagnosis of LPR. All were advised to refrain from late meals and those with signs of nasopharyngitis were commenced on proton pump inhibitor therapy. Nineteen patients (mean age ± SD: 57.21 ± 15.18) were included in the study. All had at least one risk factor for LPR. Ten (52.6%) had signs of nasopharyngitis on nasendoscopy. Following treatment, 17 (89.5%) reported no further SRL symptoms at 1-year follow-up. SRL is a largely unknown and under-diagnosed condition. We believe this study provides supportive evidence for the causal relationship between LPR and SRL.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35099721/"
+    }
+  ]
+}

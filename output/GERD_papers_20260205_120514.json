@@ -1,0 +1,149 @@
+{
+  "topic": "GERD",
+  "total_papers": 8,
+  "categorized": {
+    "cause": 1,
+    "treatment": 5,
+    "diet": 1,
+    "complications": 1
+  },
+  "papers": [
+    {
+      "pmid": "33015827",
+      "title": "Pathophysiology and treatment options for gastroesophageal reflux disease: looking beyond acid.",
+      "authors": [
+        "Sharma P",
+        "Yadlapati R"
+      ],
+      "journal": "Annals of the New York Academy of Sciences",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a disorder due to the retrograde flow of refluxate into the esophagus. Although GERD is a common clinical diagnosis, its pathogenesis is quite complex. As a result of its multifactorial development, many patients continue to experience adverse symptoms due to GERD despite prolonged acid suppression with proton pump inhibitor therapy. The pathogenesis of GERD involves an interplay of chemical, mechanical, psychologic, and neurologic mechanisms, which contribute to symptom presentation, diagnosis, and treatment. As such, GERD should be approached as a disorder beyond acid. This review will investigate the major factors that contribute to the development of GERD, including factors related to the refluxate, esophageal defenses, and factors that promote pathologic reflux into the esophagus. In reviewing GERD pathogenesis, this paper will highlight therapeutic advances, with mention of future opportunities of study when approaching GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33015827/",
+      "search_query": "GERD",
+      "category": "cause",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "34326345",
+      "title": "Gastro-oesophageal reflux disease.",
+      "authors": [
+        "Fass R",
+        "Boeckxstaens GE",
+        "El-Serag H",
+        "Rosen R",
+        "Sifrim D"
+      ],
+      "journal": "Nature reviews. Disease primers",
+      "year": "2021",
+      "abstract": "Gastro-oesophageal reflux disease (GERD) is a common disorder in adults and children. The global prevalence of GERD is high and increasing. Non-erosive reflux disease is the most common phenotype of GERD. Heartburn and regurgitation are considered classic symptoms but GERD may present with various atypical and extra-oesophageal manifestations. The pathophysiology of GERD is multifactorial and different mechanisms may result in GERD symptoms, including gastric composition and motility, anti-reflux barrier, refluxate characteristics, clearance mechanisms, mucosal integrity and symptom perception. In clinical practice, the diagnosis of GERD is commonly established on the basis of response to anti-reflux treatment; however, a more accurate diagnosis requires testing that includes upper gastrointestinal tract endoscopy and reflux monitoring. New techniques and new reflux testing parameters help to better phenotype the condition. In children, the diagnosis of GERD is primarily based on history and physical examination and treatment vary with age. Treatment in adults includes a combination of lifestyle modifications with pharmacological, endoscopic or surgical intervention. In refractory GERD, optimization of proton-pump inhibitor treatment should be attempted before a series of diagnostic tests to assess the patient's phenotype.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34326345/",
+      "search_query": "GERD",
+      "category": "treatment",
+      "category_confidence": 0.7
+    },
+    {
+      "pmid": "33795183",
+      "title": "Chronic Course, Weaning, and Awareness of Patients With Reflux Toward Proton Pump Inhibitor Therapy.",
+      "authors": [
+        "Verhasselt M",
+        "Rodriguez A",
+        "Dequanter D",
+        "Lechien JR"
+      ],
+      "journal": "Journal of voice : official journal of the Voice Foundation",
+      "year": "2023",
+      "abstract": "To assess the feasibility of middle-term proton pump inhibitor (PPI) weaning in patients with laryngopharyngeal reflux (LPR) and evaluate patient awareness of PPI adverse events. We conducted a cross-sectional study of 100 LPR patients treated with an association of diet, PPIs, and alginate. Patients were followed from September 2016 to May 2020. At the end of the initial 3-to-6 months therapeutic period, LPR patients were weaned from PPIs and instructed to respect diet and stress management over the long-term. The 3-year symptom recurrence rate, PPI use, and patient awareness of PPI adverse events were assessed. Sixty-seven patients completed the evaluation. Twenty-seven patients (40.3%) reported a chronic course of LPR-symptoms, requiring chronic or occasional PPI use. LPR symptom recurrence occurred 1-to-2 or 3-to-5 times yearly in 8.9% and 20.9% of patients, respectively. Recurrences were managed by short-term diet, alginate, or PPI intake. The remaining patients (29.9%) did not report middle-term LPR recurrence. The 3-year weaning rate of occasional or chronic use of PPIs was 64.2%. Among participants, 26.8% were aware of PPI-related adverse events, most frequently through physicians (33%), online sources (17%), and friends or family (17%). Nonresponder patients were significantly more aware of PPI adverse events than responders (P = 0.029). PPI-attributed adverse events occurred in 29.8% of patients. Sixty-four percent of LPR patients treated with PPIs were weaned at 3-year posttreatment time. Different forms of LPR may exist regarding symptom relief, recurrences, and chronic course.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33795183/",
+      "search_query": "GERD treatment therapy",
+      "category": "treatment",
+      "category_confidence": 0.7339449541284403
+    },
+    {
+      "pmid": "40197644",
+      "title": "The San Diego Consensus for Laryngopharyngeal Symptoms and Laryngopharyngeal Reflux Disease.",
+      "authors": [
+        "Yadlapati R",
+        "Weissbrod P",
+        "Walsh E",
+        "Carroll TL",
+        "Chan WW"
+      ],
+      "journal": "The American journal of gastroenterology",
+      "year": "2026",
+      "abstract": "The term laryngopharyngeal reflux (LPR) is frequently applied to aerodigestive symptoms despite lack of objective reflux evidence. The aim of this initiative was to develop a modern care paradigm for LPR supported by otolaryngology and gastroenterology disciplines. A 28-member international interdisciplinary working group developed practical statements within the following domains: definition/terminology, initial diagnostic evaluation, reflux monitoring, therapeutic trials, behavioral factors and therapy, and risk stratification. Literature reviews guided statement development and were presented at virtual/in-person meetings. Each statement underwent 2 or more rounds of voting per the RAND Appropriateness Method; statements reaching appropriateness with ≥80% agreement are included as recommendations. The term laryngopharyngeal symptoms (LPS) applies to aerodigestive symptoms with potential to be induced by reflux and include cough, voice change, throat clearing, excess throat phlegm, and throat pain. Laryngopharyngeal reflux disease (LPRD) refers to patients with LPS and objective evidence of reflux. Importantly, the presence of LPS does not equate to LPRD. Laryngoscopy has value in assessing for nonreflux laryngopharyngeal processes, but laryngoscopic findings alone cannot diagnose LPRD. LPS patients should be categorized as with or without concurrent esophageal reflux symptoms. While lifestyle modification and empiric trials of acid suppression ± alginates are appropriate when esophageal reflux symptoms coexist, upper endoscopy and ambulatory reflux monitoring are required for LPRD diagnosis when symptoms persist, when LPS is isolated, or when management needs to be escalated to include invasive antireflux management. The two recommended ambulatory reflux monitoring modalities, 24-hour pH-impedance and 96-hour wireless pH monitoring, are not mutually exclusive with distinct roles for the evaluation of LPS. Laryngeal hyperresponsiveness and hypervigilance commonly contribute to both LPS and LPRD presentations and are responsive to laryngeal recalibration therapy and neuromodulators. The San Diego Consensus represents the formal modern-day interdisciplinary care paradigm to evaluate and manage LPS and LPRD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40197644/",
+      "search_query": "GERD lifestyle modification",
+      "category": "treatment",
+      "category_confidence": 0.6122448979591836
+    },
+    {
+      "pmid": "36789472",
+      "title": "Updates on Surgical Treatment for Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Kendrick K",
+        "Kothari SN"
+      ],
+      "journal": "The American surgeon",
+      "year": "2023",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a common condition that is on the rise. Obesity is one risk factor that has increased in parallel with the rise of GERD. Typical symptoms include heartburn, regurgitation, dysphagia, cough, and chest pain. Patients with typical symptoms are empirically treated with proton pump inhibitors (PPIs). If the diagnosis is not clear, further evaluation is performed with endoscopy, pH monitoring, and esophageal manometry. Untreated GERD increases the risk of esophagitis, esophageal stricture, Barrett's esophagus, and esophageal adenocarcinoma. Treatment begins with lifestyle modification and medical therapy. If these fail, surgical and endoscopic surgical techniques are available, to provide treatment, symptom relief, and reduce long-term PPI use.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36789472/",
+      "search_query": "GERD lifestyle modification",
+      "category": "treatment",
+      "category_confidence": 0.6145251396648045
+    },
+    {
+      "pmid": "33882662",
+      "title": "Risk factors for gastroesophageal reflux disease symptoms related to lifestyle and diet.",
+      "authors": [
+        "Taraszewska A"
+      ],
+      "journal": "Roczniki Panstwowego Zakladu Higieny",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is one of the most common diseases of the upper gastrointestinal tract. The most characteristic symptom of the disease is heartburn, which occurs at least once a week. The prevalence of the disease varies and, depending on the region of the world, it may affect from a few to over 30% of an adult population. It is estimated that in Poland this disease may affect up to 35.5% of adults reporting abdominal ailments. If untreated, the disease can lead to serious complications including precancerous conditions and esophageal adenocarcinoma. Pharmacotherapy is considered as the first-line treatment in GERD patients but lifestyle modifications, including diet changes, are an important element supporting the treatment of the disease. Many factors may contribute to the development of the disease. Among them, there are non-modifiable factors such as age, sex or genetic factors and modifiable factors, e.g. lifestyle, diet, excessive body weight. This review focuses on GERD risk factors related to lifestyle and nutrition that include both dietary components and nutritional behaviour. Lifestyle risk factors that may contribute to GERD symptoms include excessive body weight, particularly obesity, moderate/high alcohol consumption, smoking, postprandial and vigorous physical activity, as well as lack of regular physical activity. Many studies indicate fatty, fried, sour, spicy food/products, orange and grapefruit juice, tomatoes and tomato preserves, chocolate, coffee/tea, carbonated beverages, alcohol as triggers for GERD symptoms. Eating habits such as irregular meal pattern, large volume of meals, eating meals just before bedtime may correlate with the symptoms of GERD. The role of lifestyle, diet and eating habits as risk factors for GERD is not clearly understood, and the results of the available studies are often contradictory. Determination of modifiable risk factors for this disease and its symptoms is important for effective dietary prevention and diet therapy of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33882662/",
+      "search_query": "GERD prevention",
+      "category": "diet",
+      "category_confidence": 0.5809935205183585
+    },
+    {
+      "pmid": "32770672",
+      "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2C19 and Proton Pump Inhibitor Dosing.",
+      "authors": [
+        "Lima JJ",
+        "Thomas CD",
+        "Barbarino J",
+        "Desta Z",
+        "Van Driest SL"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "year": "2021",
+      "abstract": "Proton pump inhibitors (PPIs) are widely used for acid suppression in the treatment and prevention of many conditions, including gastroesophageal reflux disease, gastric and duodenal ulcers, erosive esophagitis, Helicobacter pylori infection, and pathological hypersecretory conditions. Most PPIs are metabolized primarily by cytochrome P450 2C19 (CYP2C19) into inactive metabolites, and CYP2C19 genotype has been linked to PPI exposure, efficacy, and adverse effects. We summarize the evidence from the literature and provide therapeutic recommendations for PPI prescribing based on CYP2C19 genotype (updates at www.cpicpgx.org). The potential benefits of using CYP2C19 genotype data to guide PPI therapy include (i) identifying patients with genotypes predictive of lower plasma exposure and prescribing them a higher dose that will increase the likelihood of efficacy, and (ii) identifying patients on chronic therapy with genotypes predictive of higher plasma exposure and prescribing them a decreased dose to minimize the risk of toxicity that is associated with long-term PPI use, particularly at higher plasma concentrations.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32770672/",
+      "search_query": "GERD prevention",
+      "category": "treatment",
+      "category_confidence": 0.8116883116883117
+    },
+    {
+      "pmid": "25965138",
+      "title": "Esophageal strictures and diverticula.",
+      "authors": [
+        "Smith CD"
+      ],
+      "journal": "The Surgical clinics of North America",
+      "year": "2015",
+      "abstract": "Esophageal disease and dysfunction of the lower esophageal sphincter (LES) manifesting as gastroesophageal reflux disease (GERD) particularly, is the most common of all gastrointestinal conditions impacting patients on a day-to-day basis. LES dysfunction can lead to anatomic changes to the distal esophagus, with GERD-mediated changes being benign stricture or progression of GERD to Barrett's esophagus and even esophageal cancer, and LES hypertension impairing esophageal emptying with subsequent development of pulsion esophageal diverticulum. This article details the causes, clinical presentation, workup, and treatment of esophageal stricture and epiphrenic esophageal diverticulum. Other types of esophageal diverticula (Zenker's and midesophageal) are also covered.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25965138/",
+      "search_query": "GERD complications",
+      "category": "complications",
+      "category_confidence": 0.7142857142857143
+    }
+  ]
+}

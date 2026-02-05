@@ -1,0 +1,1736 @@
+{
+  "역류성식도염": {
+    "paper_count": 60,
+    "stat_count": 118,
+    "top_stats": [
+      {
+        "sentence": "Of 249 patients (median age 52 years, 47% male, BMI 23.9 kg/m2), 127 had GERD.",
+        "pmid": "41603744",
+        "title": "The American Foregut Society endoscopic classification outperforms Hill in phenotyping the esophago-gastric junction to guide gastroesophageal reflux disease management.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "At least one AFS component was disrupted in 71.9% of the patients.",
+        "pmid": "41603744",
+        "title": "The American Foregut Society endoscopic classification outperforms Hill in phenotyping the esophago-gastric junction to guide gastroesophageal reflux disease management.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "Pathologic D (OR = 2.537) and F (OR = 3.336) were independent GERD predictors.",
+        "pmid": "41603744",
+        "title": "The American Foregut Society endoscopic classification outperforms Hill in phenotyping the esophago-gastric junction to guide gastroesophageal reflux disease management.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "Statistical significance was set at P<0.05.",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "RESULTS: Of the patients, 57.08% were women.",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "Sliding hiatal hernia (49.73%), esophagitis (60.04%), and antral gastropathy (76.53%) were the most frequent endoscopic findings.",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "Grade 2 was the most prevalent type in patients with hernias (74.80%), and among patients with esophagitis, Grade A was predominant (87.36%).",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "Retrosternal burning showed a significant positive association with sliding hiatal hernia, esophagitis, gastric antral gastropathy, and inlet patches (P<0.001).",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "In contrast, the absence of retrosternal burning was associated with gastric ulcers, gastric and esophageal masses (P<0.001), duodenal ulcers (P=0.037), and bulb deformities (P=0.015).",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "A significant association was found between retrosternal burning and the severity of both sliding hiatal hernia and esophagitis (P<0.001).",
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "year": "2026",
+        "journal": "Iranian journal of medical sciences"
+      },
+      {
+        "sentence": "Using esophageal pH-impedance monitoring as the gold standard (with acid exposure time >4% as the diagnostic criterion for gastroesophageal reflux disease), the correlation between cardia opening diameter/sliding hernia length and gastroesophageal reflux disease-related parameters was analyzed.",
+        "pmid": "41506525",
+        "title": "Endoscopic assessment of the gastroesophageal junction for predicting gastroesophageal reflux disease.",
+        "year": "2026",
+        "journal": "The Journal of international medical research"
+      },
+      {
+        "sentence": "Compared with patients with a cardia opening diameter ≤2 cm, those with a cardia opening diameter >2 cm had significantly higher acid exposure time (6.8% vs.",
+        "pmid": "41506525",
+        "title": "Endoscopic assessment of the gastroesophageal junction for predicting gastroesophageal reflux disease.",
+        "year": "2026",
+        "journal": "The Journal of international medical research"
+      },
+      {
+        "sentence": "The Joinpoint regression model was used to quantify trends via annual average percentage change (AAPC) and 95% confidence intervals.",
+        "pmid": "41628133",
+        "title": "Trends in the burden of gastroesophageal reflux disease in China and Global from 1990 to 2021 and predictive analysis for 2040.",
+        "year": "2026",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Of 388 images/videos with adequate quality, trial endoscopists and adjudicators agreed on esophagitis severity in 168 (43.3%) cases, and assigned more severe grades than adjudicators for 185 (47.7%) cases.",
+        "pmid": "41525274",
+        "title": "Interobserver agreement for the assessment of erosive reflux esophagitis: a post hoc analysis of clinical trial data.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "RESULTS: A positive bacterial culture from BAL fluid was found in 214 children (61.7%).",
+        "pmid": "41493429",
+        "title": "Bronchoscopy Identifies Bacterial Airway Colonization and Comorbidities in Preschool Children With Refractory Respiratory Symptoms: A Retrospective Study.",
+        "year": "2026",
+        "journal": "Pediatric pulmonology"
+      },
+      {
+        "sentence": "Of these, 105 children (49%) subsequently received antibiotic treatment.",
+        "pmid": "41493429",
+        "title": "Bronchoscopy Identifies Bacterial Airway Colonization and Comorbidities in Preschool Children With Refractory Respiratory Symptoms: A Retrospective Study.",
+        "year": "2026",
+        "journal": "Pediatric pulmonology"
+      },
+      {
+        "sentence": "The most frequently identified bacteria were Haemophilus influenzae (34%), Streptococcus pneumoniae (25%) and Moraxella catarrhalis (16%).",
+        "pmid": "41493429",
+        "title": "Bronchoscopy Identifies Bacterial Airway Colonization and Comorbidities in Preschool Children With Refractory Respiratory Symptoms: A Retrospective Study.",
+        "year": "2026",
+        "journal": "Pediatric pulmonology"
+      },
+      {
+        "sentence": "The percentage of neutrophils in differential cell counts from BAL samples was significantly higher with positive bacterial cultures compared to negative cultures (29.2 + 28.1% vs.",
+        "pmid": "41493429",
+        "title": "Bronchoscopy Identifies Bacterial Airway Colonization and Comorbidities in Preschool Children With Refractory Respiratory Symptoms: A Retrospective Study.",
+        "year": "2026",
+        "journal": "Pediatric pulmonology"
+      },
+      {
+        "sentence": "GERD was identified in 115 children (32%) and EoE was diagnosed in nine children (2.8%).",
+        "pmid": "41493429",
+        "title": "Bronchoscopy Identifies Bacterial Airway Colonization and Comorbidities in Preschool Children With Refractory Respiratory Symptoms: A Retrospective Study.",
+        "year": "2026",
+        "journal": "Pediatric pulmonology"
+      },
+      {
+        "sentence": "LEP correlated strongly with IL-6, IL-6 with NLR, and LEP with NLR to a lesser extent (all P<0.001).",
+        "pmid": "41510928",
+        "title": "Predictors of obstructive sleep apnea syndrome in bronchial asthma patients: investigating the obesity-inflammation interplay through LEP, IL-6, and NLR.",
+        "year": "2026",
+        "journal": "Allergologia et immunopathologia"
+      },
+      {
+        "sentence": "For diagnosing BA-OSAS, AUCs were 0.746 (LEP), 0.771 (IL-6), 0.742 (NLR), and 0.826 for their combination, which outperformed individual markers (DeLong, P<0.05).",
+        "pmid": "41510928",
+        "title": "Predictors of obstructive sleep apnea syndrome in bronchial asthma patients: investigating the obesity-inflammation interplay through LEP, IL-6, and NLR.",
+        "year": "2026",
+        "journal": "Allergologia et immunopathologia"
+      },
+      {
+        "sentence": "Unique new SGB events were most common in the SGB cohort (p < 0.001 compared to the other cohorts).",
+        "pmid": "41553747",
+        "title": "Machine Learning Algorithm Applied to pH-Impedance Monitoring Tracings Identifies Pathologic Supragastric Belching.",
+        "year": "2026",
+        "journal": "Neurogastroenterology and motility"
+      },
+      {
+        "sentence": "On ROC analysis, machine learning segregated SGB patients from GERD and healthy volunteers with high accuracy (AUC 0.859, p = 0.001) at an optimal threshold of 11 events, with sensitivity of 100% and specificity of 62.5%.",
+        "pmid": "41553747",
+        "title": "Machine Learning Algorithm Applied to pH-Impedance Monitoring Tracings Identifies Pathologic Supragastric Belching.",
+        "year": "2026",
+        "journal": "Neurogastroenterology and motility"
+      },
+      {
+        "sentence": "These improved to 31.4 (p = 0.06) and 3.0 (p = 0.27), respectively, post-MSA.",
+        "pmid": "41527695",
+        "title": "Magnetic Sphincter Augmentation for Gastroesophageal Reflux Following Sleeve Gastrectomy: A Scoping Review and First Asian Case Series.",
+        "year": "2026",
+        "journal": "Asian journal of endoscopic surgery"
+      },
+      {
+        "sentence": "Total AET thresholds were: <4% (normal), 4-6% (borderline), and >6% (pathological).",
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "Of 500 patients (50% females, median age 51 years, median BMI 24.65 kg/m2), 213 (43%) had pathological DMS.",
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "The pHoenix score and total AET identified a similar proportion of normal cases (54% vs.",
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "56.2%, P > 0.99), but different pathological (40.4% vs.",
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "30%, P < 0.01) and borderline diagnoses (5.6% vs.",
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      },
+      {
+        "sentence": "13.8%, P < 0.01; with a 59% reduction with the pHoenix score).",
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "year": "2026",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus"
+      }
+    ],
+    "papers_summary": [
+      {
+        "pmid": "40555259",
+        "title": "Endoscopic biopsy techniques in Barrett esophagus patients: a multidesign study.",
+        "journal": "Endoscopy",
+        "year": "2025"
+      },
+      {
+        "pmid": "40856856",
+        "title": "Acid and weakly acidic reflux characteristics in pediatric airway malacia by pH and multiple intraluminal impedance monitoring: a retrospective cohort study.",
+        "journal": "European journal of pediatrics",
+        "year": "2025"
+      },
+      {
+        "pmid": "41423303",
+        "title": "Food-related reactions in eosinophilic esophagitis: pathophysiology and treatment.",
+        "journal": "Best practice & research. Clinical gastroenterology",
+        "year": "2025"
+      },
+      {
+        "pmid": "28134635",
+        "title": "Efficacy, Durability, and Safety of Complete Endoscopic Mucosal Resection of Barrett Esophagus: A Systematic Review and Meta-Analysis.",
+        "journal": "Journal of clinical gastroenterology",
+        "year": "2018"
+      },
+      {
+        "pmid": "41603744",
+        "title": "The American Foregut Society endoscopic classification outperforms Hill in phenotyping the esophago-gastric junction to guide gastroesophageal reflux disease management.",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus",
+        "year": "2026"
+      },
+      {
+        "pmid": "41260766",
+        "title": "Chemoprevention in Barrett's Esophagus: An Updated Review.",
+        "journal": "Gastrointestinal endoscopy clinics of North America",
+        "year": "2026"
+      },
+      {
+        "pmid": "41530069",
+        "title": "[Prevalence of Barrett's esophagus and factors associated with the diagnosis of dysplasia or adenocarcinoma in patients evaluated at a Chilean university endoscopy center].",
+        "journal": "Revista de gastroenterologia del Peru : organo oficial de la Sociedad de Gastroenterologia del Peru",
+        "year": "2025"
+      },
+      {
+        "pmid": "40997851",
+        "title": "Sponge cytology combined with endoscopy in patients with long-segment Barrett's esophagus: A retrospective case series and literature review.",
+        "journal": "The Journal of international medical research",
+        "year": "2025"
+      },
+      {
+        "pmid": "41635041",
+        "title": "Large Hiatal Hernia in a Patient With Bulimia Nervosa and Obesity: An Interdisciplinary Case Report.",
+        "journal": "The American journal of case reports",
+        "year": "2026"
+      },
+      {
+        "pmid": "27171331",
+        "title": "[Endoscopic mucosal resection (EMR) followed by radiofrequency ablation (RFA) in neoplastic Barrett's esophagus or Barrett early cancer is also economically superior to sole radical endoscopic resection].",
+        "journal": "Zeitschrift fur Gastroenterologie",
+        "year": "2016"
+      },
+      {
+        "pmid": "41597462",
+        "title": "Asymmetric Tear Secretion: Can This Disorder Help in Suspecting Gastroesophageal Reflux Disease and in Managing Sjögren's Disease? A Pilot Study.",
+        "journal": "Medicina (Kaunas, Lithuania)",
+        "year": "2026"
+      },
+      {
+        "pmid": "41515198",
+        "title": "Challenges in Dietary Therapy in Pediatric Eosinophilic Esophagitis (EoE)-A Narrative Review.",
+        "journal": "Nutrients",
+        "year": "2025"
+      },
+      {
+        "pmid": "41343126",
+        "title": "Reverse layout of the remnant esophagus and stomach during right transthoracic valvuloplastic esophagogastrostomy in robotic esophagogastric junctional cancer surgery.",
+        "journal": "Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association",
+        "year": "2026"
+      },
+      {
+        "pmid": "41625344",
+        "title": "Retrosternal Burning and Its Endoscopic Associations: Findings from 5,561 Upper Gastrointestinal Endoscopies.",
+        "journal": "Iranian journal of medical sciences",
+        "year": "2026"
+      },
+      {
+        "pmid": "38901554",
+        "title": "Significant and distinct impacts of sleeve gastrectomy and Roux-en-Y gastric bypass on esophageal acid exposure, esophageal motility, and endoscopic findings: a systematic review and meta-analysis.",
+        "journal": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract",
+        "year": "2024"
+      },
+      {
+        "pmid": "41558754",
+        "title": "Determinants of ",
+        "journal": "BMJ open",
+        "year": "2026"
+      },
+      {
+        "pmid": "41506525",
+        "title": "Endoscopic assessment of the gastroesophageal junction for predicting gastroesophageal reflux disease.",
+        "journal": "The Journal of international medical research",
+        "year": "2026"
+      },
+      {
+        "pmid": "40891132",
+        "title": "Dynamic Relevance Between Reflux Events and Esophageal Motility in Patients With Proton Pump Inhibitor-Refractory Gastroesophageal Reflux Disease.",
+        "journal": "Journal of digestive diseases",
+        "year": "2025"
+      },
+      {
+        "pmid": "41628133",
+        "title": "Trends in the burden of gastroesophageal reflux disease in China and Global from 1990 to 2021 and predictive analysis for 2040.",
+        "journal": "PloS one",
+        "year": "2026"
+      },
+      {
+        "pmid": "36905437",
+        "title": "Systematic review of long term follow-up and transitional care in adolescents and adults with esophageal atresia - why is transitional care mandatory?",
+        "journal": "European journal of pediatrics",
+        "year": "2023"
+      },
+      {
+        "pmid": "41483946",
+        "title": "[A case of acute poisoning caused by accidental ingestion of potassium methylsilanetriolate].",
+        "journal": "Zhonghua lao dong wei sheng zhi ye bing za zhi = Zhonghua laodong weisheng zhiyebing zazhi = Chinese journal of industrial hygiene and occupational diseases",
+        "year": "2025"
+      },
+      {
+        "pmid": "41385385",
+        "title": "The metabolic profile of lean patients with esophageal adenocarcinoma and Barrett's esophagus.",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus",
+        "year": "2025"
+      },
+      {
+        "pmid": "41595804",
+        "title": "Association of COVID-19 Severity with Comorbidities: Results from the World Trade Center Health Registry.",
+        "journal": "International journal of environmental research and public health",
+        "year": "2025"
+      },
+      {
+        "pmid": "41469880",
+        "title": "Function-preserving surgery in gastric cancer: current evidence and implications for the West.",
+        "journal": "World journal of surgical oncology",
+        "year": "2025"
+      },
+      {
+        "pmid": "41514185",
+        "title": "Risk of developing eosinophilic esophagitis with preexisting asthma, allergic rhinitis, atopic dermatitis, or food allergy.",
+        "journal": "Allergy and asthma proceedings",
+        "year": "2026"
+      },
+      {
+        "pmid": "25071359",
+        "title": "Lifetime risk of esophageal adenocarcinoma in patients with Barrett's esophagus.",
+        "journal": "World journal of gastroenterology",
+        "year": "2014"
+      },
+      {
+        "pmid": "41530067",
+        "title": "[Esophageal motor disorders in older adults: experience with high-resolution esophageal manometry at a referral center in Colombia].",
+        "journal": "Revista de gastroenterologia del Peru : organo oficial de la Sociedad de Gastroenterologia del Peru",
+        "year": "2025"
+      },
+      {
+        "pmid": "41490510",
+        "title": "GLP-1RAs increase risk for cholelithiasis and GERD but not other GI or biliary adverse events vs. placebo.",
+        "journal": "Annals of internal medicine",
+        "year": "2026"
+      },
+      {
+        "pmid": "41525274",
+        "title": "Interobserver agreement for the assessment of erosive reflux esophagitis: a post hoc analysis of clinical trial data.",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus",
+        "year": "2026"
+      },
+      {
+        "pmid": "24668102",
+        "title": "Radiofrequency ablation vs endoscopic surveillance for patients with Barrett esophagus and low-grade dysplasia: a randomized clinical trial.",
+        "journal": "JAMA",
+        "year": "2014"
+      },
+      {
+        "pmid": "40968846",
+        "title": "Validating Impedance/pH Sensors for Measuring Oesophageal Transit: ",
+        "journal": "Sensors (Basel, Switzerland)",
+        "year": "2025"
+      },
+      {
+        "pmid": "40930126",
+        "title": "Glucocorticoid receptor-mediated delivery of paclitaxel and anticancer gene p53 for oral cancer therapeutics.",
+        "journal": "Biomedical materials (Bristol, England)",
+        "year": "2025"
+      },
+      {
+        "pmid": "41578787",
+        "title": "Gastrointestinal Tract Findings in Patients with Primary Immunodeficiency: A Single-Center 6-Year Experience.",
+        "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+        "year": "2025"
+      },
+      {
+        "pmid": "41581952",
+        "title": "Emerging Tissue and Blood Biomarkers for Eosinophilic Esophagitis.",
+        "journal": "Gastroenterology clinics of North America",
+        "year": "2026"
+      },
+      {
+        "pmid": "41515225",
+        "title": "Reshaping the Gut: Symptoms, Nutrition and Microbiota After Bariatric and Endoscopic Procedures in Obesity.",
+        "journal": "Nutrients",
+        "year": "2025"
+      },
+      {
+        "pmid": "41491019",
+        "title": "Transformer-based InsightGWAS improves GERD genetic discovery via pretraining on GWAS for major depressive disorder.",
+        "journal": "Communications biology",
+        "year": "2026"
+      },
+      {
+        "pmid": "41493429",
+        "title": "Bronchoscopy Identifies Bacterial Airway Colonization and Comorbidities in Preschool Children With Refractory Respiratory Symptoms: A Retrospective Study.",
+        "journal": "Pediatric pulmonology",
+        "year": "2026"
+      },
+      {
+        "pmid": "41510928",
+        "title": "Predictors of obstructive sleep apnea syndrome in bronchial asthma patients: investigating the obesity-inflammation interplay through LEP, IL-6, and NLR.",
+        "journal": "Allergologia et immunopathologia",
+        "year": "2026"
+      },
+      {
+        "pmid": "41562057",
+        "title": "Considerations for biologics as front-line treatment in allergic diseases.",
+        "journal": "Frontiers in immunology",
+        "year": "2025"
+      },
+      {
+        "pmid": "32855267",
+        "title": "Circulating Levels of Inflammatory and Metabolic Biomarkers and Risk of Esophageal Adenocarcinoma and Barrett Esophagus: Systematic Review and Meta-analysis.",
+        "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+        "year": "2020"
+      },
+      {
+        "pmid": "41560382",
+        "title": "Endoscopic Diagnosis of Eosinophilic Esophagitis Using a Multi-Task U-Net: A Pilot Study.",
+        "journal": "Yonsei medical journal",
+        "year": "2026"
+      },
+      {
+        "pmid": "41615314",
+        "title": "Anterior and posterior parts of diaphragm: A search for the best recording sites and the relevant normative data with surface electrodes.",
+        "journal": "Ideggyogyaszati szemle",
+        "year": "2026"
+      },
+      {
+        "pmid": "41553747",
+        "title": "Machine Learning Algorithm Applied to pH-Impedance Monitoring Tracings Identifies Pathologic Supragastric Belching.",
+        "journal": "Neurogastroenterology and motility",
+        "year": "2026"
+      },
+      {
+        "pmid": "41496093",
+        "title": "Diagnosis and treatment of multisystem amyloidosis associated with SGPL1 mutation: A case report and review of the literature.",
+        "journal": "Medicine",
+        "year": "2026"
+      },
+      {
+        "pmid": "41139642",
+        "title": "[Application of esophageal-tubular gastric asymmetric anastomosis in esophageal and esophagogastric junction cancer].",
+        "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+        "year": "2025"
+      },
+      {
+        "pmid": "41527695",
+        "title": "Magnetic Sphincter Augmentation for Gastroesophageal Reflux Following Sleeve Gastrectomy: A Scoping Review and First Asian Case Series.",
+        "journal": "Asian journal of endoscopic surgery",
+        "year": "2026"
+      },
+      {
+        "pmid": "40850839",
+        "title": "[Application of right-opening single flap valvuloplasty based on tubular stomach in gastrointestinal reconstruction after laparoscopic proximal gastrectomy].",
+        "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+        "year": "2025"
+      },
+      {
+        "pmid": "41530072",
+        "title": "[Multidisciplinary approach to dysphagia: literature review and clinical perspectives].",
+        "journal": "Revista de gastroenterologia del Peru : organo oficial de la Sociedad de Gastroenterologia del Peru",
+        "year": "2025"
+      },
+      {
+        "pmid": "41447214",
+        "title": "[Long-term results of surgical treatment of elderly patients with hiatal hernia and chronic iron-deficiency anemia].",
+        "journal": "Khirurgiia",
+        "year": "2025"
+      },
+      {
+        "pmid": "30610858",
+        "title": "An Interactive Web-Based Educational Tool Improves Detection and Delineation of Barrett's Esophagus-Related Neoplasia.",
+        "journal": "Gastroenterology",
+        "year": "2019"
+      },
+      {
+        "pmid": "41603742",
+        "title": "pHoenix score discriminative ability in suspected gastroesophageal reflux disease: a high-volume single-center external validation.",
+        "journal": "Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus",
+        "year": "2026"
+      },
+      {
+        "pmid": "41177726",
+        "title": "Prevalence of gastroesophageal reflux in children with cleft lip and/or palate: a 30-year pH-metry study.",
+        "journal": "The British journal of oral & maxillofacial surgery",
+        "year": "2025"
+      },
+      {
+        "pmid": "41566185",
+        "title": "[Analysis of short-term efficacy of modified double muscle flap anastomosis based on double barbed sutures (DDBS) in 112 cases of proximal gastrectomy].",
+        "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+        "year": "2026"
+      },
+      {
+        "pmid": "41506102",
+        "title": "Efficacy and mechanisms of Xiangsha Liujunzi Decoction for gastroesophageal reflux disease: A study integrating meta-analysis, network pharmacology and molecular docking.",
+        "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+        "year": "2026"
+      },
+      {
+        "pmid": "41614646",
+        "title": "Physiological belching during impedance-pH monitoring: a meal with Coca-Cola provokes a prompt gastroesophageal reaction with increased prandial belching.",
+        "journal": "Journal of basic and clinical physiology and pharmacology",
+        "year": "2026"
+      },
+      {
+        "pmid": "41429415",
+        "title": "Assessment and Management of Reflux-Related Esophageal Stricture After Peroral Endoscopic Myotomy in Achalasia.",
+        "journal": "Journal of gastroenterology and hepatology",
+        "year": "2026"
+      },
+      {
+        "pmid": "37800316",
+        "title": "Efficacy and Safety of Argon Plasma Coagulation for the Ablation of Barrett's Esophagus: A Systemic Review and Meta-Analysis.",
+        "journal": "Gut and liver",
+        "year": "2024"
+      },
+      {
+        "pmid": "35731535",
+        "title": "Effect of Laparoscopic Sleeve Gastrectomy vs Roux-en-Y Gastric Bypass on Weight Loss, Comorbidities, and Reflux at 10 Years in Adult Patients With Obesity: The SLEEVEPASS Randomized Clinical Trial.",
+        "journal": "JAMA surgery",
+        "year": "2022"
+      },
+      {
+        "pmid": "41578529",
+        "title": "An early-stage adenocarcinoma originating from a 15-cm long-segment Barrett's esophagus: A case report.",
+        "journal": "Medicine",
+        "year": "2026"
+      },
+      {
+        "pmid": "27495039",
+        "title": "Metabolic syndrome is associated with increased risk of Barrett esophagus: A meta-analysis.",
+        "journal": "Medicine",
+        "year": "2016"
+      }
+    ]
+  },
+  "오렌지주스": {
+    "paper_count": 60,
+    "stat_count": 108,
+    "top_stats": [
+      {
+        "sentence": "Current evidence supports moderate consumption of 100% fruit juices (FJ) due to their contribution to fruit consumption and nutrient intake.",
+        "pmid": "41429048",
+        "title": "Environmental impact of 100% fruit juice consumption and inclusion in sustainable diets in Europe.",
+        "year": "2026",
+        "journal": "International journal of food sciences and nutrition"
+      },
+      {
+        "sentence": "The present paper provides a comprehensive overview of both production and consumption of 100% FJ, as well as modelling studies which propose optimised intakes within health and environment parameters.",
+        "pmid": "41429048",
+        "title": "Environmental impact of 100% fruit juice consumption and inclusion in sustainable diets in Europe.",
+        "year": "2026",
+        "journal": "International journal of food sciences and nutrition"
+      },
+      {
+        "sentence": "Moreover, the available scientific literature on optimised dietary patterns tends to place 100% FJ within healthy and sustainable dietary patterns.",
+        "pmid": "41429048",
+        "title": "Environmental impact of 100% fruit juice consumption and inclusion in sustainable diets in Europe.",
+        "year": "2026",
+        "journal": "International journal of food sciences and nutrition"
+      },
+      {
+        "sentence": "Based on European consumption patterns, the average carbon footprint of FJ, nectars and vegetable juices was 2.6% of food-related greenhouse gas emissions.",
+        "pmid": "41429048",
+        "title": "Environmental impact of 100% fruit juice consumption and inclusion in sustainable diets in Europe.",
+        "year": "2026",
+        "journal": "International journal of food sciences and nutrition"
+      },
+      {
+        "sentence": "A sponsored symposium was held at the International Congress on Nutrition to discuss the role of the fruit matrix in modulating the impact of 100% fruit juice (FJ) on markers of glycaemic control and vascular health and to present two recent studies.",
+        "pmid": "41541630",
+        "title": "Fruit juices - more like fruit or sugar-sweetened beverages? Report of a symposium sponsored by the Fruit Juice Science Centre at IUNS-ICN Paris.",
+        "year": "2026",
+        "journal": "Journal of nutritional science"
+      },
+      {
+        "sentence": "RESULTS: ANOVA revealed that the interactions of time, time and surface finishing protocols, time and solution, and the combination of time, surface finishing process, and solution were statistically significant (P< 0.001).",
+        "pmid": "41182711",
+        "title": "The effect of commonly used beverages on color change and surface roughness of leucite-reinforced CAD-CAM material with different surface finishing protocols: A laboratory study.",
+        "year": "2025",
+        "journal": "American journal of dentistry"
+      },
+      {
+        "sentence": "Children who brushed their teeth had significantly lower caries scores (p < 0.001); brushing twice daily was associated with lower dmft scores (p < 0.001).",
+        "pmid": "41406134",
+        "title": "The impact of diet and oral hygiene on dental caries among Turkish children: A cross-sectional study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Caries scores did not differ significantly by body mass index (p > 0.05).",
+        "pmid": "41406134",
+        "title": "The impact of diet and oral hygiene on dental caries among Turkish children: A cross-sectional study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Higher DMFT scores were associated with citrus fruits (β = 0.322, p < 0.001), white bread (β = 0.423, p < 0.001), and fruit juice (β = 0.050, p < 0.05) consumption.",
+        "pmid": "41406134",
+        "title": "The impact of diet and oral hygiene on dental caries among Turkish children: A cross-sectional study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Higher dmft scores were linked to chocolate (β = 0.286), biscuits, cookies, and cakes (β = 0.448), chips (β = 0.179), and carbonated soft drinks (β = 0.789) (p < 0.001).",
+        "pmid": "41406134",
+        "title": "The impact of diet and oral hygiene on dental caries among Turkish children: A cross-sectional study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Linear discriminant analysis based on electronic nose (E-nose) effectively distinguish the aroma profiles of different treated samples with a cumulative contribution rate of 88.26 %.",
+        "pmid": "40934776",
+        "title": "Effects of high-pressure processing and thermal processing on odor-active compounds and sensory attributes of cloudy hawthorn (Crataegus pinnatifida) juice through flavoromics.",
+        "year": "2025",
+        "journal": "Food chemistry"
+      },
+      {
+        "sentence": "Notably, the OAV of β-ionone and (E)-2-hexenal were respectively increased by 18.85 %-151.64 % and 12.50 %-50.00 % in all HPP-treated samples.",
+        "pmid": "40934776",
+        "title": "Effects of high-pressure processing and thermal processing on odor-active compounds and sensory attributes of cloudy hawthorn (Crataegus pinnatifida) juice through flavoromics.",
+        "year": "2025",
+        "journal": "Food chemistry"
+      },
+      {
+        "sentence": "RESULTS: Dietary supplement users (n = 3459) were more likely to have health insurance (56.7% compared with 48.8%, P < 0.001) and an annual household income of >$75,000 (9.3% compared with 4.9%, P < 0.001) than nonusers (n = 9881).",
+        "pmid": "40939880",
+        "title": "Vitamin D Intake from Foods, Supplements, and Food Sources: Findings from the Hispanic Community Health Study/Study of Latinos.",
+        "year": "2025",
+        "journal": "The Journal of nutrition"
+      },
+      {
+        "sentence": "Dietary supplement users had a higher daily mean intake (17.41 μg compared with 5.06 μg) and a lower proportion being below the EAR (32.3% compared with 95.2%) than nonusers.",
+        "pmid": "40939880",
+        "title": "Vitamin D Intake from Foods, Supplements, and Food Sources: Findings from the Hispanic Community Health Study/Study of Latinos.",
+        "year": "2025",
+        "journal": "The Journal of nutrition"
+      },
+      {
+        "sentence": "RESULTS: The intake of fructose from sugar-sweetened beverages, but not from fruits or fruit juice, was associated with higher ambulatory 7-day mean blood pressure, higher office blood pressure, and greater risk of hypertension (OR: 1.29, 95%CI 1.12; 1.50 per 10g fructose).",
+        "pmid": "41202663",
+        "title": "The effects of dietary fructose on blood pressure are modified by the food matrix.",
+        "year": "2025",
+        "journal": "Clinical nutrition (Edinburgh, Scotland)"
+      },
+      {
+        "sentence": "In the crossover study, pure fructose intake yielded the greatest serum fructose excursions (p < 0.05 for all comparisons).",
+        "pmid": "41202663",
+        "title": "The effects of dietary fructose on blood pressure are modified by the food matrix.",
+        "year": "2025",
+        "journal": "Clinical nutrition (Edinburgh, Scotland)"
+      },
+      {
+        "sentence": "The systolic blood pressure response was higher after pure fructose compared to the other matrices (+1.8 mmHg, 95%CI 0.02; 3.5).",
+        "pmid": "41202663",
+        "title": "The effects of dietary fructose on blood pressure are modified by the food matrix.",
+        "year": "2025",
+        "journal": "Clinical nutrition (Edinburgh, Scotland)"
+      },
+      {
+        "sentence": "Several studies suggest a favorable effect of 100% fruit juice (100%FJ) on cardio-metabolic risk.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "However, international dietary guidelines disagree on recommendations regarding fruit drink consumption, and the published European Food Safety Authority draft, based only on epidemiological data, suggested a direct relationship between 100%FJ intake and the development of type 2 diabetes mellitus (T2DM) and gout.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "Thus, we performed a systematic review of both randomized controlled trials (RCT) and prospective studies that assessed the relationship between 100%FJ intake, uric acid metabolism, and glucose profile.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "100%FJ intake was associated with a decrease in uric acid, and neutral associations were found for different markers of glucose metabolism and the risk of gestational diabetes.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "In summary, this meta-analysis confirmed that there was no difference between 100%FJ intake and the comparator on glucose metabolism.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "It also showed that 100%FJ intake resulted in lower levels of uric acid than the comparator.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "In addition, the analysis indicated a neutral effect of 100%FJ on gestational diabetes.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "Finally, the systematic review confirmed the neutral effect of 100%FJ on T2DM and suggested the need for further studies to evaluate the risk of gout.",
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "year": "2025",
+        "journal": "Journal of medicinal food"
+      },
+      {
+        "sentence": "The volatile content of heated insoluble pulp particles was 1.43-20.63 times greater than that of the corresponding fresh pulp particles, mainly due to hydrocarbon retention.",
+        "pmid": "40263853",
+        "title": "Investigating the influence of insoluble pulp particles on flavor retention and characterization of freshly squeezed and pasteurized mandarin juice.",
+        "year": "2025",
+        "journal": "Food research international (Ottawa, Ont.)"
+      },
+      {
+        "sentence": "Each additional serving of SSB and fruit juice was associated with a higher risk of T2D (risk ratio [RR]: 1.25; 95% CI: 1.17, 1.35 and RR: 1.05; 95% CI: >1.00, 1.11, respectively; moderate certainty).",
+        "pmid": "40122386",
+        "title": "Dietary Sugar Intake and Incident Type 2 Diabetes Risk: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.",
+        "year": "2025",
+        "journal": "Advances in nutrition (Bethesda, Md.)"
+      },
+      {
+        "sentence": "In contrast, 20 g/d intakes of total sugar and sucrose were inversely associated with T2D (RR: 0.96; 95% CI: 0.94, 0.98; low certainty; and RR: 0.95; 95% CI: 0.91, <1.00; moderate certainty, respectively).",
+        "pmid": "40122386",
+        "title": "Dietary Sugar Intake and Incident Type 2 Diabetes Risk: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.",
+        "year": "2025",
+        "journal": "Advances in nutrition (Bethesda, Md.)"
+      },
+      {
+        "sentence": "No associations were found for added sugar (RR: 0.99; 95% CI: 0.96, 1.01; low certainty) or fructose (RR: 0.98; 95% CI: 0.83, 1.15; very low certainty).",
+        "pmid": "40122386",
+        "title": "Dietary Sugar Intake and Incident Type 2 Diabetes Risk: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.",
+        "year": "2025",
+        "journal": "Advances in nutrition (Bethesda, Md.)"
+      },
+      {
+        "sentence": "Only approximately 30% of ingested zinc (Zn) is absorbed.",
+        "pmid": "41485970",
+        "title": "Effect of Foods, Including Rice, Miso Soup, and Japanese Tea, on the Absorption of Zinc.",
+        "year": "2025",
+        "journal": "Journal of nutritional science and vitaminology"
+      }
+    ],
+    "papers_summary": [
+      {
+        "pmid": "41182711",
+        "title": "The effect of commonly used beverages on color change and surface roughness of leucite-reinforced CAD-CAM material with different surface finishing protocols: A laboratory study.",
+        "journal": "American journal of dentistry",
+        "year": "2025"
+      },
+      {
+        "pmid": "41406134",
+        "title": "The impact of diet and oral hygiene on dental caries among Turkish children: A cross-sectional study.",
+        "journal": "PloS one",
+        "year": "2025"
+      },
+      {
+        "pmid": "35362512",
+        "title": "Unhealthy Food and Beverage Consumption in Children and Risk of Overweight and Obesity: A Systematic Review and Meta-Analysis.",
+        "journal": "Advances in nutrition (Bethesda, Md.)",
+        "year": "2022"
+      },
+      {
+        "pmid": "40934776",
+        "title": "Effects of high-pressure processing and thermal processing on odor-active compounds and sensory attributes of cloudy hawthorn (Crataegus pinnatifida) juice through flavoromics.",
+        "journal": "Food chemistry",
+        "year": "2025"
+      },
+      {
+        "pmid": "40962158",
+        "title": "Towards the development of a standard toolbox for compatibility testing of pediatric drug products with common dosing vehicles - Fruit juice, apple sauce, yogurt, and pudding.",
+        "journal": "European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V",
+        "year": "2025"
+      },
+      {
+        "pmid": "34121531",
+        "title": "Association of soft drink and 100% fruit juice consumption with all-cause mortality, cardiovascular diseases mortality, and cancer mortality: A systematic review and dose-response meta-analysis of prospective cohort studies.",
+        "journal": "Critical reviews in food science and nutrition",
+        "year": "2022"
+      },
+      {
+        "pmid": "40122403",
+        "title": "Pharmacokinetic interactions of fruit juices with antihypertensive drugs in humans: A systematic review and meta-analysis.",
+        "journal": "Complementary therapies in medicine",
+        "year": "2025"
+      },
+      {
+        "pmid": "38929512",
+        "title": "Hesperidin, a Potential Antiviral Agent against SARS-CoV-2: The Influence of Citrus Consumption on COVID-19 Incidence and Severity in China.",
+        "journal": "Medicina (Kaunas, Lithuania)",
+        "year": "2024"
+      },
+      {
+        "pmid": "38227336",
+        "title": "Consumption of 100% Fruit Juice and Body Weight in Children and Adults: A Systematic Review and Meta-Analysis.",
+        "journal": "JAMA pediatrics",
+        "year": "2024"
+      },
+      {
+        "pmid": "36842451",
+        "title": "Important food sources of fructose-containing sugars and adiposity: A systematic review and meta-analysis of controlled feeding trials.",
+        "journal": "The American journal of clinical nutrition",
+        "year": "2023"
+      },
+      {
+        "pmid": "41515275",
+        "title": "Dietary Patterns and Depressive Symptom Severity in the Hungarian Adult Population: Evidence from a Nationally Representative Survey.",
+        "journal": "Nutrients",
+        "year": "2026"
+      },
+      {
+        "pmid": "37208776",
+        "title": "Fruit, vegetable, and fruit juice consumption and risk of gestational diabetes mellitus: a systematic review and meta-analysis : List of all authors.",
+        "journal": "Nutrition journal",
+        "year": "2023"
+      },
+      {
+        "pmid": "41482393",
+        "title": "Differential Influence of ",
+        "journal": "In vivo (Athens, Greece)",
+        "year": "2026"
+      },
+      {
+        "pmid": "35889803",
+        "title": "Important Food Sources of Fructose-Containing Sugars and Non-Alcoholic Fatty Liver Disease: A Systematic Review and Meta-Analysis of Controlled Trials.",
+        "journal": "Nutrients",
+        "year": "2022"
+      },
+      {
+        "pmid": "40939880",
+        "title": "Vitamin D Intake from Foods, Supplements, and Food Sources: Findings from the Hispanic Community Health Study/Study of Latinos.",
+        "journal": "The Journal of nutrition",
+        "year": "2025"
+      },
+      {
+        "pmid": "41202663",
+        "title": "The effects of dietary fructose on blood pressure are modified by the food matrix.",
+        "journal": "Clinical nutrition (Edinburgh, Scotland)",
+        "year": "2025"
+      },
+      {
+        "pmid": "31335211",
+        "title": "Citrus Consumption and Risk of Cutaneous Malignant Melanoma in the Women's Health Initiative.",
+        "journal": "Nutrition and cancer",
+        "year": "2020"
+      },
+      {
+        "pmid": "37085478",
+        "title": "Sugar-sweetened beverages, low/no-calorie beverages, fruit juice and non-alcoholic fatty liver disease defined by fatty liver index: the SWEET project.",
+        "journal": "Nutrition & diabetes",
+        "year": "2023"
+      },
+      {
+        "pmid": "41321673",
+        "title": "Intake of fruits and vegetables (FAVs) on cognitive functions among adolescents and young adults: a scoping review.",
+        "journal": "Journal of nutritional science",
+        "year": "2025"
+      },
+      {
+        "pmid": "34031732",
+        "title": "The prevalence of non-carious cervical lesions (NCCLs) with or without erosive etiological factors among adults of different ages in Tokyo.",
+        "journal": "Clinical oral investigations",
+        "year": "2021"
+      },
+      {
+        "pmid": "34847334",
+        "title": "The relationship between major food sources of fructose and cardiovascular disease, cancer, and all-cause mortality: a systematic review and dose-response meta-analysis of cohort studies.",
+        "journal": "Critical reviews in food science and nutrition",
+        "year": "2023"
+      },
+      {
+        "pmid": "32489768",
+        "title": "Superior Antibacterial Activity of Integral Lemon Pectin Extracted via Hydrodynamic Cavitation.",
+        "journal": "ChemistryOpen",
+        "year": "2020"
+      },
+      {
+        "pmid": "40512554",
+        "title": "100% Fruit Juice Intake, Glucose Profile, and Uric Acid: A Systematic Review.",
+        "journal": "Journal of medicinal food",
+        "year": "2025"
+      },
+      {
+        "pmid": "32338083",
+        "title": "How do biocatalysis and biotransformation affect ",
+        "journal": "Critical reviews in biotechnology",
+        "year": "2020"
+      },
+      {
+        "pmid": "35651093",
+        "title": "Enhancement of the in vitro bioavailable carotenoid content of a citrus juice combining crossflow microfiltration and high-pressure treatments.",
+        "journal": "Food research international (Ottawa, Ont.)",
+        "year": "2022"
+      },
+      {
+        "pmid": "40263853",
+        "title": "Investigating the influence of insoluble pulp particles on flavor retention and characterization of freshly squeezed and pasteurized mandarin juice.",
+        "journal": "Food research international (Ottawa, Ont.)",
+        "year": "2025"
+      },
+      {
+        "pmid": "40122386",
+        "title": "Dietary Sugar Intake and Incident Type 2 Diabetes Risk: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.",
+        "journal": "Advances in nutrition (Bethesda, Md.)",
+        "year": "2025"
+      },
+      {
+        "pmid": "32710289",
+        "title": "Citrus intake and risk of skin cancer in the European Prospective Investigation into Cancer and Nutrition cohort (EPIC).",
+        "journal": "European journal of epidemiology",
+        "year": "2020"
+      },
+      {
+        "pmid": "32463874",
+        "title": "Umai Dish Preparation Practices and Food Safety Behaviors in Bintulu Locals on Borneo Island, Malaysia.",
+        "journal": "Journal of food protection",
+        "year": "2020"
+      },
+      {
+        "pmid": "39731722",
+        "title": "An overview of the nutritional quality and health benefits linked to the world diversity of citrus fruits/juices.",
+        "journal": "Journal of food science",
+        "year": "2025"
+      },
+      {
+        "pmid": "37189146",
+        "title": "Association of soft drinks and 100% fruit juice consumption with risk of cancer: a systematic review and dose-response meta-analysis of prospective cohort studies.",
+        "journal": "The international journal of behavioral nutrition and physical activity",
+        "year": "2023"
+      },
+      {
+        "pmid": "33724826",
+        "title": "Novel Urinary Biomarkers of Orange Juice Consumption, Interindividual Variability, and Differences with Processing Methods.",
+        "journal": "Journal of agricultural and food chemistry",
+        "year": "2021"
+      },
+      {
+        "pmid": "33150530",
+        "title": "100% Fruit juice intake and cardiovascular risk: a systematic review and meta-analysis of prospective and randomised controlled studies.",
+        "journal": "European journal of nutrition",
+        "year": "2021"
+      },
+      {
+        "pmid": "36815492",
+        "title": "Combination of heat-killed ",
+        "journal": "Beneficial microbes",
+        "year": "2023"
+      },
+      {
+        "pmid": "41082983",
+        "title": "Association Between Diet Patterns of Human Infants and Growth Differs Across Randomized Formula Groups in the First 18.5 Months.",
+        "journal": "The Journal of nutrition",
+        "year": "2025"
+      },
+      {
+        "pmid": "41485970",
+        "title": "Effect of Foods, Including Rice, Miso Soup, and Japanese Tea, on the Absorption of Zinc.",
+        "journal": "Journal of nutritional science and vitaminology",
+        "year": "2025"
+      },
+      {
+        "pmid": "34006925",
+        "title": "Fruit and vegetable consumption and incident breast cancer: a systematic review and meta-analysis of prospective studies.",
+        "journal": "British journal of cancer",
+        "year": "2021"
+      },
+      {
+        "pmid": "41429048",
+        "title": "Environmental impact of 100% fruit juice consumption and inclusion in sustainable diets in Europe.",
+        "journal": "International journal of food sciences and nutrition",
+        "year": "2026"
+      },
+      {
+        "pmid": "41541630",
+        "title": "Fruit juices - more like fruit or sugar-sweetened beverages? Report of a symposium sponsored by the Fruit Juice Science Centre at IUNS-ICN Paris.",
+        "journal": "Journal of nutritional science",
+        "year": "2026"
+      },
+      {
+        "pmid": "39543378",
+        "title": "Comparative effects of different beverages on weight loss in adults: a systematic review and network meta-analysis of randomized trials.",
+        "journal": "International journal of obesity (2005)",
+        "year": "2025"
+      },
+      {
+        "pmid": "40037724",
+        "title": "Fermentation characteristics of pectin-derived oligosaccharides from enzyme treated side streams of citrus processing.",
+        "journal": "Carbohydrate polymers",
+        "year": "2025"
+      },
+      {
+        "pmid": "34139510",
+        "title": "Blueberry intervention improves metabolic syndrome risk factors: systematic review and meta-analysis.",
+        "journal": "Nutrition research (New York, N.Y.)",
+        "year": "2021"
+      },
+      {
+        "pmid": "41046889",
+        "title": "Citrus sinensis peel polyphenols loaded alginate nanoparticles: Enhanced stability and anti-diabetic efficacy via bidirectional AMPK regulation and NF-кB suppression.",
+        "journal": "International journal of biological macromolecules",
+        "year": "2025"
+      },
+      {
+        "pmid": "37419352",
+        "title": "Residue behaviors, degradation, processing factors, and risk assessment of pesticides in citrus from field to product processing.",
+        "journal": "The Science of the total environment",
+        "year": "2023"
+      },
+      {
+        "pmid": "40871743",
+        "title": "Consumption of 100% Juice and Diluted 100% Juice Is Associated with Better Compliance with Dietary Guidelines for Americans: Analyses of NHANES 2017-2023.",
+        "journal": "Nutrients",
+        "year": "2025"
+      },
+      {
+        "pmid": "33000670",
+        "title": "Relation of Different Fruit and Vegetable Sources With Incident Cardiovascular Outcomes: A Systematic Review and Meta-Analysis of Prospective Cohort Studies.",
+        "journal": "Journal of the American Heart Association",
+        "year": "2020"
+      },
+      {
+        "pmid": "41125644",
+        "title": "Toxic metal contamination and health risk assessment of packaged fruit juices for children in Gondar city, Ethiopia.",
+        "journal": "Scientific reports",
+        "year": "2025"
+      },
+      {
+        "pmid": "40393612",
+        "title": "Consumption of Fruit Juice and Risk of Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Prospective Cohort Studies.",
+        "journal": "The American journal of medicine",
+        "year": "2025"
+      },
+      {
+        "pmid": "41134972",
+        "title": "Bioaccessibility of 5-hydroxymethylfurfural in fruit molasses using an ",
+        "journal": "Food additives & contaminants. Part A, Chemistry, analysis, control, exposure & risk assessment",
+        "year": "2025"
+      },
+      {
+        "pmid": "41060063",
+        "title": "Dosing Patients With Oral Iron Supplements: Practical Guidance.",
+        "journal": "The Journal of clinical psychiatry",
+        "year": "2025"
+      },
+      {
+        "pmid": "37582096",
+        "title": "Fructose-containing food sources and blood pressure: A systematic review and meta-analysis of controlled feeding trials.",
+        "journal": "PloS one",
+        "year": "2023"
+      },
+      {
+        "pmid": "27278683",
+        "title": "Interaction of Citrus Juices with Cyclosporine: Systematic Review and Meta-Analysis.",
+        "journal": "European journal of drug metabolism and pharmacokinetics",
+        "year": "2016"
+      },
+      {
+        "pmid": "41096684",
+        "title": "Untargeted LC-IMS-qToF-MS-Based Lipidomics Approach to Evaluate the Effect of a Polyphenol-Rich Beverage on Human Lipid Profiles.",
+        "journal": "International journal of molecular sciences",
+        "year": "2025"
+      },
+      {
+        "pmid": "33557387",
+        "title": "Consumption of Sweet Beverages and Cancer Risk. A Systematic Review and Meta-Analysis of Observational Studies.",
+        "journal": "Nutrients",
+        "year": "2021"
+      },
+      {
+        "pmid": "33551013",
+        "title": "Cost-effective options for increasing consumption of under-consumed food groups and nutrients in the USA.",
+        "journal": "Public health nutrition",
+        "year": "2022"
+      },
+      {
+        "pmid": "34582800",
+        "title": "Dietary correlates of urinary phthalate metabolite concentrations in 6-19 Year old children and adolescents.",
+        "journal": "Environmental research",
+        "year": "2022"
+      },
+      {
+        "pmid": "39326403",
+        "title": "Additive Inhibition of HERG Channels Expressed in Xenopus Oocytes by Antipsychotic Drugs and Citrus Juice Flavonoid Naringenin.",
+        "journal": "Pharmacology",
+        "year": "2025"
+      },
+      {
+        "pmid": "40932358",
+        "title": "Safety Assessment of ",
+        "journal": "International journal of toxicology",
+        "year": "2025"
+      },
+      {
+        "pmid": "31963804",
+        "title": "Saliva Secretion and Swallowing-The Impact of Different Types of Food and Drink on Subsequent Intake.",
+        "journal": "Nutrients",
+        "year": "2020"
+      },
+      {
+        "pmid": "40871604",
+        "title": "Evaluating the Erosive Effects of Freshly Squeezed Local Fruit Juices on Human Dental Enamel and Consumption Patterns Among Malaysian Adults.",
+        "journal": "Nutrients",
+        "year": "2025"
+      }
+    ]
+  },
+  "러닝": {
+    "paper_count": 60,
+    "stat_count": 79,
+    "top_stats": [
+      {
+        "sentence": "Both DS and CMR led to a faster calculated pace per 1.61 km versus WMR (P < .001 and P = .01, respectively) and showed improvements in percent change in completion time (DS: -3.02 ± 0.01%, P = .01; CMR: -1.91 ± 0.01%, P = .04).",
+        "pmid": "41493790",
+        "title": "Running Performance in Response to Different Forms of Carbohydrate Through Cephalic-Phase Responses.",
+        "year": "2026",
+        "journal": "International journal of sports physiology and performance"
+      },
+      {
+        "sentence": "INTRODUCTION: It is known that Total cholesterol (TC) and Triglycerides (TG) levels can increase by up to 50 % during late pregnancy, conserving glucose and amino acids for the fetus while enabling the mother to derive energy from elevated lipids.",
+        "pmid": "41253231",
+        "title": "The impact of aerobic exercise on maternal lipid panel during the third trimester of pregnancy: A systematic review and meta-analysis of randomized controlled trials.",
+        "year": "2026",
+        "journal": "Physiology & behavior"
+      },
+      {
+        "sentence": "The level of heterogeneity was assessed using I RESULTS: Eight studies were included in the analy- sis, encompassing 839 patients, of whom 44.69 % (n = 375) were assigned to the exercise group.",
+        "pmid": "41253231",
+        "title": "The impact of aerobic exercise on maternal lipid panel during the third trimester of pregnancy: A systematic review and meta-analysis of randomized controlled trials.",
+        "year": "2026",
+        "journal": "Physiology & behavior"
+      },
+      {
+        "sentence": "Pregnant patients under a structured aerobic exercise program presented with a non-significant re- duction in TC levels (SMD 95 %CI:0.30-0.88; p00.28; I CONCLUSION: In non-dyslipidemic pregnant patients, a structured exercise program does not reduce lipid levels compared to usual physical activity, thereby maintaining the physiolog- ical advantages of the lipid increase observed in the third trimester.",
+        "pmid": "41253231",
+        "title": "The impact of aerobic exercise on maternal lipid panel during the third trimester of pregnancy: A systematic review and meta-analysis of randomized controlled trials.",
+        "year": "2026",
+        "journal": "Physiology & behavior"
+      },
+      {
+        "sentence": "Data were analyzed using RevMan 5.4 and Stata 15.1, employing a random-effects model to calculate the pooled effect size (weighted mean difference) and its 95% confidence interval (95% CI) for maximal oxygen uptake.",
+        "pmid": "41517714",
+        "title": "The effect of high-intensity interval training and moderate-intensity continuous training on cardiorespiratory function in healthy elderly individuals: Systematic review and meta-analysis.",
+        "year": "2026",
+        "journal": "Medicine"
+      },
+      {
+        "sentence": "In the MICT group (12 studies), maximal oxygen uptake levels were significantly improved (mean difference [MD] = 1.22, 95% CI: 0.90-1.53).",
+        "pmid": "41517714",
+        "title": "The effect of high-intensity interval training and moderate-intensity continuous training on cardiorespiratory function in healthy elderly individuals: Systematic review and meta-analysis.",
+        "year": "2026",
+        "journal": "Medicine"
+      },
+      {
+        "sentence": "In the HIIT group (11 studies), the improvement was more pronounced (MD = 1.62, 95% CI: 1.10-2.13).",
+        "pmid": "41517714",
+        "title": "The effect of high-intensity interval training and moderate-intensity continuous training on cardiorespiratory function in healthy elderly individuals: Systematic review and meta-analysis.",
+        "year": "2026",
+        "journal": "Medicine"
+      },
+      {
+        "sentence": "In studies that included both HIIT and MICT (7 studies), HIIT demonstrated significantly superior improvements compared to MICT (MD = 1.17, 95% CI: 0.52-1.82).",
+        "pmid": "41517714",
+        "title": "The effect of high-intensity interval training and moderate-intensity continuous training on cardiorespiratory function in healthy elderly individuals: Systematic review and meta-analysis.",
+        "year": "2026",
+        "journal": "Medicine"
+      },
+      {
+        "sentence": "METHODS: This single-blind crossover study involved 13 recreational runners (eight females, five males) who completed a 10 km treadmill run at 85% of their 10 km race pace after consuming a shake with carbohydrate and whey protein at either a low-protein (0.15 g/kg body mass) or moderate-protein (0.4 g/kg body mass) dose 60 minutes prior to exercise.",
+        "pmid": "41556283",
+        "title": "Whey protein intakes up to 0.4g/kg body mass are well tolerated before a 10km run at 85% of race pace: a clinical trial.",
+        "year": "2026",
+        "journal": "Journal of the International Society of Sports Nutrition"
+      },
+      {
+        "sentence": "RESULTS: The Dynamic Stretching group showed significant reductions in Absolute Angular Error (p < 0.05) and Variable Angular Error (p < 0.001), with a between-group difference in Relative Angular Error (p = 0.043).",
+        "pmid": "41242280",
+        "title": "Acute effects of dynamic stretching on knee joint position sense and dynamic balance in recreational runners: A randomized controlled trial.",
+        "year": "2026",
+        "journal": "Gait & posture"
+      },
+      {
+        "sentence": "Both groups improved Y-Balance Test scores, but the Dynamic stretching group achieved significantly greater gains in posteromedial reach and Composite Score (p < 0.001).",
+        "pmid": "41242280",
+        "title": "Acute effects of dynamic stretching on knee joint position sense and dynamic balance in recreational runners: A randomized controlled trial.",
+        "year": "2026",
+        "journal": "Gait & posture"
+      },
+      {
+        "sentence": "MICT significantly increased MitoVD (p < 0.00001) and VO₂max (p < 0.0001), while CS (p = 0.05) and MFN2 showed a modest increase (p = 0.01) following MICT.",
+        "pmid": "41481647",
+        "title": "Markers of clinical and mitochondrial adaptation in response to moderate intensity continuous training: A systematic review and meta-analysis.",
+        "year": "2026",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Meta-analyses were performed using RevMan version 5.4 with random-effects models, reporting mean difference (MD) and 95% confidence interval (95% CI).",
+        "pmid": "41225738",
+        "title": "Acute Effect of Intradialytic Aerobic Exercise on Cardiac Stunning in Patients With Chronic Kidney Disease: A Systematic Review and Meta-Analysis.",
+        "year": "2026",
+        "journal": "Physiotherapy research international : the journal for researchers and clinicians in physical therapy"
+      },
+      {
+        "sentence": "In echocardiography performed near the end of the HD session, IAE favored a reduction in the RWMA compared to the HD without exercise (MD -1.86 segments, 95% CI -3.09 to -0.62, p = 0.003).",
+        "pmid": "41225738",
+        "title": "Acute Effect of Intradialytic Aerobic Exercise on Cardiac Stunning in Patients With Chronic Kidney Disease: A Systematic Review and Meta-Analysis.",
+        "year": "2026",
+        "journal": "Physiotherapy research international : the journal for researchers and clinicians in physical therapy"
+      },
+      {
+        "sentence": "However, the decline in GLS at the end of the exercise (MD -0.50%, 95% CI -1.56 to 0.56, p = 0.35), and near the end of the HD session (MD -0.86%, 95% CI -1.85 to 0.14, p = 0.09) was not affected.",
+        "pmid": "41225738",
+        "title": "Acute Effect of Intradialytic Aerobic Exercise on Cardiac Stunning in Patients With Chronic Kidney Disease: A Systematic Review and Meta-Analysis.",
+        "year": "2026",
+        "journal": "Physiotherapy research international : the journal for researchers and clinicians in physical therapy"
+      },
+      {
+        "sentence": "Meta-analysis showed a small but significant ergogenic effect on exercise performance (Hedges' g = 0.18, 95% CI [0.09, 0.28],  CONCLUSIONS: This systematic review and three-level meta-analysis provides evidence that CHO mouth rinsing is ergogenic under fed conditions, improving both exercise and cognitive performance, though the overall certainty of evidence is low.",
+        "pmid": "41199504",
+        "title": "Fed, not fasted: is carbohydrate mouth rinsing still ergogenic? A three-level meta-analysis.",
+        "year": "2025",
+        "journal": "Journal of the International Society of Sports Nutrition"
+      },
+      {
+        "sentence": "For BASDAI, the Aquatic Stretching Exercise (ASE) (-1.42, 95% CI [-2.51 to -0.33]), Land Aerobic Exercise (LAE) (-0.94, 95% CI [-1.41 to -0.47]), and Land Stretching Exercise (LSE) (-0.49, 95% CI [-0.94 to -0.04]) exhibited significant symptom relief, with ASE ranking highest (surface under the cumulative ranking curve (SUCRA) = 85.5).",
+        "pmid": "41321953",
+        "title": "Comparative efficacy of different exercise interventions in patients with ankylosing spondylitis: a systematic review and network meta-analysis.",
+        "year": "2025",
+        "journal": "PeerJ"
+      },
+      {
+        "sentence": "For BASFI, statistically significant improvements were observed with the Aquatic Aerobic Exercise (AAE) (-0.90, 95% CI [-1.50 to -0.29]), ASE (-1.74, 95% CI [-2.45 to -1.04]), LAE (-0.74, 95% CI [-1.05 to -0.43]), LSE (-0.54, 95% CI [-0.81 to -0.27]), and Muscle Exercise (ME) (-0.48, 95% CI [-0.83 to -0.13]).",
+        "pmid": "41321953",
+        "title": "Comparative efficacy of different exercise interventions in patients with ankylosing spondylitis: a systematic review and network meta-analysis.",
+        "year": "2025",
+        "journal": "PeerJ"
+      },
+      {
+        "sentence": "For BASMI, ASE (-1.06, 95% CI [-2.10 to -0.02]), LAE (-0.51, 95% CI [-1.01 to -0.01]), and the China Health Campaign (CHC) (-1.15, 95% CI [-2.18 to -0.13]) showed significant improvements, with CHC ranking highest (SUCRA = 78.7).",
+        "pmid": "41321953",
+        "title": "Comparative efficacy of different exercise interventions in patients with ankylosing spondylitis: a systematic review and network meta-analysis.",
+        "year": "2025",
+        "journal": "PeerJ"
+      },
+      {
+        "sentence": "For ASQoL, ASE (-3.67, 95% CI [-6.17 to -1.18]) and LAE (-2.64, 95% CI [-4.50 to -0.79]) demonstrated statistical significance, with ASE achieving the highest ranking (SUCRA = 88.4).",
+        "pmid": "41321953",
+        "title": "Comparative efficacy of different exercise interventions in patients with ankylosing spondylitis: a systematic review and network meta-analysis.",
+        "year": "2025",
+        "journal": "PeerJ"
+      },
+      {
+        "sentence": "Network meta-analysis consistently revealed the greatest therapeutic benefits of aerobic exercise (SUCRA: 68.4%), followed by combined exercise (SUCRA: 66.4%) and resistance exercise (SUCRA: 55.7%).",
+        "pmid": "41344851",
+        "title": "Comparative Effects of Different Types of Exercise Interventions on Depression in Patients With Cancer: A Network Meta-Analysis of Randomized Controlled Studies.",
+        "year": "2025",
+        "journal": "Psycho-oncology"
+      },
+      {
+        "sentence": "METHODS: A cross-sectional online survey collected data from 576 multi-marathoners (56 % men), mean age 53.4 years (SD 9.88), average marathon completions of 146 (SD 196.77).",
+        "pmid": "40902495",
+        "title": "Miles and mindset: The psychological toll of multi-marathoning.",
+        "year": "2025",
+        "journal": "Acta psychologica"
+      },
+      {
+        "sentence": "Older men had lower anxiety (slope = -0.35, p = 0.002), with a similar, non-significant trend in women.",
+        "pmid": "40902495",
+        "title": "Miles and mindset: The psychological toll of multi-marathoning.",
+        "year": "2025",
+        "journal": "Acta psychologica"
+      },
+      {
+        "sentence": "Notably, 8 % of multi-marathoners fell into the Severe Depression & High Anxiety category, exceeding the highest clinical cut-offs.",
+        "pmid": "40902495",
+        "title": "Miles and mindset: The psychological toll of multi-marathoning.",
+        "year": "2025",
+        "journal": "Acta psychologica"
+      },
+      {
+        "sentence": "Exercise therapy significantly improved fasting blood glucose (SMD = -0.58, 95%CI: [-0.77, -0.39],  CONCLUSION: Exercise therapy is an effective non-pharmacological approach for improving glycemic control in T2DM.",
+        "pmid": "41255539",
+        "title": "Bayesian network meta-analysis of the impact of exercise therapy on blood glucose in type 2 diabetes patients.",
+        "year": "2025",
+        "journal": "Frontiers in endocrinology"
+      },
+      {
+        "sentence": "RESULTS: The overall physical fitness of students at Chizhou University was clustered near the passing threshold of 80.8%, with 13.0% of students failing to meet the standard.",
+        "pmid": "41187140",
+        "title": "Effects of COVID-19 pandemic lockdowns on college students' physical fitness: A comparative study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "The COVID-19 pandemic contributed to an increased prevalence of overweight (11.3%) and obesity (4.4%) among the student population.",
+        "pmid": "41187140",
+        "title": "Effects of COVID-19 pandemic lockdowns on college students' physical fitness: A comparative study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Specifically, male students' vital capacity increased by 2.0% and 3.4%, and upper limb strength by 4.8% and 8.3%, in consecutive years.",
+        "pmid": "41187140",
+        "title": "Effects of COVID-19 pandemic lockdowns on college students' physical fitness: A comparative study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Similarly, female students' vital capacity rose by 1.3% and 4.4%, while their upper limb strength improved by 3.9% and 3.5%, respectively.",
+        "pmid": "41187140",
+        "title": "Effects of COVID-19 pandemic lockdowns on college students' physical fitness: A comparative study.",
+        "year": "2025",
+        "journal": "PloS one"
+      },
+      {
+        "sentence": "Two pursuits were successful: A healthy oryx was caught after 2 hours (31% of time running), and an injured oryx after 1 hour of walking only.",
+        "pmid": "41205424",
+        "title": "Human energy expenditure and thermoregulation during persistence hunting in the Namib.",
+        "year": "2025",
+        "journal": "Journal of human evolution"
+      }
+    ],
+    "papers_summary": [
+      {
+        "pmid": "41458405",
+        "title": "Effects of exercise on cognitive function in children and adolescents with overweight or obesity: a systematic review and meta-analysis of randomized controlled trials.",
+        "journal": "Frontiers in public health",
+        "year": "2025"
+      },
+      {
+        "pmid": "36150753",
+        "title": "Strategies to prevent and manage running-related knee injuries: a systematic review of randomised controlled trials.",
+        "journal": "British journal of sports medicine",
+        "year": "2022"
+      },
+      {
+        "pmid": "35660425",
+        "title": "The effects of foot orthosis and low-dye tape on lower limb joint angles and moments during running in individuals with pes planus.",
+        "journal": "Gait & posture",
+        "year": "2022"
+      },
+      {
+        "pmid": "41570209",
+        "title": "The impact of running on the mental health of recreational runners.",
+        "journal": "Psychiatria Danubina",
+        "year": "2025"
+      },
+      {
+        "pmid": "36293872",
+        "title": "Sex Differences in Racing History of Recreational 10 km to Ultra Runners (Part B)-Results from the NURMI Study (Step 2).",
+        "journal": "International journal of environmental research and public health",
+        "year": "2022"
+      },
+      {
+        "pmid": "41493790",
+        "title": "Running Performance in Response to Different Forms of Carbohydrate Through Cephalic-Phase Responses.",
+        "journal": "International journal of sports physiology and performance",
+        "year": "2026"
+      },
+      {
+        "pmid": "35256915",
+        "title": "The Female Athlete Triad-the impact of running and type of diet on the regularity of the menstrual cycle assessed for recreational runners.",
+        "journal": "PeerJ",
+        "year": "2022"
+      },
+      {
+        "pmid": "41199504",
+        "title": "Fed, not fasted: is carbohydrate mouth rinsing still ergogenic? A three-level meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "year": "2025"
+      },
+      {
+        "pmid": "36006999",
+        "title": "Going their own way-male recreational runners and running-related injuries: A qualitative thematic analysis.",
+        "journal": "PloS one",
+        "year": "2022"
+      },
+      {
+        "pmid": "41321953",
+        "title": "Comparative efficacy of different exercise interventions in patients with ankylosing spondylitis: a systematic review and network meta-analysis.",
+        "journal": "PeerJ",
+        "year": "2025"
+      },
+      {
+        "pmid": "41253231",
+        "title": "The impact of aerobic exercise on maternal lipid panel during the third trimester of pregnancy: A systematic review and meta-analysis of randomized controlled trials.",
+        "journal": "Physiology & behavior",
+        "year": "2026"
+      },
+      {
+        "pmid": "40733004",
+        "title": "Beverage-Specific Modulation of Urinary Inflammatory Biomarkers After Endurance Running in Trained Males.",
+        "journal": "Nutrients",
+        "year": "2025"
+      },
+      {
+        "pmid": "41452289",
+        "title": "Hot- and Cold-Water Immersion Do Not Alter Performance or Perceived Fatigability but Improve Muscle Activation, Cardiac Vagal Modulation, and Cardiorespiratory Recovery After Distinct Running Protocols.",
+        "journal": "Scandinavian journal of medicine & science in sports",
+        "year": "2025"
+      },
+      {
+        "pmid": "38618688",
+        "title": "Risk factors associated with a history of iliotibial band syndrome (hITBS) in distance runners: a cross-sectional study in 76 654 race entrants - a SAFER XXXIII study.",
+        "journal": "The Physician and sportsmedicine",
+        "year": "2024"
+      },
+      {
+        "pmid": "41056402",
+        "title": "Eight weeks of running, but not stationary cycling, training attenuates the vestibulosympathetic reflex in healthy adults.",
+        "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+        "year": "2025"
+      },
+      {
+        "pmid": "36497576",
+        "title": "Recreational Running Motivations among Breast Cancer Survivors.",
+        "journal": "International journal of environmental research and public health",
+        "year": "2022"
+      },
+      {
+        "pmid": "41344851",
+        "title": "Comparative Effects of Different Types of Exercise Interventions on Depression in Patients With Cancer: A Network Meta-Analysis of Randomized Controlled Studies.",
+        "journal": "Psycho-oncology",
+        "year": "2025"
+      },
+      {
+        "pmid": "41305577",
+        "title": "Hydration Strategies in Ultra-Endurance Running: A Narrative Review of Programmed Versus Thirst-Driven Approaches.",
+        "journal": "Nutrients",
+        "year": "2025"
+      },
+      {
+        "pmid": "41517714",
+        "title": "The effect of high-intensity interval training and moderate-intensity continuous training on cardiorespiratory function in healthy elderly individuals: Systematic review and meta-analysis.",
+        "journal": "Medicine",
+        "year": "2026"
+      },
+      {
+        "pmid": "40810354",
+        "title": "The Redox Enzyme Thioredoxin Is Increased in Plasma Extracellular Vesicles From Endurance-Trained Females in Response to Acute Exercise.",
+        "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+        "year": "2025"
+      },
+      {
+        "pmid": "40981701",
+        "title": "Qualitative evaluation of FMS movement patterns in the course of femoroacetabular impingement in people practising recreational long-distance running.",
+        "journal": "Acta of bioengineering and biomechanics",
+        "year": "2025"
+      },
+      {
+        "pmid": "35941520",
+        "title": "Enhanced Bone Size, Microarchitecture, and Strength in Female Runners with a History of Playing Multidirectional Sports.",
+        "journal": "Medicine and science in sports and exercise",
+        "year": "2022"
+      },
+      {
+        "pmid": "41556283",
+        "title": "Whey protein intakes up to 0.4g/kg body mass are well tolerated before a 10km run at 85% of race pace: a clinical trial.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "year": "2026"
+      },
+      {
+        "pmid": "41470124",
+        "title": "Acute Effects of Marathon and Ultramarathon Running on Body Composition in Trained Male Athletes.",
+        "journal": "Medicina (Kaunas, Lithuania)",
+        "year": "2025"
+      },
+      {
+        "pmid": "41444893",
+        "title": "Optimal exercise modalities and doses for improving pro-atherogenic lipid profiles in patients with metabolic syndrome: a systematic review with pairwise, network, and dose-response meta-analyses.",
+        "journal": "BMC medicine",
+        "year": "2025"
+      },
+      {
+        "pmid": "40769645",
+        "title": "Exercise for brain health: From cells to circuits.",
+        "journal": "Progress in brain research",
+        "year": "2025"
+      },
+      {
+        "pmid": "40902495",
+        "title": "Miles and mindset: The psychological toll of multi-marathoning.",
+        "journal": "Acta psychologica",
+        "year": "2025"
+      },
+      {
+        "pmid": "35010758",
+        "title": "Benefits on Hematological and Biochemical Parameters of a High-Intensity Interval Training Program for a Half-Marathon in Recreational Middle-Aged Women Runners.",
+        "journal": "International journal of environmental research and public health",
+        "year": "2022"
+      },
+      {
+        "pmid": "40323301",
+        "title": "Acute Ischemic Stroke in a Marathon Runner: Last Known Well at Mile 22 Case Report.",
+        "journal": "Prehospital emergency care",
+        "year": "2025"
+      },
+      {
+        "pmid": "41255539",
+        "title": "Bayesian network meta-analysis of the impact of exercise therapy on blood glucose in type 2 diabetes patients.",
+        "journal": "Frontiers in endocrinology",
+        "year": "2025"
+      },
+      {
+        "pmid": "38311884",
+        "title": "Predictors of Running-Related Injury Among Recreational Runners: A Prospective Cohort Study of the Role of Perfectionism, Mental Toughness, and Passion in Running.",
+        "journal": "Sports health",
+        "year": "2024"
+      },
+      {
+        "pmid": "39106380",
+        "title": "Health-improving effect of running for students of technical specialties.",
+        "journal": "Wiadomosci lekarskie (Warsaw, Poland : 1960)",
+        "year": "2024"
+      },
+      {
+        "pmid": "41187140",
+        "title": "Effects of COVID-19 pandemic lockdowns on college students' physical fitness: A comparative study.",
+        "journal": "PloS one",
+        "year": "2025"
+      },
+      {
+        "pmid": "41275711",
+        "title": "Active conservative interventions for obstructive sleep apnea: An umbrella review and meta-meta-analysis of systematic reviews.",
+        "journal": "Sleep medicine",
+        "year": "2026"
+      },
+      {
+        "pmid": "41258174",
+        "title": "Deformation mechanisms in marathon running shoes elucidated by X-ray micro-computed tomography and digital volume correlation analysis.",
+        "journal": "Scientific reports",
+        "year": "2025"
+      },
+      {
+        "pmid": "41316008",
+        "title": "Optimal exercise type and dose to improve sleep quality in older adults: a systematic review and network meta-analysis.",
+        "journal": "BMC geriatrics",
+        "year": "2025"
+      },
+      {
+        "pmid": "41205424",
+        "title": "Human energy expenditure and thermoregulation during persistence hunting in the Namib.",
+        "journal": "Journal of human evolution",
+        "year": "2025"
+      },
+      {
+        "pmid": "41242280",
+        "title": "Acute effects of dynamic stretching on knee joint position sense and dynamic balance in recreational runners: A randomized controlled trial.",
+        "journal": "Gait & posture",
+        "year": "2026"
+      },
+      {
+        "pmid": "29371223",
+        "title": "Broad-spectrum physical fitness benefits of recreational football: a systematic review and meta-analysis.",
+        "journal": "British journal of sports medicine",
+        "year": "2019"
+      },
+      {
+        "pmid": "41446518",
+        "title": "A meta-analysis of the dose-response relationship between aerobic exercise and executive function in children.",
+        "journal": "Frontiers in public health",
+        "year": "2025"
+      },
+      {
+        "pmid": "41556956",
+        "title": "Exercise prescriptions for older adults with different degrees of cognitive impairment: A dose-response network meta-analysis.",
+        "journal": "Clinical rehabilitation",
+        "year": "2026"
+      },
+      {
+        "pmid": "40702744",
+        "title": "Racing in Rising Global Temperatures: A Scoping Review of Heat-related Illnesses in Endurance Running.",
+        "journal": "Disaster medicine and public health preparedness",
+        "year": "2025"
+      },
+      {
+        "pmid": "40360286",
+        "title": "Neuropsychological Assessment in Orienteers: Implications for Sports Performance and Cognitive Health.",
+        "journal": "Perceptual and motor skills",
+        "year": "2025"
+      },
+      {
+        "pmid": "39052642",
+        "title": "What choices of visual correction do people make for recreational running?",
+        "journal": "PloS one",
+        "year": "2024"
+      },
+      {
+        "pmid": "38037173",
+        "title": "The effect of regular running on body weight and fat tissue of individuals aged 18 to 65.",
+        "journal": "Journal of physiological anthropology",
+        "year": "2023"
+      },
+      {
+        "pmid": "41240813",
+        "title": "Comparative efficacy of exercise interventions for managing cancer-related symptoms and enhancing quality of life: A systematic review and network meta-analysis.",
+        "journal": "European journal of oncology nursing : the official journal of European Oncology Nursing Society",
+        "year": "2025"
+      },
+      {
+        "pmid": "37389463",
+        "title": "Patellofemoral Pain Syndrome Is Associated With Chronic Disease and Allergies in 60 997 Distance Runner Race Entrants: SAFER XXX Study.",
+        "journal": "Clinical journal of sport medicine : official journal of the Canadian Academy of Sport Medicine",
+        "year": "2023"
+      },
+      {
+        "pmid": "41128270",
+        "title": "Durability of Parameters Associated With Endurance Running in Marathoners.",
+        "journal": "European journal of sport science",
+        "year": "2025"
+      },
+      {
+        "pmid": "40316157",
+        "title": "\"Why am I doing this anyway?\" A control-value perspective on boredom in endurance sports.",
+        "journal": "Psychology of sport and exercise",
+        "year": "2025"
+      },
+      {
+        "pmid": "38198662",
+        "title": "The effect of pre-exercise oral hyperhydration on endurance exercise performance, heart rate, and thermoregulation: a meta-analytical review.",
+        "journal": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+        "year": "2024"
+      },
+      {
+        "pmid": "41481647",
+        "title": "Markers of clinical and mitochondrial adaptation in response to moderate intensity continuous training: A systematic review and meta-analysis.",
+        "journal": "PloS one",
+        "year": "2026"
+      },
+      {
+        "pmid": "38181563",
+        "title": "Using wearable technology data to explain recreational running injury: A prospective longitudinal feasibility study.",
+        "journal": "Physical therapy in sport : official journal of the Association of Chartered Physiotherapists in Sports Medicine",
+        "year": "2024"
+      },
+      {
+        "pmid": "41516712",
+        "title": "Effects of Acute Altitude, Speed and Surface on Biomechanical Loading in Distance Running.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "year": "2026"
+      },
+      {
+        "pmid": "41353179",
+        "title": "Evidence-based prescription: optimal exercise type and dose for pain management in breast cancer survivors-a systematic review and dose-response network meta-analysis.",
+        "journal": "BMC cancer",
+        "year": "2025"
+      },
+      {
+        "pmid": "41413589",
+        "title": "Effects of different exercise types on craving in substance use disorder patients with drug dependence -network meta-analysis and dose-response relationships based on frequentist and Bayesian models.",
+        "journal": "Addiction science & clinical practice",
+        "year": "2025"
+      },
+      {
+        "pmid": "38845470",
+        "title": "Years of running, chronic diseases, and allergies are associated with gradual onset Achilles tendon injuries in 61,252 running race entrants: SAFER XXXIX study.",
+        "journal": "PM & R : the journal of injury, function, and rehabilitation",
+        "year": "2024"
+      },
+      {
+        "pmid": "41446810",
+        "title": "Effects on Exercise Tolerance and Functional Outcomes of Eccentric versus Concentric Aerobic Exercise in People with COPD: A Systematic Review and Meta-Analysis.",
+        "journal": "International journal of chronic obstructive pulmonary disease",
+        "year": "2025"
+      },
+      {
+        "pmid": "41225738",
+        "title": "Acute Effect of Intradialytic Aerobic Exercise on Cardiac Stunning in Patients With Chronic Kidney Disease: A Systematic Review and Meta-Analysis.",
+        "journal": "Physiotherapy research international : the journal for researchers and clinicians in physical therapy",
+        "year": "2026"
+      },
+      {
+        "pmid": "41597393",
+        "title": "Exercise-Induced Regulation of Spexin: Implications for Metabolic Health: A Systematic Review and Meta-Analysis.",
+        "journal": "Medicina (Kaunas, Lithuania)",
+        "year": "2026"
+      },
+      {
+        "pmid": "39904577",
+        "title": "'The right advice': a qualitative study examining enablers and barriers to recreational running and beliefs about knee health following knee surgery.",
+        "journal": "British journal of sports medicine",
+        "year": "2025"
+      }
+    ]
+  }
+}

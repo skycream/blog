@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>논문 기반 자동 블로그 글 생성기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 700px;
+            width: 100%;
+            padding: 50px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header .icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .range-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        input[type="range"] {
+            flex: 1;
+            height: 8px;
+            border-radius: 5px;
+            background: #e0e0e0;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background: #5568d3;
+            transform: scale(1.2);
+        }
+
+        .range-value {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #667eea;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+
+        .result {
+            display: none;
+            margin-top: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #27ae60;
+        }
+
+        .result.active {
+            display: block;
+        }
+
+        .result h3 {
+            color: #27ae60;
+            margin-bottom: 15px;
+        }
+
+        .result-info {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .result-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .result-buttons button {
+            flex: 1;
+            padding: 12px;
+            font-size: 1em;
+        }
+
+        .btn-preview {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+        }
+
+        .btn-download {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+        }
+
+        .error {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background: #fee;
+            border-left: 5px solid #e74c3c;
+            border-radius: 5px;
+            color: #c0392b;
+        }
+
+        .error.active {
+            display: block;
+        }
+
+        .examples {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
+
+        .examples span {
+            display: inline-block;
+            margin: 5px 5px 5px 0;
+            padding: 5px 12px;
+            background: #ecf0f1;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .examples span:hover {
+            background: #667eea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">📚🤖</div>
+            <h1>논문 기반 블로그 글 생성기</h1>
+            <p>의학/건강 주제의 논문을 AI가 분석하여 블로그 글을 자동 작성합니다</p>
+        </div>
+
+        <form id="blogForm">
+            <div class="form-group">
+                <label for="topic">주제 입력</label>
+                <input
+                    type="text"
+                    id="topic"
+                    placeholder="예: 역류성식도염, 당뇨병, 고혈압, 비타민D"
+                    required
+                    autocomplete="off"
+                />
+                <div class="examples">
+                    <strong>예시:</strong>
+                    <span onclick="setTopic('역류성식도염')">역류성식도염</span>
+                    <span onclick="setTopic('당뇨병 식이요법')">당뇨병 식이요법</span>
+                    <span onclick="setTopic('비타민D 결핍')">비타민D 결핍</span>
+                    <span onclick="setTopic('간헐적 단식')">간헐적 단식</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="paperCount">분석할 논문 개수: <span class="range-value" id="paperCountValue">12</span>개</label>
+                <div class="range-container">
+                    <span>5</span>
+                    <input
+                        type="range"
+                        id="paperCount"
+                        min="5"
+                        max="30"
+                        value="12"
+                        step="1"
+                    />
+                    <span>30</span>
+                </div>
+                <p style="font-size: 0.9em; color: #7f8c8d; margin-top: 10px;">
+                    💡 논문이 많을수록 정확하지만 시간이 더 걸립니다 (권장: 10-15개)
+                </p>
+            </div>
+
+            <div class="form-group">
+                <label for="style">글 스타일</label>
+                <select id="style">
+                    <option value="hybrid" selected>하이브리드 (과학적 근거 + 쉬운 설명) 추천</option>
+                    <option value="academic">학술적 (전문가용)</option>
+                    <option value="casual">대중적 (일반인용)</option>
+                </select>
+            </div>
+
+            <button type="submit" id="submitBtn">🚀 블로그 글 생성하기</button>
+        </form>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div class="loading-text" id="loadingText">논문 검색 중...</div>
+        </div>
+
+        <div class="error" id="error"></div>
+
+        <div class="result" id="result">
+            <h3>✅ 블로그 글 생성 완료!</h3>
+            <div class="result-info" id="resultInfo"></div>
+            <div class="result-buttons">
+                <button class="btn-preview" onclick="previewResult()">👁️ 미리보기</button>
+                <button class="btn-download" onclick="downloadResult()">⬇️ 다운로드</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let resultFilename = null;
+
+        // 논문 개수 슬라이더
+        const paperCountInput = document.getElementById('paperCount');
+        const paperCountValue = document.getElementById('paperCountValue');
+
+        paperCountInput.addEventListener('input', (e) => {
+            paperCountValue.textContent = e.target.value;
+        });
+
+        // 주제 설정 함수
+        function setTopic(topic) {
+            document.getElementById('topic').value = topic;
+        }
+
+        // 폼 제출
+        document.getElementById('blogForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const topic = document.getElementById('topic').value.trim();
+            const paperCount = parseInt(document.getElementById('paperCount').value);
+            const style = document.getElementById('style').value;
+
+            if (!topic) {
+                showError('주제를 입력해주세요.');
+                return;
+            }
+
+            // UI 업데이트
+            const submitBtn = document.getElementById('submitBtn');
+            const loading = document.getElementById('loading');
+            const result = document.getElementById('result');
+            const error = document.getElementById('error');
+
+            submitBtn.disabled = true;
+            loading.classList.add('active');
+            result.classList.remove('active');
+            error.classList.remove('active');
+
+            const loadingText = document.getElementById('loadingText');
+            const loadingSteps = [
+                '📚 PubMed에서 논문 검색 중...',
+                '🔍 논문 정보 수집 중...',
+                '🤖 Claude AI가 논문 분석 중...',
+                '✍️ 블로그 글 작성 중...'
+            ];
+
+            let stepIndex = 0;
+            const stepInterval = setInterval(() => {
+                stepIndex = (stepIndex + 1) % loadingSteps.length;
+                loadingText.textContent = loadingSteps[stepIndex];
+            }, 3000);
+
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        topic: topic,
+                        paper_count: paperCount,
+                        style: style
+                    })
+                });
+
+                clearInterval(stepInterval);
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    resultFilename = data.filename;
+                    showResult(data);
+                } else {
+                    showError(data.error || '알 수 없는 오류가 발생했습니다.');
+                }
+
+            } catch (err) {
+                clearInterval(stepInterval);
+                showError('서버와 통신 중 오류가 발생했습니다: ' + err.message);
+            } finally {
+                submitBtn.disabled = false;
+                loading.classList.remove('active');
+            }
+        });
+
+        function showResult(data) {
+            const result = document.getElementById('result');
+            const resultInfo = document.getElementById('resultInfo');
+
+            resultInfo.innerHTML = `
+                <strong>📊 분석 논문:</strong> ${data.paper_count}개<br>
+                <strong>📄 파일명:</strong> ${data.filename}<br>
+                <strong>✨ 스타일:</strong> ${document.getElementById('style').options[document.getElementById('style').selectedIndex].text}
+            `;
+
+            result.classList.add('active');
+        }
+
+        function showError(message) {
+            const error = document.getElementById('error');
+            error.textContent = '❌ ' + message;
+            error.classList.add('active');
+        }
+
+        function previewResult() {
+            if (resultFilename) {
+                window.open(`/preview/${resultFilename}`, '_blank');
+            }
+        }
+
+        function downloadResult() {
+            if (resultFilename) {
+                window.location.href = `/download/${resultFilename}`;
+            }
+        }
+    </script>
+</body>
+</html>

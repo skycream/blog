@@ -1,0 +1,145 @@
+{
+  "topic": "gastroesophageal reflux disease",
+  "total_papers": 8,
+  "categorized": {
+    "cause": 2,
+    "treatment": 4,
+    "diet": 1,
+    "prevention": 1
+  },
+  "papers": [
+    {
+      "pmid": "33015827",
+      "title": "Pathophysiology and treatment options for gastroesophageal reflux disease: looking beyond acid.",
+      "authors": [
+        "Sharma P",
+        "Yadlapati R"
+      ],
+      "journal": "Annals of the New York Academy of Sciences",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a disorder due to the retrograde flow of refluxate into the esophagus. Although GERD is a common clinical diagnosis, its pathogenesis is quite complex. As a result of its multifactorial development, many patients continue to experience adverse symptoms due to GERD despite prolonged acid suppression with proton pump inhibitor therapy. The pathogenesis of GERD involves an interplay of chemical, mechanical, psychologic, and neurologic mechanisms, which contribute to symptom presentation, diagnosis, and treatment. As such, GERD should be approached as a disorder beyond acid. This review will investigate the major factors that contribute to the development of GERD, including factors related to the refluxate, esophageal defenses, and factors that promote pathologic reflux into the esophagus. In reviewing GERD pathogenesis, this paper will highlight therapeutic advances, with mention of future opportunities of study when approaching GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33015827/",
+      "search_query": "gastroesophageal reflux disease",
+      "category": "cause",
+      "category_confidence": 0.5
+    },
+    {
+      "pmid": "29037470",
+      "title": "Pathophysiology of Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Tack J",
+        "Pandolfino JE"
+      ],
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "abstract": "The pathogenesis of gastroesophageal reflux disease (GERD) is complex and involves changes in reflux exposure, epithelial resistance, and visceral sensitivity. The gastric refluxate is a noxious material that injures the esophagus and elicits symptoms. Esophageal exposure to gastric refluxate is the primary determinant of disease severity. This exposure arises via compromise of the anti-reflux barrier and reduced ability of the esophagus to clear and buffer the refluxate, leading to reflux disease. However, complications and symptoms also occur in the context of normal reflux burden, when there is either poor epithelial resistance or increased visceral sensitivity. Reflux therefore develops via alterations in the balance of aggressive and defensive forces.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29037470/",
+      "search_query": "gastroesophageal reflux disease",
+      "category": "cause",
+      "category_confidence": 1.0
+    },
+    {
+      "pmid": "28827081",
+      "title": "Management of Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Gyawali CP",
+        "Fass R"
+      ],
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "abstract": "Management of gastroesophageal reflux disease (GERD) commonly starts with an empiric trial of proton pump inhibitor (PPI) therapy and complementary lifestyle measures, for patients without alarm symptoms. Optimization of therapy (improving compliance and timing of PPI doses), or increasing PPI dosage to twice daily in select circumstances, can reduce persistent symptoms. Patients with continued symptoms can be evaluated with endoscopy and tests of esophageal physiology, to better determine their disease phenotype and optimize treatment. Laparoscopic fundoplication, magnetic sphincter augmentation, and endoscopic therapies can benefit patients with well-characterized GERD. Patients with functional diseases that overlap with or mimic GERD can also be treated with neuromodulators (primarily antidepressants), or psychological interventions (psychotherapy, hypnotherapy, cognitive and behavioral therapy). Future approaches to treatment of GERD include potassium-competitive acid blockers, reflux-reducing agents, bile acid binders, injection of inert substances into the esophagogastric junction, and electrical stimulation of the lower esophageal sphincter.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28827081/",
+      "search_query": "gastroesophageal reflux disease",
+      "category": "treatment",
+      "category_confidence": 0.9166666666666666
+    },
+    {
+      "pmid": "40197644",
+      "title": "The San Diego Consensus for Laryngopharyngeal Symptoms and Laryngopharyngeal Reflux Disease.",
+      "authors": [
+        "Yadlapati R",
+        "Weissbrod P",
+        "Walsh E",
+        "Carroll TL",
+        "Chan WW"
+      ],
+      "journal": "The American journal of gastroenterology",
+      "year": "2026",
+      "abstract": "The term laryngopharyngeal reflux (LPR) is frequently applied to aerodigestive symptoms despite lack of objective reflux evidence. The aim of this initiative was to develop a modern care paradigm for LPR supported by otolaryngology and gastroenterology disciplines. A 28-member international interdisciplinary working group developed practical statements within the following domains: definition/terminology, initial diagnostic evaluation, reflux monitoring, therapeutic trials, behavioral factors and therapy, and risk stratification. Literature reviews guided statement development and were presented at virtual/in-person meetings. Each statement underwent 2 or more rounds of voting per the RAND Appropriateness Method; statements reaching appropriateness with ≥80% agreement are included as recommendations. The term laryngopharyngeal symptoms (LPS) applies to aerodigestive symptoms with potential to be induced by reflux and include cough, voice change, throat clearing, excess throat phlegm, and throat pain. Laryngopharyngeal reflux disease (LPRD) refers to patients with LPS and objective evidence of reflux. Importantly, the presence of LPS does not equate to LPRD. Laryngoscopy has value in assessing for nonreflux laryngopharyngeal processes, but laryngoscopic findings alone cannot diagnose LPRD. LPS patients should be categorized as with or without concurrent esophageal reflux symptoms. While lifestyle modification and empiric trials of acid suppression ± alginates are appropriate when esophageal reflux symptoms coexist, upper endoscopy and ambulatory reflux monitoring are required for LPRD diagnosis when symptoms persist, when LPS is isolated, or when management needs to be escalated to include invasive antireflux management. The two recommended ambulatory reflux monitoring modalities, 24-hour pH-impedance and 96-hour wireless pH monitoring, are not mutually exclusive with distinct roles for the evaluation of LPS. Laryngeal hyperresponsiveness and hypervigilance commonly contribute to both LPS and LPRD presentations and are responsive to laryngeal recalibration therapy and neuromodulators. The San Diego Consensus represents the formal modern-day interdisciplinary care paradigm to evaluate and manage LPS and LPRD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40197644/",
+      "search_query": "gastroesophageal lifestyle modification",
+      "category": "treatment",
+      "category_confidence": 0.6122448979591836
+    },
+    {
+      "pmid": "36789472",
+      "title": "Updates on Surgical Treatment for Gastroesophageal Reflux Disease.",
+      "authors": [
+        "Kendrick K",
+        "Kothari SN"
+      ],
+      "journal": "The American surgeon",
+      "year": "2023",
+      "abstract": "Gastroesophageal reflux disease (GERD) is a common condition that is on the rise. Obesity is one risk factor that has increased in parallel with the rise of GERD. Typical symptoms include heartburn, regurgitation, dysphagia, cough, and chest pain. Patients with typical symptoms are empirically treated with proton pump inhibitors (PPIs). If the diagnosis is not clear, further evaluation is performed with endoscopy, pH monitoring, and esophageal manometry. Untreated GERD increases the risk of esophagitis, esophageal stricture, Barrett's esophagus, and esophageal adenocarcinoma. Treatment begins with lifestyle modification and medical therapy. If these fail, surgical and endoscopic surgical techniques are available, to provide treatment, symptom relief, and reduce long-term PPI use.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36789472/",
+      "search_query": "gastroesophageal lifestyle modification",
+      "category": "treatment",
+      "category_confidence": 0.6145251396648045
+    },
+    {
+      "pmid": "33882662",
+      "title": "Risk factors for gastroesophageal reflux disease symptoms related to lifestyle and diet.",
+      "authors": [
+        "Taraszewska A"
+      ],
+      "journal": "Roczniki Panstwowego Zakladu Higieny",
+      "year": "2021",
+      "abstract": "Gastroesophageal reflux disease (GERD) is one of the most common diseases of the upper gastrointestinal tract. The most characteristic symptom of the disease is heartburn, which occurs at least once a week. The prevalence of the disease varies and, depending on the region of the world, it may affect from a few to over 30% of an adult population. It is estimated that in Poland this disease may affect up to 35.5% of adults reporting abdominal ailments. If untreated, the disease can lead to serious complications including precancerous conditions and esophageal adenocarcinoma. Pharmacotherapy is considered as the first-line treatment in GERD patients but lifestyle modifications, including diet changes, are an important element supporting the treatment of the disease. Many factors may contribute to the development of the disease. Among them, there are non-modifiable factors such as age, sex or genetic factors and modifiable factors, e.g. lifestyle, diet, excessive body weight. This review focuses on GERD risk factors related to lifestyle and nutrition that include both dietary components and nutritional behaviour. Lifestyle risk factors that may contribute to GERD symptoms include excessive body weight, particularly obesity, moderate/high alcohol consumption, smoking, postprandial and vigorous physical activity, as well as lack of regular physical activity. Many studies indicate fatty, fried, sour, spicy food/products, orange and grapefruit juice, tomatoes and tomato preserves, chocolate, coffee/tea, carbonated beverages, alcohol as triggers for GERD symptoms. Eating habits such as irregular meal pattern, large volume of meals, eating meals just before bedtime may correlate with the symptoms of GERD. The role of lifestyle, diet and eating habits as risk factors for GERD is not clearly understood, and the results of the available studies are often contradictory. Determination of modifiable risk factors for this disease and its symptoms is important for effective dietary prevention and diet therapy of GERD.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33882662/",
+      "search_query": "gastroesophageal prevention",
+      "category": "diet",
+      "category_confidence": 0.5809935205183585
+    },
+    {
+      "pmid": "38959095",
+      "title": "The global, regional, and national patterns of change in the burden of nonmalignant upper gastrointestinal diseases from 1990 to 2019 and the forecast for the next decade.",
+      "authors": [
+        "Bai Z",
+        "Wang H",
+        "Shen C",
+        "An J",
+        "Yang Z"
+      ],
+      "journal": "International journal of surgery (London, England)",
+      "year": "2025",
+      "abstract": "Nonmalignant upper gastrointestinal diseases, including peptic ulcer disease (PUD), gastritis and duodenitis (GD), and gastroesophageal reflux disease (GERD), significantly challenge global healthcare. These conditions not only impact patient health but also highlight socioeconomic development issues and healthcare system accessibility and efficiency. Utilizing the Global Burden of Disease database, this study aims to comprehensively assess the global burden of PUD, GD, and GERD, examining their association with the sociodemographic index (SDI). Employing data from the Global Burden of Disease 2019 database, this study analyzed the disability-adjusted life years for PUD, GD, and GERD. We integrated the SDI with the inequality slope index and concentration index for an international health inequality analysis, assessing disparities in the burden of these nonmalignant upper gastrointestinal diseases. Decomposition analysis was conducted to determine the effects of population growth, aging, and epidemiological change on disease burden. Frontier analysis was performed to identify potential improvement areas and disparities among countries by development status. Disease time trends were depicted using a Joinpoint regression model, and the Bayesian age-period-cohort model projected the disease burden up to 2030. Between 1990 and 2019, the age-standardized disability-adjusted life years rates for nonmalignant upper gastrointestinal diseases declined. However, global geographic heterogeneity remained evident and closely linked to the SDI. Notably, low-SDI countries experienced higher disease burdens. Population growth and aging emerged as principal contributors to the increasing disease burden. Despite development levels, many countries have considerable potential for reducing the burden of these diseases. Furthermore, significant variations in the time trends of nonmalignant upper gastrointestinal diseases were observed among countries and regions with different SDI levels, a pattern expected to continue through 2030. Nonmalignant upper gastrointestinal diseases demonstrate notable heterogeneity across age, sex, and geography, with the disparities most marked in underdeveloped regions or countries. Consequently, it is imperative to focus research on policy development and to enact prevention and treatment strategies tailored to high-risk groups. This targeted approach is essential for effectively mitigating the disease burden.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38959095/",
+      "search_query": "gastroesophageal prevention",
+      "category": "treatment",
+      "category_confidence": 0.3448275862068966
+    },
+    {
+      "pmid": "38634628",
+      "title": "Tooth surface loss: causes, management, and prevention.",
+      "authors": [
+        "Dhaliwal G",
+        "Ouanounou A"
+      ],
+      "journal": "Quintessence international (Berlin, Germany : 1985)",
+      "year": "2024",
+      "abstract": "Tooth wear, also referred to as tooth surface loss, occurs due to causes other than caries. This involves the loss of hard tissues, namely enamel, dentin, and/or cementum. Types of tooth wear/tooth surface loss are abrasion, abfraction, attrition, and erosion. These multifactorial conditions can be caused by factors such as lifestyle, diet, or even habits, and may not be symptomatic. The focus of this article is to provide clinicians with detailed examples and explanations of the causes of tooth loss to aid in early diagnosis. Through early identification, the preventive measures outlined can be implemented to avoid excessive tooth wear. The provision of a treatment flowchart and general treatment recommendations aims to help clinicians determine when to restore these lesions and the most appropriate treatment measures for the four types of wear. The PubMed (MEDLINE) search engine was used to gather information on teeth restricted to a 5-year period (26 August 2018 to 25 July 2022). Only English-language studies and reviews with the best balance of sensitivity and specificity were considered. A Boolean search of the PubMed dataset was implemented to combine a range of keywords: (\"tooth wear\" OR tooth attrition OR tooth erosion OR tooth abrasion OR tooth abfraction). Additional articles were selected through Google Scholar. By this process, many articles and studies were obtained, and the 48 most relevant published studies were chosen and used in the current review. Tooth wear affects an increasing number of individuals and can have detrimental effects physically, mentally, and emotionally. It is important to stress early diagnosis and management of tooth wear through monitoring, prevention, and treatment where indicated.",
+      "study_type": "Journal Article",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38634628/",
+      "search_query": "gastroesophageal prevention",
+      "category": "prevention",
+      "category_confidence": 0.36283185840707965
+    }
+  ]
+}
