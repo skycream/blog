@@ -37,7 +37,7 @@ from modules.blog_generator import BlogGenerator
 from modules.pmc_fulltext import PMCFullTextFetcher
 from modules.llm_paper_analyzer import save_for_claude_analysis, create_batch_analysis_prompt
 from modules.claude_paper_scorer import score_papers_with_claude
-from modules.auto_blog_generator import generate_blog_auto
+from modules.auto_blog_generator import generate_blog_auto, get_last_error_log
 from config import Config
 
 # 대화 상태 정의
@@ -188,6 +188,81 @@ class BlogBotSession:
         self.search_queries: List[str] = []  # 실제 사용된 PubMed 검색 쿼리
         self.draft: str = ""
         self.created_at: datetime = datetime.now()
+        self.session_id: str = datetime.now().strftime('%Y%m%d_%H%M%S')
+
+    def save_to_file(self, step: str = ""):
+        """세션 데이터를 파일로 저장"""
+        import json
+        save_dir = "session_data"
+        os.makedirs(save_dir, exist_ok=True)
+
+        filename = f"{save_dir}/{self.keyword}_{self.session_id}_{step}.json"
+        data = {
+            'keyword': self.keyword,
+            'keyword_en': self.keyword_en,
+            'topics': self.topics,
+            'selected_topics': list(self.selected_topics),
+            'hook_style': self.hook_style,
+            'papers': self.papers,
+            'search_queries': self.search_queries,
+            'created_at': self.created_at.isoformat(),
+            'step': step
+        }
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"[세션 저장] {filename}")
+
+    @classmethod
+    def load_from_file(cls, filepath: str) -> 'BlogBotSession':
+        """파일에서 세션 불러오기"""
+        import json
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        session = cls()
+        session.keyword = data.get('keyword', '')
+        session.keyword_en = data.get('keyword_en', '')
+        session.topics = data.get('topics', {})
+        session.selected_topics = set(data.get('selected_topics', []))
+        session.hook_style = data.get('hook_style', '')
+        session.papers = data.get('papers', [])
+        session.search_queries = data.get('search_queries', [])
+        session.session_id = data.get('created_at', '')[:15].replace('-', '').replace('T', '_').replace(':', '')
+        return session
+
+    @staticmethod
+    def list_saved_sessions() -> List[Dict]:
+        """저장된 세션 목록 반환"""
+        import glob
+        save_dir = "session_data"
+        if not os.path.exists(save_dir):
+            return []
+
+        # 가장 최근 단계의 파일만 (키워드+세션ID별로 그룹핑)
+        files = glob.glob(f"{save_dir}/*.json")
+        sessions = {}
+
+        for f in files:
+            try:
+                import json
+                with open(f, 'r', encoding='utf-8') as fp:
+                    data = json.load(fp)
+                key = f"{data.get('keyword')}_{data.get('created_at', '')[:10]}"
+                step = data.get('step', '')
+
+                # 더 높은 단계만 저장
+                if key not in sessions or step > sessions[key].get('step', ''):
+                    sessions[key] = {
+                        'filepath': f,
+                        'keyword': data.get('keyword'),
+                        'step': step,
+                        'papers_count': len(data.get('papers', [])),
+                        'created_at': data.get('created_at', '')
+                    }
+            except:
+                pass
+
+        return sorted(sessions.values(), key=lambda x: x.get('created_at', ''), reverse=True)[:10]
 
 
 # 사용자별 세션 저장소
@@ -282,6 +357,9 @@ async def receive_keyword(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
         # session.topics에 저장
         session.topics = all_topics
+
+        # 세션 저장 (키워드 분석 완료)
+        session.save_to_file("1_keyword_analyzed")
 
         # 카테고리별 분석 결과 메시지 생성
         analysis_msg = ""
@@ -585,8 +663,13 @@ async def search_papers_and_show(update: Update, context: ContextTypes.DEFAULT_T
 
         session.papers = unique_papers
 
-        # PMC에서 전문 가져오기 시도
-        await loading.update(f"*논문 {len(unique_papers)}편 수집 완료!*\nPMC 전문 검색 중...")
+        # PMC에서 전문 가져오기 (상위 50편, 총 5분 제한)
+        import time
+        PMC_MAX_PAPERS = 50  # 상위 50편 PMC 검색
+        PMC_TIMEOUT_TOTAL = 300  # 전체 5분 제한
+
+        papers_to_check = unique_papers[:PMC_MAX_PAPERS]
+        await loading.update(f"*논문 {len(unique_papers)}편 수집 완료!*\nPMC 전문 검색 중... (상위 {len(papers_to_check)}편)")
 
         pmc_fetcher = PMCFullTextFetcher(
             email=Config.PUBMED_EMAIL,
@@ -594,7 +677,15 @@ async def search_papers_and_show(update: Update, context: ContextTypes.DEFAULT_T
         )
 
         fulltext_count = 0
-        for i, paper in enumerate(unique_papers):
+        pmc_start = time.time()
+
+        for i, paper in enumerate(papers_to_check):
+            # 전체 타임아웃 체크
+            elapsed = int(time.time() - pmc_start)
+            if elapsed > PMC_TIMEOUT_TOTAL:
+                await loading.update(f"⏱️ PMC 검색 타임아웃 ({elapsed}초)\n전문 {fulltext_count}편 확보")
+                break
+
             try:
                 pmid = paper.get('pmid')
                 if pmid:
@@ -607,28 +698,54 @@ async def search_papers_and_show(update: Update, context: ContextTypes.DEFAULT_T
                         fulltext_count += 1
                     else:
                         paper["has_fulltext"] = False
-            except:
+            except Exception as e:
                 paper["has_fulltext"] = False
+                print(f"[PMC 오류] PMID {paper.get('pmid')}: {e}")
 
-            # 10개마다 진행 상황 업데이트
-            if (i + 1) % 10 == 0:
+            # 5개마다 진행 상황 업데이트
+            if (i + 1) % 5 == 0:
+                elapsed = int(time.time() - pmc_start)
                 await loading.update(
-                    f"*PMC 전문 검색 중...*\n({i+1}/{len(unique_papers)}) 전문 확보: {fulltext_count}편"
+                    f"*PMC 전문 검색 중...*\n({i+1}/{len(papers_to_check)}) 전문: {fulltext_count}편 ({elapsed}초)"
                 )
+
+        # 나머지 논문은 전문 없음으로 표시
+        for paper in unique_papers[PMC_MAX_PAPERS:]:
+            paper["has_fulltext"] = False
 
         session.papers = unique_papers
 
-        # Claude CLI로 관련성 점수 평가
-        await loading.update("*Claude가 관련성 점수 평가 중...*\n75점 이상만 채택됩니다")
+        # Claude CLI로 관련성 점수 평가 (타임아웃 적용)
+        await loading.update("*Claude가 관련성 점수 평가 중...*\n75점 이상만 채택됩니다 (최대 3분)")
 
-        accepted_papers, rejected_papers = score_papers_with_claude(
-            unique_papers,
-            session.keyword,
-            session.keyword_en,
-            list(session.selected_topics)
-        )
+        try:
+            import concurrent.futures
+            claude_start = time.time()
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                future = executor.submit(
+                    score_papers_with_claude,
+                    unique_papers,
+                    session.keyword,
+                    session.keyword_en,
+                    list(session.selected_topics)
+                )
+                try:
+                    accepted_papers, rejected_papers = future.result(timeout=180)  # 3분 타임아웃
+                except concurrent.futures.TimeoutError:
+                    await loading.update("⚠️ Claude 점수 평가 타임아웃 - 전체 논문 사용")
+                    accepted_papers = unique_papers
+                    rejected_papers = []
 
-        session.papers = accepted_papers  # 채택된 논문만 저장
+            claude_elapsed = int(time.time() - claude_start)
+            print(f"[Claude 점수평가] {claude_elapsed}초, 채택: {len(accepted_papers)}편")
+
+        except Exception as e:
+            print(f"[Claude 점수평가 오류] {e}")
+            await loading.update(f"⚠️ Claude 점수 평가 실패: {str(e)[:100]}")
+            accepted_papers = unique_papers
+            rejected_papers = []
+
+        session.papers = accepted_papers if accepted_papers else unique_papers  # 채택된 논문만 저장
 
         # 전문 통계 계산
         fulltext_papers = [p for p in session.papers if p.get('has_fulltext')]
@@ -637,6 +754,9 @@ async def search_papers_and_show(update: Update, context: ContextTypes.DEFAULT_T
         queries_display = "\n".join([f"  • {q}" for q in session.search_queries[:3]])
         if len(session.search_queries) > 3:
             queries_display += f"\n  ...외 {len(session.search_queries)-3}개"
+
+        # 세션 저장 (논문 검색 완료)
+        session.save_to_file("2_papers_searched")
 
         # 로딩 종료
         await loading.delete()
@@ -841,6 +961,9 @@ async def select_hook_style(update: Update, context: ContextTypes.DEFAULT_TYPE) 
     session.hook_style = style_id
     style_info = HOOK_STYLES[style_id]
 
+    # 세션 저장 (스타일 선택 완료)
+    session.save_to_file("3_style_selected")
+
     # 초안 생성 확인 (논문은 이미 검색되어 있음)
     keyboard = [
         [
@@ -906,6 +1029,9 @@ async def confirm_generation(update: Update, context: ContextTypes.DEFAULT_TYPE)
             f"━━━━━━━━━━━━━━━━━━━━━",
             parse_mode='Markdown'
         )
+
+        # 세션 저장 (블로그 생성 시작 전)
+        session.save_to_file("4_generation_started")
 
         # 로딩 표시 시작
         loading = LoadingIndicator(
@@ -1001,14 +1127,17 @@ async def confirm_generation(update: Update, context: ContextTypes.DEFAULT_TYPE)
                 )
 
             else:
-                # 실패 - 콘솔 로그 확인 안내
+                # 실패 - 에러 로그 표시
+                error_logs = get_last_error_log()
+                error_text = "\n".join(error_logs[-10:]) if error_logs else "알 수 없는 오류"
+
                 await context.bot.send_message(
                     chat_id=chat_id,
                     text=(
                         f"❌ *블로그 생성 실패*\n\n"
                         f"논문: {len(session.papers)}편\n"
                         f"토픽: {', '.join(list(session.selected_topics)[:3]) if session.selected_topics else '없음'}\n\n"
-                        f"콘솔에서 상세 로그를 확인하세요.\n"
+                        f"📋 *에러 로그:*\n```\n{error_text[:1500]}\n```\n\n"
                         f"/start 로 새 블로그 작성"
                     ),
                     parse_mode='Markdown'
@@ -1019,13 +1148,20 @@ async def confirm_generation(update: Update, context: ContextTypes.DEFAULT_TYPE)
         except Exception as e:
             # 로딩 종료
             await loading.delete()
+
+            # 에러 로그 포함
+            error_logs = get_last_error_log()
+            error_text = "\n".join(error_logs[-5:]) if error_logs else ""
+
             await context.bot.send_message(
                 chat_id=chat_id,
                 text=(
                     f"❌ 블로그 생성 중 오류가 발생했습니다.\n\n"
                     f"오류: {str(e)}\n\n"
+                    f"📋 로그:\n```\n{error_text[:1000]}\n```\n\n"
                     "/start 로 다시 시작해주세요."
-                )
+                ),
+                parse_mode='Markdown'
             )
             return ConversationHandler.END
 
@@ -1324,10 +1460,206 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         "4️⃣ 논문 검색 결과 확인\n"
         "5️⃣ 도입부 스타일 선택\n"
         "6️⃣ 블로그 생성 및 다운로드\n\n"
+        "/retry - 이전 세션 이어서 진행\n"
         "/cancel - 진행 중인 작업 취소\n"
         "/help - 이 도움말 보기",
         parse_mode='Markdown'
     )
+
+
+async def retry_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """저장된 세션 목록 표시 및 재시도"""
+    user_id = update.effective_user.id
+    sessions = BlogBotSession.list_saved_sessions()
+
+    if not sessions:
+        await update.message.reply_text(
+            "📭 저장된 세션이 없습니다.\n\n"
+            "/start 로 새 블로그를 작성하세요."
+        )
+        return ConversationHandler.END
+
+    # 세션 목록 버튼 생성
+    keyboard = []
+    for i, s in enumerate(sessions[:5]):  # 최대 5개
+        step_name = {
+            '1_keyword_analyzed': '키워드분석',
+            '2_papers_searched': '논문검색완료',
+            '3_style_selected': '스타일선택',
+            '4_generation_started': '생성시작'
+        }.get(s['step'], s['step'])
+
+        keyboard.append([
+            InlineKeyboardButton(
+                f"📄 {s['keyword']} ({step_name}, {s['papers_count']}편)",
+                callback_data=f"retry:{i}"
+            )
+        ])
+
+    keyboard.append([InlineKeyboardButton("❌ 취소", callback_data="retry:CANCEL")])
+
+    # 세션 목록을 context에 저장
+    context.user_data['retry_sessions'] = sessions[:5]
+
+    await update.message.reply_text(
+        "📂 *저장된 세션 목록*\n\n"
+        "이어서 진행할 세션을 선택하세요:",
+        reply_markup=InlineKeyboardMarkup(keyboard),
+        parse_mode='Markdown'
+    )
+
+    return SELECTING_RETRY
+
+
+async def handle_retry_selection(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """재시도 세션 선택 처리"""
+    query = update.callback_query
+    await query.answer()
+
+    user_id = update.effective_user.id
+    data = query.data.replace("retry:", "")
+
+    if data == "CANCEL":
+        await query.edit_message_text("❌ 취소되었습니다.\n\n/start 로 새로 시작하세요.")
+        return ConversationHandler.END
+
+    try:
+        idx = int(data)
+        sessions = context.user_data.get('retry_sessions', [])
+        if idx >= len(sessions):
+            await query.edit_message_text("❌ 잘못된 선택입니다.")
+            return ConversationHandler.END
+
+        selected = sessions[idx]
+        filepath = selected['filepath']
+
+        # 세션 불러오기
+        session = BlogBotSession.load_from_file(filepath)
+        user_sessions[user_id] = session
+
+        step = selected['step']
+
+        # 단계에 따라 다음 진행
+        if step == '4_generation_started' or step == '3_style_selected':
+            # 블로그 생성 바로 진행
+            await query.edit_message_text(
+                f"✅ *세션 불러오기 완료!*\n\n"
+                f"📌 키워드: {session.keyword}\n"
+                f"📄 논문: {len(session.papers)}편\n"
+                f"🏷️ 토픽: {len(session.selected_topics)}개\n\n"
+                f"블로그 생성을 시작합니다...",
+                parse_mode='Markdown'
+            )
+
+            # 블로그 생성 시작
+            return await _generate_blog_from_session(update, context, session)
+
+        elif step == '2_papers_searched':
+            # 스타일 선택부터
+            await query.edit_message_text(
+                f"✅ *세션 불러오기 완료!*\n\n"
+                f"📌 키워드: {session.keyword}\n"
+                f"📄 논문: {len(session.papers)}편\n\n"
+                f"도입부 스타일을 선택해주세요.",
+                parse_mode='Markdown'
+            )
+            return await show_hook_styles(update, context)
+
+        else:
+            # 처음부터 (토픽 선택)
+            await query.edit_message_text(
+                f"✅ *세션 불러오기 완료!*\n\n"
+                f"📌 키워드: {session.keyword}\n\n"
+                f"/start 로 다시 시작하거나 계속 진행하세요."
+            )
+            return ConversationHandler.END
+
+    except Exception as e:
+        await query.edit_message_text(f"❌ 세션 불러오기 실패: {e}")
+        return ConversationHandler.END
+
+
+async def _generate_blog_from_session(update: Update, context: ContextTypes.DEFAULT_TYPE, session: BlogBotSession) -> int:
+    """세션에서 블로그 생성"""
+    chat_id = update.effective_chat.id
+
+    # Hook 스타일 정보 가져오기 (키가 없으면 첫 번째 스타일 사용)
+    style_info = HOOK_STYLES.get(session.hook_style)
+    if not style_info:
+        # 저장된 스타일 키가 없으면 첫 번째 스타일 사용
+        first_key = list(HOOK_STYLES.keys())[0]
+        style_info = HOOK_STYLES[first_key]
+        session.hook_style = first_key
+
+    # 로딩 표시 시작
+    loading = LoadingIndicator(
+        context.bot,
+        chat_id,
+        "*논문 분석 및 블로그 생성 중...*\n(재시도)"
+    )
+    await loading.start()
+
+    try:
+        from concurrent.futures import ThreadPoolExecutor
+        from modules.auto_blog_generator import generate_blog_auto, get_last_error_log
+
+        session_data = {
+            'keyword': session.keyword,
+            'keyword_en': session.keyword_en,
+            'topics': list(session.selected_topics),
+            'hook_style': session.hook_style,
+            'hook_style_name': style_info['name'],
+            'hook_style_desc': style_info['desc'],
+            'hook_style_template': style_info.get('template', ''),
+            'papers': session.papers
+        }
+
+        loop = asyncio.get_event_loop()
+        with ThreadPoolExecutor() as executor:
+            html_path = await loop.run_in_executor(
+                executor,
+                generate_blog_auto,
+                session_data,
+                "output"
+            )
+
+        await loading.delete()
+
+        if html_path:
+            await context.bot.send_message(
+                chat_id=chat_id,
+                text=f"✅ *블로그 생성 완료!*\n\n📄 파일: `{html_path}`",
+                parse_mode='Markdown'
+            )
+
+            # 파일 전송
+            with open(html_path, 'rb') as f:
+                await context.bot.send_document(
+                    chat_id=chat_id,
+                    document=f,
+                    filename=os.path.basename(html_path)
+                )
+        else:
+            error_logs = get_last_error_log()
+            error_text = "\n".join(error_logs[-10:]) if error_logs else "알 수 없는 오류"
+            await context.bot.send_message(
+                chat_id=chat_id,
+                text=f"❌ *블로그 생성 실패*\n\n```\n{error_text[:1500]}\n```",
+                parse_mode='Markdown'
+            )
+
+    except Exception as e:
+        await loading.delete()
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text=f"❌ 오류: {e}"
+        )
+
+    return ConversationHandler.END
+
+
+# 재시도 상태 추가
+SELECTING_RETRY = 99
 
 
 def main():
@@ -1346,7 +1678,10 @@ def main():
 
     # 대화 핸들러 설정
     conv_handler = ConversationHandler(
-        entry_points=[CommandHandler("start", start)],
+        entry_points=[
+            CommandHandler("start", start),
+            CommandHandler("retry", retry_command),
+        ],
         states={
             WAITING_KEYWORD: [
                 MessageHandler(filters.TEXT & ~filters.COMMAND, receive_keyword)
@@ -1363,6 +1698,9 @@ def main():
             CONFIRMING_DRAFT: [
                 CallbackQueryHandler(confirm_generation, pattern="^confirm:")
             ],
+            SELECTING_RETRY: [
+                CallbackQueryHandler(handle_retry_selection, pattern="^retry:")
+            ],
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     )
@@ -1373,7 +1711,7 @@ def main():
     # 봇 실행
     print("🤖 블로그 생성 봇이 시작되었습니다!")
     print("   Ctrl+C 로 종료할 수 있습니다.")
-    application.run_polling(allowed_updates=Update.ALL_TYPES)
+    application.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
 
 
 if __name__ == "__main__":

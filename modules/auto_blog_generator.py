@@ -10,6 +10,20 @@ from datetime import datetime
 from typing import Dict, List, Optional
 
 
+# 전역 에러 로그 저장
+_last_error_log = []
+
+def get_last_error_log() -> List[str]:
+    """마지막 에러 로그 반환"""
+    global _last_error_log
+    return _last_error_log.copy()
+
+def _log(msg: str):
+    """로그 저장 및 출력"""
+    global _last_error_log
+    _last_error_log.append(msg)
+    print(msg)
+
 def generate_blog_auto(session_data: Dict, output_dir: str = "output") -> Optional[str]:
     """
     세션 데이터로 블로그 HTML 자동 생성
@@ -21,6 +35,9 @@ def generate_blog_auto(session_data: Dict, output_dir: str = "output") -> Option
     Returns:
         생성된 HTML 파일 경로 (실패 시 None)
     """
+    global _last_error_log
+    _last_error_log = []  # 에러 로그 초기화
+
     try:
         os.makedirs(output_dir, exist_ok=True)
 
@@ -30,25 +47,27 @@ def generate_blog_auto(session_data: Dict, output_dir: str = "output") -> Option
         hook_style = session_data.get('hook_style_name', '')
         hook_template = session_data.get('hook_style_template', '')
 
-        print(f"[DEBUG] keyword={keyword}, topics={topics}, papers={len(papers)}편, hook_style={hook_style}")
+        _log(f"[DEBUG] keyword={keyword}, topics={topics}, papers={len(papers)}편, hook_style={hook_style}")
 
         if not papers:
-            print("[오류] 논문이 없습니다")
+            _log("[오류] 논문이 없습니다")
             return None
 
         # 1단계: 논문 분석
-        print(f"[1단계] 논문 {len(papers)}편 분석 중...")
-        analysis_result = analyze_papers_with_claude(papers, keyword, topics)
+        _log(f"[1단계] 논문 {len(papers)}편 분석 중...")
+        analysis_result, analysis_error = analyze_papers_with_claude(papers, keyword, topics)
 
         if not analysis_result:
-            print("[오류] 논문 분석 실패 - Claude CLI 응답 없음")
+            _log(f"[오류] 논문 분석 실패")
+            if analysis_error:
+                _log(f"[상세] {analysis_error}")
             return None
 
-        print(f"[1단계 완료] 분석 결과 {len(analysis_result)}자")
+        _log(f"[1단계 완료] 분석 결과 {len(analysis_result)}자")
 
         # 2단계: 블로그 HTML 생성
-        print(f"[2단계] 블로그 HTML 생성 중...")
-        html_content = generate_html_with_claude(
+        _log(f"[2단계] 블로그 HTML 생성 중...")
+        html_content, html_error = generate_html_with_claude(
             keyword=keyword,
             topics=topics,
             analysis_result=analysis_result,
@@ -57,10 +76,12 @@ def generate_blog_auto(session_data: Dict, output_dir: str = "output") -> Option
         )
 
         if not html_content:
-            print("[오류] HTML 생성 실패 - Claude CLI 응답 없음")
+            _log("[오류] HTML 생성 실패")
+            if html_error:
+                _log(f"[상세] {html_error}")
             return None
 
-        print(f"[2단계 완료] HTML {len(html_content)}자 생성")
+        _log(f"[2단계 완료] HTML {len(html_content)}자 생성")
 
         # 3단계: 파일 저장
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -70,18 +91,22 @@ def generate_blog_auto(session_data: Dict, output_dir: str = "output") -> Option
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html_content)
 
-        print(f"[완료] HTML 저장: {filepath}")
+        _log(f"[완료] HTML 저장: {filepath}")
         return filepath
 
     except Exception as e:
-        print(f"[generate_blog_auto 예외] {type(e).__name__}: {e}")
+        _log(f"[generate_blog_auto 예외] {type(e).__name__}: {e}")
         import traceback
-        traceback.print_exc()
+        _log(traceback.format_exc())
         return None
 
 
-def analyze_papers_with_claude(papers: List[Dict], keyword: str, topics: List[str]) -> Optional[str]:
-    """Claude CLI로 논문 분석"""
+def analyze_papers_with_claude(papers: List[Dict], keyword: str, topics: List[str]) -> tuple:
+    """Claude CLI로 논문 분석
+
+    Returns:
+        (result, error) - 성공 시 (result, None), 실패 시 (None, error_message)
+    """
 
     # 채택된 논문만 분석 (관련성점수 75점 이상 또는 점수 있는 것)
     accepted_papers = [p for p in papers if p.get('관련성점수', 0) >= 75 or p.get('관련성점수') is None]
@@ -89,51 +114,28 @@ def analyze_papers_with_claude(papers: List[Dict], keyword: str, topics: List[st
     if not accepted_papers:
         accepted_papers = papers[:10]  # fallback: 상위 10개
 
-    # 논문 요약 텍스트 생성
+    # 논문 요약 텍스트 생성 (더 짧게)
     papers_text = ""
-    for i, paper in enumerate(accepted_papers[:15], 1):  # 최대 15편
-        title = paper.get('title', '')
-        abstract = paper.get('abstract', '')[:800]
-        conclusion = paper.get('conclusion', '')[:800]
+    for i, paper in enumerate(accepted_papers[:8], 1):  # 최대 8편으로 줄임
+        title = paper.get('title', '')[:100]  # 제목 100자로 제한
+        abstract = paper.get('abstract', '')[:400]  # 초록 400자로 제한
+        conclusion = paper.get('conclusion', '')[:400]
         score = paper.get('관련성점수', 'N/A')
 
         content = conclusion if conclusion else abstract
 
         papers_text += f"""
-━━━━━ 논문 {i} (관련성: {score}점) ━━━━━
-제목: {title}
-내용: {content}
+[논문 {i}] {title}
+{content[:400]}
 """
 
     topics_str = ", ".join(topics) if topics else "없음"
 
-    prompt = f"""다음 논문들을 분석하여 블로그 작성에 필요한 핵심 정보를 추출해주세요.
-
-## 키워드: {keyword}
-## 토픽: {topics_str}
+    prompt = f"""논문 분석 요청: {keyword}
 
 {papers_text}
 
-## 분석 요청
-
-각 논문에서 다음을 추출해주세요:
-1. **핵심 발견** - 연구의 주요 결과 (수치 포함)
-2. **실용적 조언** - 독자가 실천할 수 있는 구체적 조언
-3. **인용 가능한 문장** - 블로그에 인용할 만한 핵심 문장
-
-## 출력 형식
-
-```
-### 논문 1: [제목 요약]
-- 핵심발견: ...
-- 실용조언: ...
-- 인용문장: "..."
-
-### 논문 2: [제목 요약]
-...
-```
-
-마지막에 전체 논문을 종합한 **핵심 메시지 3가지**도 정리해주세요."""
+각 논문의 핵심 발견과 실용 조언을 요약해주세요."""
 
     try:
         import uuid
@@ -143,14 +145,27 @@ def analyze_papers_with_claude(papers: List[Dict], keyword: str, topics: List[st
         with open(prompt_file, 'w', encoding='utf-8') as f:
             f.write(prompt)
 
+        _log(f"[분석] 프롬프트 길이: {len(prompt)}자, 논문 {len(accepted_papers[:8])}편")
+
         try:
+            # 환경 변수 설정 (Claude CLI 인증용)
+            env = os.environ.copy()
+            home_dir = os.path.expanduser('~')
+            env['HOME'] = home_dir
+            env['USERPROFILE'] = home_dir
+
+            # ANTHROPIC_API_KEY 제거 (있으면 CLI가 OAuth 대신 API키 사용 시도)
+            if 'ANTHROPIC_API_KEY' in env:
+                del env['ANTHROPIC_API_KEY']
+
             # cmd /c로 실행 (Windows 콘솔 환경 상속)
             result = subprocess.run(
                 ['cmd', '/c', f'type {prompt_file} | claude -p --output-format text'],
                 capture_output=True,
                 text=True,
                 timeout=300,
-                encoding='utf-8'
+                encoding='utf-8',
+                env=env
             )
         finally:
             # 임시 파일 삭제
@@ -160,66 +175,43 @@ def analyze_papers_with_claude(papers: List[Dict], keyword: str, topics: List[st
                 pass
 
         if result.returncode != 0:
-            print(f"[분석 오류] returncode={result.returncode}")
-            print(f"[stderr] {result.stderr[:500] if result.stderr else 'empty'}")
-            print(f"[stdout] {result.stdout[:500] if result.stdout else 'empty'}")
-            return None
+            error_msg = f"returncode={result.returncode}\nstderr: {result.stderr[:300] if result.stderr else 'empty'}\nstdout: {result.stdout[:300] if result.stdout else 'empty'}"
+            _log(f"[분석 오류] {error_msg}")
+            return None, error_msg
 
         output = result.stdout.strip()
         if not output:
-            print("[분석 오류] 빈 응답")
-            return None
+            return None, "빈 응답"
 
-        return output
+        return output, None
 
     except subprocess.TimeoutExpired:
-        print("[타임아웃] 논문 분석 시간 초과 (5분)")
-        return None
+        return None, "시간 초과 (5분)"
     except FileNotFoundError:
-        print("[오류] Claude CLI를 찾을 수 없습니다. 'claude' 명령어가 PATH에 있는지 확인하세요.")
-        return None
+        return None, "Claude CLI를 찾을 수 없습니다"
     except Exception as e:
-        print(f"[오류] {type(e).__name__}: {e}")
-        return None
+        return None, f"{type(e).__name__}: {e}"
 
 
 def generate_html_with_claude(keyword: str, topics: List[str], analysis_result: str,
-                              hook_style: str, hook_template: str) -> Optional[str]:
-    """Claude CLI로 블로그 HTML 생성"""
+                              hook_style: str, hook_template: str) -> tuple:
+    """Claude CLI로 블로그 HTML 생성
+
+    Returns:
+        (result, error) - 성공 시 (result, None), 실패 시 (None, error_message)
+    """
 
     topics_str = ", ".join(topics) if topics else ""
 
-    prompt = f"""다음 정보를 바탕으로 네이버 블로그용 HTML을 작성해주세요.
+    # 분석 결과 길이 제한
+    analysis_short = analysis_result[:2000] if analysis_result else ""
 
-## 기본 정보
-- 키워드: {keyword}
-- 토픽: {topics_str}
-- 도입부 스타일: {hook_style}
+    prompt = f"""키워드 '{keyword}'에 대한 블로그 HTML을 작성하세요.
 
-## 도입부 템플릿
-{hook_template}
+스타일: {hook_style}
+분석 결과: {analysis_short}
 
-## 논문 분석 결과
-{analysis_result}
-
-## HTML 작성 요청
-
-1. **도입부** - 위 템플릿을 참고하여 독자의 관심을 끄는 도입부 작성
-2. **본문** - 논문 분석 결과를 바탕으로 신뢰성 있는 정보 전달
-   - 연구 결과 인용 (저널명, 연도 포함)
-   - 구체적 수치와 통계
-   - 실용적 조언
-3. **마무리** - 핵심 메시지 요약, 행동 촉구
-
-## HTML 형식 요구사항
-- 네이버 블로그 에디터 호환
-- <div>, <p>, <h2>, <h3>, <ul>, <li>, <strong>, <em> 태그 사용
-- 가독성 좋은 문단 구분
-- 이모지 적절히 사용
-- 2000-3000자 분량
-
-## 출력
-완성된 HTML 코드만 출력하세요. ```html 블록으로 감싸주세요."""
+HTML 형식으로 2000자 내외로 작성하세요."""
 
     try:
         import uuid
@@ -229,14 +221,27 @@ def generate_html_with_claude(keyword: str, topics: List[str], analysis_result: 
         with open(prompt_file, 'w', encoding='utf-8') as f:
             f.write(prompt)
 
+        _log(f"[HTML] 프롬프트 길이: {len(prompt)}자")
+
         try:
+            # 환경 변수 설정 (Claude CLI 인증용)
+            env = os.environ.copy()
+            home_dir = os.path.expanduser('~')
+            env['HOME'] = home_dir
+            env['USERPROFILE'] = home_dir
+
+            # ANTHROPIC_API_KEY 제거 (있으면 CLI가 OAuth 대신 API키 사용 시도)
+            if 'ANTHROPIC_API_KEY' in env:
+                del env['ANTHROPIC_API_KEY']
+
             # cmd /c로 실행 (Windows 콘솔 환경 상속)
             result = subprocess.run(
                 ['cmd', '/c', f'type {prompt_file} | claude -p --output-format text'],
                 capture_output=True,
                 text=True,
                 timeout=300,
-                encoding='utf-8'
+                encoding='utf-8',
+                env=env
             )
         finally:
             # 임시 파일 삭제
@@ -246,29 +251,24 @@ def generate_html_with_claude(keyword: str, topics: List[str], analysis_result: 
                 pass
 
         if result.returncode != 0:
-            print(f"[HTML 생성 오류] returncode={result.returncode}")
-            print(f"[stderr] {result.stderr[:500] if result.stderr else 'empty'}")
-            print(f"[stdout] {result.stdout[:500] if result.stdout else 'empty'}")
-            return None
+            error_msg = f"returncode={result.returncode}\nstderr: {result.stderr[:300] if result.stderr else 'empty'}\nstdout: {result.stdout[:300] if result.stdout else 'empty'}"
+            _log(f"[HTML 오류] {error_msg}")
+            return None, error_msg
 
         response = result.stdout.strip()
         if not response:
-            print("[HTML 생성 오류] 빈 응답")
-            return None
+            return None, "빈 응답"
 
         # HTML 추출
         html = _extract_html(response)
-        return html
+        return html, None
 
     except subprocess.TimeoutExpired:
-        print("[타임아웃] HTML 생성 시간 초과 (5분)")
-        return None
+        return None, "시간 초과 (5분)"
     except FileNotFoundError:
-        print("[오류] Claude CLI를 찾을 수 없습니다.")
-        return None
+        return None, "Claude CLI를 찾을 수 없습니다"
     except Exception as e:
-        print(f"[오류] {type(e).__name__}: {e}")
-        return None
+        return None, f"{type(e).__name__}: {e}"
 
 
 def _extract_html(response: str) -> str:

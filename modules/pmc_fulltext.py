@@ -151,21 +151,33 @@ class PMCFullTextFetcher:
 
         return ""
 
-    def get_paper_with_fulltext(self, pmid: str) -> Optional[Dict]:
+    def get_paper_with_fulltext(self, pmid: str, debug: bool = True) -> Optional[Dict]:
         """PMID로 전문 포함 논문 정보 가져오기"""
+        import time as t
+        start = t.time()
+
         # 1. PMCID 찾기
         pmcid = self.get_pmcid_from_pmid(pmid)
         if not pmcid:
+            if debug:
+                print(f"[PMC] PMID {pmid}: PMCID 없음 ({t.time()-start:.1f}초)")
             return None
 
-        # API 속도 제한
-        time.sleep(0.34)
+        if debug:
+            print(f"[PMC] PMID {pmid} -> {pmcid} ({t.time()-start:.1f}초)")
+
+        # API 속도 제한 (0.34초 -> 0.1초로 줄임)
+        time.sleep(0.1)
 
         # 2. 전문 가져오기
         fulltext = self.fetch_fulltext(pmcid)
         if not fulltext:
+            if debug:
+                print(f"[PMC] {pmcid}: 전문 없음 ({t.time()-start:.1f}초)")
             return None
 
+        if debug:
+            print(f"[PMC] {pmcid}: 전문 확보 ({t.time()-start:.1f}초)")
         return fulltext
 
 

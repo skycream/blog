@@ -76,13 +76,24 @@ JSON만 출력:
             f.write(prompt)
 
         try:
+            # 환경 변수 설정 (Claude CLI 인증용)
+            env = os.environ.copy()
+            home_dir = os.path.expanduser('~')
+            env['HOME'] = home_dir
+            env['USERPROFILE'] = home_dir
+
+            # ANTHROPIC_API_KEY 제거 (있으면 CLI가 OAuth 대신 API키 사용 시도)
+            if 'ANTHROPIC_API_KEY' in env:
+                del env['ANTHROPIC_API_KEY']
+
             # cmd /c로 실행 (Windows 콘솔 환경 상속)
             result = subprocess.run(
                 ['cmd', '/c', f'type {prompt_file} | claude -p --output-format text'],
                 capture_output=True,
                 text=True,
                 timeout=180,
-                encoding='utf-8'
+                encoding='utf-8',
+                env=env
             )
         finally:
             try:
